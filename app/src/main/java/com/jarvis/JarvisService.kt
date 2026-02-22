@@ -377,7 +377,37 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                     Log.e(TAG, "Invalid note parameters from Gemini: noteContent is empty")
                 }
             }
-            "SEND_WHATSAPP" -> {}
+            "SEND_WHATSAPP" -> {
+                val targetName = parameters.optString("targetName", "")
+                val messageText = parameters.optString("messageText", "")
+                if (targetName.isNotEmpty() && messageText.isNotEmpty()) {
+                    val number = getPhoneNumber(targetName)
+                    if (number != null) {
+                        try {
+                            // WhatsApp requires pure numbers with country code (e.g. 15551234567)
+                            val cleanNumber = number.replace(Regex("[^0-9]"), "")
+                            val whatsappIntent = Intent(Intent.ACTION_VIEW).apply {
+                                data = android.net.Uri.parse("https://api.whatsapp.com/send?phone=$cleanNumber&text=${android.net.Uri.encode(messageText)}")
+                                flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                                setPackage("com.whatsapp")
+                            }
+                            // Notify our AccessibilityService to auto-send this specific message
+                            JarvisAccessibilityService.isJarvisSending = true
+                            startActivity(whatsappIntent)
+                            Log.d(TAG, "Launched WhatsApp for $targetName ($cleanNumber)")
+                        } catch (e: Exception) {
+                            Log.e(TAG, "WhatsApp not installed or failed to launch: ${e.message}")
+                            JarvisAccessibilityService.isJarvisSending = false
+                            tts?.speak("I couldn't open WhatsApp. Is it installed?", TextToSpeech.QUEUE_FLUSH, null, "JarvisUtteranceId")
+                        }
+                    } else {
+                        Log.e(TAG, "Could not find contact for $targetName")
+                        tts?.speak("I couldn't find a contact named $targetName.", TextToSpeech.QUEUE_FLUSH, null, "JarvisUtteranceId")
+                    }
+                } else {
+                    Log.e(TAG, "Invalid WhatsApp parameters from Gemini: target=$targetName, msg=$messageText")
+                }
+            }
             "UNKNOWN" -> Log.d(TAG, "Gemini could not determine intent.")
         }
     }
