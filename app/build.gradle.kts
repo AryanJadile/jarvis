@@ -12,6 +12,7 @@ val localProperties = Properties().apply {
     }
 }
 val picovoiceApiKey: String = localProperties.getProperty("PICOVOICE_API_KEY", "YOUR_KEY")
+val geminiApiKey: String = localProperties.getProperty("GEMINI_API_KEY", "YOUR_KEY")
 
 android {
     namespace = "com.jarvis"
@@ -29,6 +30,7 @@ android {
         versionName = "1.0"
         
         buildConfigField("String", "PICOVOICE_API_KEY", "\"$picovoiceApiKey\"")
+        buildConfigField("String", "GEMINI_API_KEY", "\"$geminiApiKey\"")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -53,6 +55,7 @@ android {
 }
 
 dependencies {
+    implementation("com.google.ai.client.generativeai:generativeai:0.2.2")
     implementation("ai.picovoice:porcupine-android:3.0.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

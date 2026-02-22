@@ -22,6 +22,13 @@ import ai.picovoice.porcupine.PorcupineManager
 import ai.picovoice.porcupine.PorcupineManagerCallback
 import ai.picovoice.porcupine.PorcupineException
 
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import com.google.ai.client.generativeai.GenerativeModel
+import com.google.ai.client.generativeai.type.content
+import com.google.ai.client.generativeai.type.generationConfig
+
 class JarvisService : Service(), RecognitionListener {
 
     private val CHANNEL_ID = "jarvis_channel"
@@ -32,6 +39,7 @@ class JarvisService : Service(), RecognitionListener {
     private var speechRecognizer: SpeechRecognizer? = null
     private var mainHandler: Handler = Handler(Looper.getMainLooper())
     private var toneGenerator: ToneGenerator? = null
+    private var generativeModel: GenerativeModel? = null
 
     override fun onCreate() {
         super.onCreate()
@@ -44,6 +52,40 @@ class JarvisService : Service(), RecognitionListener {
             initSpeechRecognizer()
         }
         initPorcupine()
+        initGenerativeModel()
+    }
+
+    private fun initGenerativeModel() {
+        val geminiApiKey = BuildConfig.GEMINI_API_KEY
+        if (geminiApiKey.isEmpty() || geminiApiKey == "YOUR_KEY") {
+            Log.e(TAG, "Gemini API Key is missing!")
+            return
+        }
+
+        val systemInstruction = content {
+            text("You are the brain of an Android mobile assistant. Your job is to parse the user's spoken command and determine which of the 4 supported intents they want to execute:\n" +
+                 "1. SEND_WHATSAPP (Requires 'targetName' and 'messageText')\n" +
+                 "2. SET_ALARM (Requires 'timeHour' and 'timeMinute' in 24h format)\n" +
+                 "3. MAKE_CALL (Requires 'targetName')\n" +
+                 "4. TAKE_NOTE (Requires 'noteContent')\n" +
+                 "5. UNKNOWN (If the command doesn't match the above)\n\n" +
+                 "You must ALWAYS respond in valid JSON matching this schema:\n" +
+                 "{\n" +
+                 "  \"intent\": \"<INTENT_NAME>\",\n" +
+                 "  \"parameters\": { ... },\n" +
+                 "  \"spokenResponse\": \"<A short, natural sentence to speak back to the user acknowledging the action>\"\n" +
+                 "}")
+        }
+
+        generativeModel = GenerativeModel(
+            modelName = "gemini-1.5-flash",
+            apiKey = geminiApiKey,
+            systemInstruction = systemInstruction,
+            generationConfig = generationConfig {
+                responseMimeType = "application/json"
+            }
+        )
+        Log.d(TAG, "GenerativeModel initialized for JSON output.")
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -167,11 +209,28 @@ class JarvisService : Service(), RecognitionListener {
         if (!matches.isNullOrEmpty()) {
             val command = matches[0]
             Log.d(TAG, ">>> TRANSCRIBED COMMAND: \"$command\" <<<")
-            // In Phase 2, we will send this command to Gemini
+            
+            if (generativeModel != null) {
+                CoroutineScope(Dispatchers.IO).launch {
+                    try {
+                        Log.d(TAG, "Sending command to Gemini...")
+                        val response = generativeModel?.generateContent(command)
+                        Log.d(TAG, "=== GEMINI JSON RESPONSE ===")
+                        Log.d(TAG, response?.text ?: "Empty response")
+                        Log.d(TAG, "============================")
+                    } catch (e: Exception) {
+                        Log.e(TAG, "Gemini generation failed: ${e.message}")
+                    } finally {
+                        restartPorcupine()
+                    }
+                }
+            } else {
+                restartPorcupine()
+            }
         } else {
             Log.d(TAG, "SpeechRecognizer finished but returned no text.")
+            restartPorcupine()
         }
-        restartPorcupine()
     }
 
     override fun onPartialResults(partialResults: Bundle?) {}
