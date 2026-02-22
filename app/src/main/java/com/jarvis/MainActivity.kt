@@ -38,7 +38,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun requestPermissions() {
         val permissionsToRequest = mutableListOf(
-            Manifest.permission.RECORD_AUDIO
+            Manifest.permission.RECORD_AUDIO,
+            Manifest.permission.CALL_PHONE,
+            Manifest.permission.READ_CONTACTS
         )
         
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {

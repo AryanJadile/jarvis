@@ -339,10 +339,51 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                     Log.e(TAG, "Invalid alarm parameters from Gemini: hour=$timeHour, min=$timeMinute")
                 }
             }
-            "MAKE_CALL" -> {}
+            "MAKE_CALL" -> {
+                val targetName = parameters.optString("targetName", "")
+                if (targetName.isNotEmpty()) {
+                    val number = getPhoneNumber(targetName)
+                    if (number != null) {
+                        val callIntent = Intent(Intent.ACTION_CALL).apply {
+                            data = android.net.Uri.parse("tel:$number")
+                            flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                        }
+                        try {
+                            startActivity(callIntent)
+                            Log.d(TAG, "Calling $targetName ($number)")
+                        } catch (e: Exception) {
+                            Log.e(TAG, "Failed to make call: ${e.message}")
+                        }
+                    } else {
+                        Log.e(TAG, "Could not find contact for $targetName")
+                        tts?.speak("I couldn't find a contact named $targetName.", TextToSpeech.QUEUE_FLUSH, null, "JarvisUtteranceId")
+                    }
+                } else {
+                    Log.e(TAG, "Invalid call parameters from Gemini: targetName=$targetName")
+                }
+            }
             "TAKE_NOTE" -> {}
             "SEND_WHATSAPP" -> {}
             "UNKNOWN" -> Log.d(TAG, "Gemini could not determine intent.")
         }
+    }
+
+    private fun getPhoneNumber(name: String): String? {
+        val resolver = applicationContext.contentResolver
+        val uri = android.provider.ContactsContract.CommonDataKinds.Phone.CONTENT_URI
+        val projection = arrayOf(android.provider.ContactsContract.CommonDataKinds.Phone.NUMBER)
+        val selection = "${android.provider.ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME} LIKE ?"
+        val selectionArgs = arrayOf("%$name%")
+        
+        var number: String? = null
+        resolver.query(uri, projection, selection, selectionArgs, null)?.use { cursor ->
+            if (cursor.moveToFirst()) {
+                val numberIndex = cursor.getColumnIndex(android.provider.ContactsContract.CommonDataKinds.Phone.NUMBER)
+                if (numberIndex >= 0) {
+                    number = cursor.getString(numberIndex)
+                }
+            }
+        }
+        return number
     }
 }
