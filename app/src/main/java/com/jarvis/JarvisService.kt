@@ -99,10 +99,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
         generativeModel = GenerativeModel(
             modelName = "gemini-1.5-flash",
             apiKey = geminiApiKey,
-            systemInstruction = systemInstruction,
-            generationConfig = generationConfig {
-                responseMimeType = "application/json"
-            }
+            systemInstruction = systemInstruction
         )
         Log.d(TAG, "GenerativeModel initialized for JSON output.")
     }
