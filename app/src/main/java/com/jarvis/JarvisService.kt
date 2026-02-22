@@ -15,6 +15,7 @@ import android.os.Looper
 import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
+import android.speech.tts.TextToSpeech
 import android.util.Log
 import androidx.core.app.NotificationCompat
 import ai.picovoice.porcupine.Porcupine
@@ -28,8 +29,10 @@ import kotlinx.coroutines.launch
 import com.google.ai.client.generativeai.GenerativeModel
 import com.google.ai.client.generativeai.type.content
 import com.google.ai.client.generativeai.type.generationConfig
+import org.json.JSONObject
+import java.util.Locale
 
-class JarvisService : Service(), RecognitionListener {
+class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListener {
 
     private val CHANNEL_ID = "jarvis_channel"
     private val NOTIFICATION_ID = 1
@@ -40,6 +43,7 @@ class JarvisService : Service(), RecognitionListener {
     private var mainHandler: Handler = Handler(Looper.getMainLooper())
     private var toneGenerator: ToneGenerator? = null
     private var generativeModel: GenerativeModel? = null
+    private var tts: TextToSpeech? = null
 
     override fun onCreate() {
         super.onCreate()
@@ -47,12 +51,26 @@ class JarvisService : Service(), RecognitionListener {
         startForeground(NOTIFICATION_ID, createNotification())
         
         toneGenerator = ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100)
+        tts = TextToSpeech(this, this)
         
         mainHandler.post {
             initSpeechRecognizer()
         }
         initPorcupine()
         initGenerativeModel()
+    }
+
+    override fun onInit(status: Int) {
+        if (status == TextToSpeech.SUCCESS) {
+            val result = tts?.setLanguage(Locale.US)
+            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                Log.e(TAG, "TTS Language is not supported.")
+            } else {
+                Log.d(TAG, "TextToSpeech initialized successfully.")
+            }
+        } else {
+            Log.e(TAG, "TextToSpeech initialization failed.")
+        }
     }
 
     private fun initGenerativeModel() {
@@ -215,9 +233,19 @@ class JarvisService : Service(), RecognitionListener {
                     try {
                         Log.d(TAG, "Sending command to Gemini...")
                         val response = generativeModel?.generateContent(command)
+                        val responseText = response?.text ?: ""
                         Log.d(TAG, "=== GEMINI JSON RESPONSE ===")
-                        Log.d(TAG, response?.text ?: "Empty response")
+                        Log.d(TAG, responseText)
                         Log.d(TAG, "============================")
+                        
+                        if (responseText.isNotEmpty()) {
+                            // Extract spoken response and talk
+                            val json = JSONObject(responseText)
+                            val spokenResponse = json.optString("spokenResponse")
+                            if (spokenResponse.isNotEmpty()) {
+                                tts?.speak(spokenResponse, TextToSpeech.QUEUE_FLUSH, null, "JarvisUtteranceId")
+                            }
+                        }
                     } catch (e: Exception) {
                         Log.e(TAG, "Gemini generation failed: ${e.message}")
                     } finally {
@@ -263,6 +291,8 @@ class JarvisService : Service(), RecognitionListener {
     override fun onDestroy() {
         super.onDestroy()
         toneGenerator?.release()
+        tts?.stop()
+        tts?.shutdown()
         try {
             porcupineManager?.stop()
             porcupineManager?.delete()
