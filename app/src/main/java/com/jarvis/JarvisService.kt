@@ -28,8 +28,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import com.google.ai.client.generativeai.GenerativeModel
-import com.google.ai.client.generativeai.type.content
-import com.google.ai.client.generativeai.type.generationConfig
+
 import org.json.JSONObject
 import java.util.Locale
 
@@ -45,6 +44,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
     private var toneGenerator: ToneGenerator? = null
     private var generativeModel: GenerativeModel? = null
     private var tts: TextToSpeech? = null
+    private var systemInstructionText: String = ""
 
     override fun onCreate() {
         super.onCreate()
@@ -81,8 +81,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
             return
         }
 
-        val systemInstruction = content {
-            text("You are the brain of an Android mobile assistant. Your job is to parse the user's spoken command and determine which of the 4 supported intents they want to execute:\n" +
+        systemInstructionText = "You are the brain of an Android mobile assistant. Your job is to parse the user's spoken command and determine which of the 4 supported intents they want to execute:\n" +
                  "1. SEND_WHATSAPP (Requires 'targetName' and 'messageText')\n" +
                  "2. SET_ALARM (Requires 'timeHour' and 'timeMinute' in 24h format)\n" +
                  "3. MAKE_CALL (Requires 'targetName')\n" +
@@ -93,13 +92,11 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                  "  \"intent\": \"<INTENT_NAME>\",\n" +
                  "  \"parameters\": { ... },\n" +
                  "  \"spokenResponse\": \"<A short, natural sentence to speak back to the user acknowledging the action>\"\n" +
-                 "}")
-        }
+                 "}"
 
         generativeModel = GenerativeModel(
             modelName = "gemini-1.5-flash",
-            apiKey = geminiApiKey,
-            systemInstruction = systemInstruction
+            apiKey = geminiApiKey
         )
         Log.d(TAG, "GenerativeModel initialized for JSON output.")
     }
@@ -230,7 +227,8 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                 CoroutineScope(Dispatchers.IO).launch {
                     try {
                         Log.d(TAG, "Sending command to Gemini...")
-                        val response = generativeModel?.generateContent(command)
+                        val fullPrompt = "$systemInstructionText\n\nUser command: $command"
+                        val response = generativeModel?.generateContent(fullPrompt)
                         val responseText = response?.text ?: ""
                         Log.d(TAG, "=== GEMINI JSON RESPONSE ===")
                         Log.d(TAG, responseText)
