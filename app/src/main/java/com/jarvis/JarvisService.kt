@@ -16,6 +16,7 @@ import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
 import android.speech.tts.TextToSpeech
+import android.provider.AlarmClock
 import android.util.Log
 import androidx.core.app.NotificationCompat
 import ai.picovoice.porcupine.Porcupine
@@ -245,6 +246,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                             if (spokenResponse.isNotEmpty()) {
                                 tts?.speak(spokenResponse, TextToSpeech.QUEUE_FLUSH, null, "JarvisUtteranceId")
                             }
+                            executeIntent(json)
                         }
                     } catch (e: Exception) {
                         Log.e(TAG, "Gemini generation failed: ${e.message}")
@@ -309,5 +311,38 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
 
     override fun onBind(intent: Intent?): IBinder? {
         return null
+    }
+
+    private fun executeIntent(json: JSONObject) {
+        val intentName = json.optString("intent", "UNKNOWN")
+        val parameters = json.optJSONObject("parameters") ?: JSONObject()
+
+        when (intentName) {
+            "SET_ALARM" -> {
+                val timeHour = parameters.optInt("timeHour", -1)
+                val timeMinute = parameters.optInt("timeMinute", -1)
+
+                if (timeHour != -1 && timeMinute != -1) {
+                    val alarmIntent = Intent(AlarmClock.ACTION_SET_ALARM).apply {
+                        putExtra(AlarmClock.EXTRA_HOUR, timeHour)
+                        putExtra(AlarmClock.EXTRA_MINUTES, timeMinute)
+                        putExtra(AlarmClock.EXTRA_SKIP_UI, true)
+                        flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                    }
+                    try {
+                        startActivity(alarmIntent)
+                        Log.d(TAG, "Alarm set for $timeHour:$timeMinute")
+                    } catch (e: Exception) {
+                        Log.e(TAG, "Failed to set alarm: ${e.message}")
+                    }
+                } else {
+                    Log.e(TAG, "Invalid alarm parameters from Gemini: hour=$timeHour, min=$timeMinute")
+                }
+            }
+            "MAKE_CALL" -> {}
+            "TAKE_NOTE" -> {}
+            "SEND_WHATSAPP" -> {}
+            "UNKNOWN" -> Log.d(TAG, "Gemini could not determine intent.")
+        }
     }
 }
