@@ -46,5 +46,10 @@ class MainActivity : AppCompatActivity() {
         }
         
         requestPermissionLauncher.launch(permissionsToRequest.toTypedArray())
+        
+        // Start the service after suggesting permissions. 
+        // In a real app we'd wait for the callback to confirm, but for simplicity here we just launch it.
+        val serviceIntent = android.content.Intent(this, JarvisService::class.java)
+        androidx.core.content.ContextCompat.startForegroundService(this, serviceIntent)
     }
 }
