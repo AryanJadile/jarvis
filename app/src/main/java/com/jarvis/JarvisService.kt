@@ -362,7 +362,21 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                     Log.e(TAG, "Invalid call parameters from Gemini: targetName=$targetName")
                 }
             }
-            "TAKE_NOTE" -> {}
+            "TAKE_NOTE" -> {
+                val noteContent = parameters.optString("noteContent", "")
+                if (noteContent.isNotEmpty()) {
+                    try {
+                        val timestamp = java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss", java.util.Locale.getDefault()).format(java.util.Date())
+                        val file = java.io.File(applicationContext.filesDir, "jarvis_notes.txt")
+                        file.appendText("[$timestamp] $noteContent\n")
+                        Log.d(TAG, "Note saved to ${file.absolutePath}")
+                    } catch (e: Exception) {
+                        Log.e(TAG, "Failed to save note: ${e.message}")
+                    }
+                } else {
+                    Log.e(TAG, "Invalid note parameters from Gemini: noteContent is empty")
+                }
+            }
             "SEND_WHATSAPP" -> {}
             "UNKNOWN" -> Log.d(TAG, "Gemini could not determine intent.")
         }
