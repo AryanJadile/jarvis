@@ -7,7 +7,7 @@
 .gsd/STACK.md
 .gsd/STATE.md
 .gsd/TODO.md
-
+.local.properties
 # OS generated
 Thumbs.db
 .DS_Store
