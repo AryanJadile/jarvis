@@ -55,7 +55,7 @@ android {
 }
 
 dependencies {
-    implementation("com.google.ai.client.generativeai:generativeai:0.2.2")
+    implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
     implementation("ai.picovoice:porcupine-android:3.0.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

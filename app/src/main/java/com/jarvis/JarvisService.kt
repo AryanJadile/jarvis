@@ -28,6 +28,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import com.google.ai.client.generativeai.GenerativeModel
+import com.google.ai.client.generativeai.type.RequestOptions
 
 import org.json.JSONObject
 import java.util.Locale
@@ -112,9 +113,8 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                  "  \"parameters\": { ... },\n" +
                  "  \"spokenResponse\": \"<A short, natural sentence to speak back to the user acknowledging the action>\"\n" +
                  "}"
-
         generativeModel = GenerativeModel(
-            modelName = "gemini-1.5-flash",
+            modelName = "gemini-2.5-flash",
             apiKey = geminiApiKey
         )
         Log.e(TAG, "GenerativeModel initialized for JSON output.")

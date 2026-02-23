@@ -1,0 +1,16 @@
+﻿02-23 13:54:28.990  3826  3940 I SystemUi--QuickSettings: OplusSeparateQSPrivacyManager-->onPrivacyItemsChanged packageName com.jarvis, uid 10485, size: 1
+02-23 13:54:29.020  4306  4633 I LiveScene: preCheckLiveState, uid = 10485package:com.jarvis,retrytimes:3
+02-23 13:54:30.211  3826  3940 I SystemUi--QuickSettings: OplusSeparateQSPrivacyManager-->onPrivacyItemsChanged packageName com.jarvis, uid 10485, size: 1
+02-23 13:54:31.670  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:54:31.850  2028  5006 D WindowManager: NFW_findFocusedWindowIfNeeded:Window{c5cdbfd u0 com.jarvis/com.jarvis.MainActivity} mCurrentFocus:Window{c5cdbfd u0 com.jarvis/com.jarvis.MainActivity}
+02-23 13:54:31.889  2028  5006 D WindowManager: NFW_findFocusedWindowIfNeeded:Window{80d4fd5 u0 NotificationShade} mCurrentFocus:Window{c5cdbfd u0 com.jarvis/com.jarvis.MainActivity}
+02-23 13:54:31.889  2028  5006 V WindowManager: Changing focus from Window{c5cdbfd u0 com.jarvis/com.jarvis.MainActivity} to Window{80d4fd5 u0 NotificationShade},diplayid=0
+02-23 13:54:32.036  4306  4633 I LiveScene: check upload traffic, byte = 0 byte,uid =10485,targetUid=10485,times=3,targetPkg:com.jarvis
+02-23 13:54:32.036  4306  4633 I LiveScene: preCheckLiveState, uid = 10485package:com.jarvis,retrytimes:2
+02-23 13:54:32.937 15166 15203 D OplusScrollToTopManager: com.jarvis/com.jarvis.MainActivity,This com.android.internal.policy.DecorView{f603ca9 V.E...... R....... 0,0-1080,2400 aid=0 alpha=1.0 viewInfo = }[MainActivity] change focus to false
+02-23 13:54:35.048  4306  4633 I LiveScene: check upload traffic, byte = 0 byte,uid =10485,targetUid=10485,times=2,targetPkg:com.jarvis
+02-23 13:54:35.048  4306  4633 I LiveScene: preCheckLiveState, uid = 10485package:com.jarvis,retrytimes:1
+02-23 13:54:38.058  4306  4633 I LiveScene: check upload traffic, byte = 0 byte,uid =10485,targetUid=10485,times=1,targetPkg:com.jarvis
+02-23 13:54:38.677  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:54:45.685  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:54:52.693  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
