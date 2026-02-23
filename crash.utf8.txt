@@ -1,0 +1,240 @@
+﻿--------- beginning of crash
+10-16 12:08:34.434   648   648 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 648 (init), pid 648 (init)
+10-16 12:08:34.462   648   648 F libc    : crash_dump helper failed to exec, or was killed
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: FATAL EXCEPTION: main
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: Process: com.jarvis, PID: 18305
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.jarvis.JarvisService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{b151202 18305:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5354)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2682)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:282)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:387)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{b151202 18305:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3255)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3238)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3180)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7193)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:776)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at com.jarvis.JarvisService.onCreate(JarvisService.kt:52)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5329)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	... 9 more
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at com.android.server.am.ActiveServices.validateForegroundServiceType(ActiveServices.java:3001)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundInnerLocked(ActiveServices.java:2678)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundLocked(ActiveServices.java:1928)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.setServiceForeground(ActivityManagerService.java:15220)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3594)
+02-23 00:47:54.690 18305 18305 E AndroidRuntime: 
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: FATAL EXCEPTION: main
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: Process: com.jarvis, PID: 19347
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.jarvis.JarvisService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{db5d79a 19347:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5354)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2682)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:282)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:387)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{db5d79a 19347:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3255)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3238)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3180)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7193)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:776)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at com.jarvis.JarvisService.onCreate(JarvisService.kt:52)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5329)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	... 9 more
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at com.android.server.am.ActiveServices.validateForegroundServiceType(ActiveServices.java:3001)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundInnerLocked(ActiveServices.java:2678)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundLocked(ActiveServices.java:1928)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.setServiceForeground(ActivityManagerService.java:15220)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3594)
+02-23 00:48:06.343 19347 19347 E AndroidRuntime: 
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: FATAL EXCEPTION: main
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: Process: com.jarvis, PID: 20055
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.jarvis.JarvisService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{c10bb7 20055:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5354)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2682)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:282)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:387)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{c10bb7 20055:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3255)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3238)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3180)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7193)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:776)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at com.jarvis.JarvisService.onCreate(JarvisService.kt:52)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5329)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	... 9 more
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at com.android.server.am.ActiveServices.validateForegroundServiceType(ActiveServices.java:3001)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundInnerLocked(ActiveServices.java:2678)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundLocked(ActiveServices.java:1928)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.setServiceForeground(ActivityManagerService.java:15220)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3594)
+02-23 00:48:38.463 20055 20055 E AndroidRuntime: 
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: FATAL EXCEPTION: main
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: Process: com.jarvis, PID: 24681
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.jarvis.JarvisService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{5d61ee3 24681:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5354)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2682)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:282)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:387)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{5d61ee3 24681:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3255)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3238)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3180)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7193)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:776)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at com.jarvis.JarvisService.onCreate(JarvisService.kt:52)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5329)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	... 9 more
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at com.android.server.am.ActiveServices.validateForegroundServiceType(ActiveServices.java:3001)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundInnerLocked(ActiveServices.java:2678)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundLocked(ActiveServices.java:1928)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.setServiceForeground(ActivityManagerService.java:15220)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3594)
+02-23 01:07:08.051 24681 24681 E AndroidRuntime: 
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: FATAL EXCEPTION: main
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: Process: com.jarvis, PID: 24914
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.jarvis.JarvisService: android.app.ForegroundServiceStartNotAllowedException: Service.startForeground() not allowed due to mAllowStartForeground false: service com.jarvis/.JarvisService
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5354)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2682)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:282)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:387)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: Caused by: android.app.ForegroundServiceStartNotAllowedException: Service.startForeground() not allowed due to mAllowStartForeground false: service com.jarvis/.JarvisService
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.ForegroundServiceStartNotAllowedException$1.createFromParcel(ForegroundServiceStartNotAllowedException.java:54)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.ForegroundServiceStartNotAllowedException$1.createFromParcel(ForegroundServiceStartNotAllowedException.java:50)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Parcel.readParcelableInternal(Parcel.java:5104)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:5086)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3266)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3255)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3238)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3180)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7193)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:776)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at com.jarvis.JarvisService.onCreate(JarvisService.kt:52)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5329)
+02-23 01:07:20.682 24914 24914 E AndroidRuntime: 	... 9 more
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: FATAL EXCEPTION: main
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: Process: com.jarvis, PID: 17387
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.jarvis.JarvisService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{b4e1104 17387:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5354)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2682)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:282)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:387)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{b4e1104 17387:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3255)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3238)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3180)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7193)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:776)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at com.jarvis.JarvisService.onCreate(JarvisService.kt:52)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5329)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	... 9 more
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at com.android.server.am.ActiveServices.validateForegroundServiceType(ActiveServices.java:3001)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundInnerLocked(ActiveServices.java:2678)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundLocked(ActiveServices.java:1928)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.setServiceForeground(ActivityManagerService.java:15220)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3594)
+02-23 12:35:21.795 17387 17387 E AndroidRuntime: 
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: FATAL EXCEPTION: main
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: Process: com.jarvis, PID: 17749
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.jarvis.JarvisService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{619224d 17749:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5354)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2682)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:282)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:387)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{619224d 17749:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3255)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3238)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3180)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7193)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:776)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at com.jarvis.JarvisService.onCreate(JarvisService.kt:52)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5329)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	... 9 more
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at com.android.server.am.ActiveServices.validateForegroundServiceType(ActiveServices.java:3001)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundInnerLocked(ActiveServices.java:2678)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundLocked(ActiveServices.java:1928)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.setServiceForeground(ActivityManagerService.java:15220)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3594)
+02-23 12:35:44.497 17749 17749 E AndroidRuntime: 
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: FATAL EXCEPTION: main
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: Process: com.jarvis, PID: 18507
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.jarvis.JarvisService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{3417978 18507:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5354)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2682)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:282)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:387)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{3417978 18507:com.jarvis/u0a485} targetSDK=36 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3255)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3238)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3180)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7193)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:776)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at com.jarvis.JarvisService.onCreate(JarvisService.kt:52)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5329)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	... 9 more
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at com.android.server.am.ActiveServices.validateForegroundServiceType(ActiveServices.java:3001)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundInnerLocked(ActiveServices.java:2678)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at com.android.server.am.ActiveServices.setServiceForegroundLocked(ActiveServices.java:1928)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.setServiceForeground(ActivityManagerService.java:15220)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3594)
+02-23 12:36:05.767 18507 18507 E AndroidRuntime: 

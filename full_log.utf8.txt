@@ -1,0 +1,1503 @@
+﻿--------- beginning of main
+02-23 12:46:57.213  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:46:57.224  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:46:57.225  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:46:57.375  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:46:57.458  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:46:57.555  3013 28397 D CustomLogManagerService: WorkHandler msg.what :5
+02-23 12:46:57.562  3013 28397 D CustomLogManagerService: curTemp:339 limit:390
+02-23 12:46:57.562  3013 28397 D CustomLogManagerService: checkUploadStatus: isSceenOn=true activeNetType=1 isCharging=true isUploading:false temperatureLimit:false
+02-23 12:46:57.562  3013 28397 D CustomLogManagerService: sys.log.customer=false
+02-23 12:46:57.562  3013 28397 D CustomLogManagerService: isHaveCustomLogCollecting :false
+02-23 12:46:57.594  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:46:57.737 22368 22548 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+02-23 12:46:57.745 22368 22505 W RealtimeClientManager: Channel state: MqttChannelState{mConnectionState=CONNECTING, mDisconnectionReason=null, mLastConnectionMs=671660357, mLastDisconnectMs=671916677}
+02-23 12:46:57.748 22368 22548 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+02-23 12:46:57.914  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:46:57.914  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:46:57.916  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:46:57.916  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:46:57.958  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:46:57.958  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:46:58.002  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:46:58.003  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:46:58.003  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:46:58.044  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:46:58.044  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:46:58.195  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:46:58.360  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:46:58.540  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:46:58.540  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:46:58.542  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:46:58.543  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:46:58.584  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:46:58.584  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:46:58.597  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:46:58.625  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:46:58.625  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:46:58.625  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:46:58.667  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:46:58.667  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:46:58.702  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:46:58.714  2028  3653 D OplusGameFirstManager: oldAverRssi=-76,rssi=-75,newAverRssi=-76
+02-23 12:46:58.721  4285  5726 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-23 12:46:58.724  4321  4321 I QImsService: OplusWifiApmStateMgr : onReceive,wifiSignal: -75
+02-23 12:46:58.724  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:46:58.727  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:46:58.728  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:46:58.728  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:46:58.729  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:46:58.732  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:46:58.732  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:46:58.732  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:46:58.732  9129 24044 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:46:58.732  9129 24044 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:46:58.735  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:46:58.736  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:46:58.737  3826  3826 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi three bars. isDefault:true alwaysShowIconIfEnabled:false
+02-23 12:46:58.737  9129 24044 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:46:58.737  9129 24044 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:46:58.740  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-75 level=3 statusLabel=null isDirty=false
+02-23 12:46:58.741  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-75 level=3 statusLabel=null isDirty=false
+02-23 12:46:58.742  9129 24044 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:46:58.742  9129 24044 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:46:58.743  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:46:58.743 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:46:58.744  9129 24044 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:46:58.744  9129 24044 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:46:58.744  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:46:58.746  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:46:58.748  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-75 level=3 statusLabel=null isDirty=false
+02-23 12:46:58.750  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:46:58.763  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:46:58.818  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:46:58.819  4153 25296 D IpClient/wlan0: interfaceLinkStateChanged: ifindex 24 up
+02-23 12:46:59.211  7191 26114 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:46:59.213  7191 25702 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:46:59.240  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:46:59.301  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:46:59.301  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:46:59.303  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:46:59.303  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:46:59.345  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:46:59.345  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:46:59.352  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:46:59.352  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:46:59.352  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:46:59.394  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:46:59.394  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:46:59.504  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,347,4211,4211,-321,500,2200,79,82,1,4,-1,4980,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,339,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:46:59.504  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-46-59
+02-23 12:46:59.505  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:46:59.510  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:46:59.545  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:46:59.601  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:46:59.705  5228  5436 I midasd  : OplusObrainService::notifyEventInt eventId:21 iParam:0
+02-23 12:46:59.709  7051 27017 I OplusObrain: OplusObrainClientInvoke.nativeGetTelephonyInfo
+02-23 12:46:59.711  7051 27017 I OplusObrain: OplusObrainClientInvoke.nativeGetTrafficTypeInfoForNetworkType networkType 0
+02-23 12:46:59.712  2028  3296 D KernelStatsHelper: getKernelStats start!
+02-23 12:46:59.713  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{3004}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:46:59.713  2028  3594 D KernelStatsHelper: get magic :[-1, -1, -1, 77, 65, 71, 73, 67]
+02-23 12:46:59.713  2028  3594 D KernelStatsHelper: magic matched count:408 data_len:21216
+02-23 12:46:59.714  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:46:59.714  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:46:59.714  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:46:59.714  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:46:59.715  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:46:59.715  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:46:59.715  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{492}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:46:59.715  5228 12313 E midasd  : Read file /sys/class/power_supply/usb/current_now failed.(No data available)
+02-23 12:46:59.715  2028  3594 D KernelStatsHelper: data over! check: true
+02-23 12:46:59.721  2028  4296 I OplusHansManager : uid=10419, pkg=com.instagram.android F enter(), M stay=3
+02-23 12:46:59.727  2028  4296 I OplusHansManager : freeze uid: 10419 com.instagram.android pids: [22368] scene: LcdOn
+02-23 12:46:59.728  2028  4307 I OplusHansManager : p_BC uid=10419 pkg=com.instagram.android
+02-23 12:46:59.728  2028  4307 I OplusBinderProxy: proxyBinder uid: 10419 pkg: com.instagram.android proxy: true calling: OFreezer
+02-23 12:46:59.728  9836  9836 D IHansComunication: HANS sendMessageToKernel: threadId = 490288954480, netLinkSetup = 1, type = PKG, targetUid = 10419, pkgCmd = ADD_ONE_UID
+--------- beginning of system
+02-23 12:47:00.001  2028  3435 V AlarmManager: sending alarm Alarm{cbc7844 type 3 origWhen 671919933 whenElapsed 671919933 android} uid 1000 whenElapsed 671919933 windowLength 0 maxWhenElapsed 671919933 repeatInterval 0 action null component null tag TIME_TICK flags 0x9 procName system_server
+02-23 12:47:00.004  3826  3826 I SystemUi--SystemUi--: Clock-->smallTime: 12:47
+02-23 12:47:00.007  3826  3826 I SystemUi--SystemUi--: Clock-->smallTime: 12:47
+02-23 12:47:00.008  4441  4441 D SubsysBroadcastManager: onReceive action:android.intent.action.TIME_TICK
+02-23 12:47:00.010  3826  3826 I SystemUi--SystemUi--: Clock-->smallTime: 12:47
+02-23 12:47:00.011  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:00.011  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:00.013  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:00.013  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:00.014  2028  2928 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.TIME_TICK , listeners = []
+02-23 12:47:00.015  7318  7960 D PhoneScreenOnTime: affairType:231
+02-23 12:47:00.023  7318  7960 D PhoneUsageTime: affairType:231
+02-23 12:47:00.030  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:00.054  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:00.054  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:00.099  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:00.099  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:00.099  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:00.140  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:00.140  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:00.291  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:00.362  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:00.459  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:00.463  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791389788,totalTxBytes:3611062568,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396944238
+02-23 12:47:00.501  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:00.509 22819 22819 D ClockTag_AlarmClockFragment: mIntentReceiver Action: android.intent.action.TIME_TICK
+02-23 12:47:00.511 22819 22819 D ClockTag_WorldClockBaseFragment: Receive Action: android.intent.action.TIME_TICK
+02-23 12:47:00.514 22819 22819 D ClockTag_Formatter: get12ModeFormat: 5
+02-23 12:47:00.517 22819 22870 D ClockTag_ClockWidget.TimeInfoBuilder: getTimeInfo  hour = 12 -- minutes =47     -- ampm =pm  date:Mon, 23 Feb,fullTime:12:47,weekDay:Monday,monthDay:23 February
+02-23 12:47:00.517 22819 22819 D ClockTag_Formatter: get12ModeFormat: 5
+02-23 12:47:00.519 22819 22819 D ClockTag_Formatter: get12ModeFormat: 5
+02-23 12:47:00.521 22819 22819 D ClockTag_Formatter: get12ModeFormat: 5
+02-23 12:47:00.603  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:00.730  9836  9836 D IHansComunication: HANS sendMessageToKernel: threadId = 490288954480, netLinkSetup = 1, type = FROZEN_TRANS, targetUid = 10419, pkgCmd = PKG_CMD_MAX
+02-23 12:47:00.737  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:00.749  2028  3653 D OplusGameFirstManager: oldAverRssi=-76,rssi=-77,newAverRssi=-76
+02-23 12:47:00.752  4321  4321 I QImsService: OplusWifiApmStateMgr : onReceive,wifiSignal: -77
+02-23 12:47:00.756  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:00.756  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:00.758  4285  5726 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-23 12:47:00.761  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:00.765  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:00.766  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:00.766  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:00.766  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:00.767  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:00.767  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:00.768  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:00.770  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:00.770  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:00.771  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:00.771  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:00.773  9129 19964 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:00.773  9129 19964 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:00.772  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:00.773  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:00.774  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:00.774  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:00.776  9129 19964 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:00.776  9129 19964 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:00.777 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:00.779  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:00.779  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:00.780  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:00.782  3826  3826 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi two bars. isDefault:true alwaysShowIconIfEnabled:false
+02-23 12:47:00.789  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:00.808  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:00.904  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:00.904  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:00.906  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:00.907  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:00.910 26895 26931 W bluetooth: [hci_layer.cc:617] on_vs_event: Unhandled vendor specific event of type BQR_EVENT(0x58)
+02-23 12:47:00.948  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:00.948  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:01.018  2028  4296 I OplusHansManager : uid=10485, pkg=com.jarvis cannot transition from R to M, importance=audioFocus
+02-23 12:47:01.099  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:01.282  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:01.413  1545  1545 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+02-23 12:47:01.414  1545  1545 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+02-23 12:47:01.423  3826  3826 I SystemUi--Statusbar: BatteryControllerExt-->updateBatteryChangeIntent():broadcast=android.intent.action.BATTERY_CHANGED,level=82,scale=100
+02-23 12:47:01.423  3826  3826 I SystemUi--Statusbar: BatteryRepository-->level: 82 -- isSavingMode: false
+02-23 12:47:01.424  2028  2928 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.BATTERY_CHANGED , listeners = [com.android.server.display.OplusFeatureHDREnhanceBrightness$PhoneInfoReceiver@780cd78, com.android.server.display.OplusFeatureEdrEnhanceBrightness$PhoneInfoReceiver@3423c51]
+02-23 12:47:01.425  4441  4441 D SubsysBroadcastManager: onReceive action:android.intent.action.BATTERY_CHANGED
+02-23 12:47:01.427  4291  4291 D DeviceStatisticsService: onReceive: action= android.intent.action.BATTERY_CHANGED
+02-23 12:47:01.430  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge start
+02-23 12:47:01.431  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge end
+02-23 12:47:01.431  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: businessId : 401 threshold : 0.6 learnPeriod:30
+02-23 12:47:01.431  3013  3013 D CustomLogManagerService: onReceive android.intent.action.BATTERY_CHANGED
+02-23 12:47:01.432  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: PerformanceOfLongCharging{probabilityOfLocation=0.0, probabilityOfApps=0.0, probabilityOfTime=0.0, probabilityOfTotal=0.0, duration=0}
+02-23 12:47:01.434  7318  8185 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+02-23 12:47:01.442  7453  7482 I MMKV    : <MMKV_IO.cpp:456::writeActualSize> [mmkv.default] increase sequence to 367139, crc 1707430857, actualSize 587
+02-23 12:47:01.551  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:01.594  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:01.595  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:01.597  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:01.597  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:01.606  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:01.638  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:01.638  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:01.789  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:02.082  5201  5277 E horae   : Entering notifyAmbientTemp, binder clients size 6
+02-23 12:47:02.084  7051  1246 D ShellSubscriberWorkerThread: the first 8 bytes empty, and RestData length > 8 
+02-23 12:47:02.088  7318  8137 W Battery : ThermalControllHandler: MSG_THERMAL_CONTROL_AMBIENT_TEMP_CHANGE, ambientTemp:28 state:2
+02-23 12:47:02.226  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:02.227  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:02.229  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:02.229  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:02.270  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:02.270  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:02.314  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:02.314  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:02.314  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:02.355  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:02.355  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:02.365  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:02.506  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:02.609  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:02.772  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:02.791  2028  3653 D OplusGameFirstManager: oldAverRssi=-76,rssi=-76,newAverRssi=-76
+02-23 12:47:02.795  4321  4321 I QImsService: OplusWifiApmStateMgr : onReceive,wifiSignal: -76
+02-23 12:47:02.796  4285  5726 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-23 12:47:02.801  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:02.803  2028  3615 D Smart_Assistant_Util: bad signal link qoe is bad, notify link poor.
+02-23 12:47:02.805  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:02.806  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:02.806  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:02.807  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:02.809  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:02.809  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:02.809  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:02.813  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:02.813  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:02.813  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:02.814  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:02.814  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:02.814  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:02.816  2028  3615 D Smart_Assistant_StateMachine: user don't switch data, do not switch cell.
+02-23 12:47:02.816  2028  3615 D Smart_Assistant_StateMachine: seamless switch link to do policy = 1
+02-23 12:47:02.817  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:02.819 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:02.819  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:02.820  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:02.822  3826  3826 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi three bars. isDefault:true alwaysShowIconIfEnabled:false
+02-23 12:47:02.822  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:02.822  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:02.826  2247  2247 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+02-23 12:47:02.826  2028  4304 I OplusHansManager : unfreeze uid: 10277 com.myntra.android pids: [24057] reason: FullAsyncBinder scene: LcdOn
+02-23 12:47:02.826  2028  4296 I OplusHansManager : uid=10277, pkg=com.myntra.android F exit(), F stay=141, reason=FullAsyncBinder
+02-23 12:47:02.827  2028  4307 I OplusHansManager : up_BC uid=10277 pkg=com.myntra.android
+02-23 12:47:02.827  2028  4307 I OplusBinderProxy: proxyBinder uid: 10277 pkg: com.myntra.android proxy: false calling: OFreezer
+02-23 12:47:02.827  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:02.827  9129  9342 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:02.827  9129  9342 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:02.828  2247  2247 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+02-23 12:47:02.829  2028  3615 I WifiService: startScan uid=1000
+02-23 12:47:02.829  9129  9342 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:02.829  9129  9342 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:02.840  2247  2247 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+02-23 12:47:02.841  2247  2247 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+02-23 12:47:02.843  2247  2247 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+02-23 12:47:02.848  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:02.860  1317  1338 I statsd  : An anomaly (103940000001) (39)0x2018001->1000[I] (39)0x20000->1[I]  has occurred! Informing subscribers.
+02-23 12:47:02.969  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:02.969  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:02.971  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:02.971  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:03.013  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:03.013  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:03.054  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:03.054  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:03.055  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:03.096  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:03.096  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:03.247  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:03.327  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:03.434  3013 28397 D CustomLogManagerService: WorkHandler msg.what :5
+02-23 12:47:03.440  3013 28397 D CustomLogManagerService: curTemp:339 limit:390
+02-23 12:47:03.440  3013 28397 D CustomLogManagerService: checkUploadStatus: isSceenOn=true activeNetType=1 isCharging=true isUploading:false temperatureLimit:false
+02-23 12:47:03.440  3013 28397 D CustomLogManagerService: sys.log.customer=false
+02-23 12:47:03.440  3013 28397 D CustomLogManagerService: isHaveCustomLogCollecting :false
+02-23 12:47:03.568  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:03.610  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:03.713  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:03.714  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:03.715  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:03.716  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:03.756  4239  4239 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=-91 rsrp=-119 rsrq=-15 rssnr=-2 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=1 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 0 timingAdvance = 2147483647 },primary=CellSignalStrengthLte}
+02-23 12:47:03.757  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:03.757  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:03.758  4441  4441 D SubsysEventListenerManager-SubsysTelephonyCallback[0]: onSignalStrengthsChanged
+02-23 12:47:03.759  2028  5007 I OplusBinderProxy: pb uid: 10288 pid: 5507 desc: com.android.internal.telephony.IPhoneStateListener/10
+02-23 12:47:03.761  2028  5007 I OplusBinderProxy: pb uid: 10419 pid: 22368 desc: com.android.internal.telephony.IPhoneStateListener/10
+02-23 12:47:03.761  2028  5007 I OplusBinderProxy: pb uid: 10419 pid: 22368 desc: com.android.internal.telephony.IPhoneStateListener/10
+02-23 12:47:03.764  4239  4239 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=-91 rsrp=-119 rsrq=-15 rssnr=-2 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=1 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 0 timingAdvance = 2147483647 },primary=CellSignalStrengthLte}
+02-23 12:47:03.765  4441  4441 D SubsysEventListenerManager-SubsysTelephonyCallback[0]: onSignalStrengthsChanged
+02-23 12:47:03.767  3826  4010 I SystemUi--Statusbar: MobileConnectionRepositoryImpl-->subId:2 isSoftSimCard:false slotId:0
+02-23 12:47:03.908  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:03.923  2028  2808 D ProcessCpuTrackerExtImpl: mContext is already set, return now! 
+02-23 12:47:04.365  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:04.439  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:04.440  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:04.442  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:04.442  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:04.464  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:04.470  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791390135,totalTxBytes:3611062852,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396944869
+02-23 12:47:04.483  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:04.483  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:04.506  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,347,4208,4208,-298,500,2200,79,82,1,4,-1,4987,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,339,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:47:04.506  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-47-04
+02-23 12:47:04.506  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:47:04.513  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:04.526  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:04.526  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:04.526  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:04.568  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:04.568  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:04.613  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:04.689  9129 14605 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+02-23 12:47:04.690  9129 14605 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+02-23 12:47:04.719  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:04.789  7313 19197 I PTC.DISC.AndroidMultiLanServer: Watcher sysNif=[wlan0], userNif=[wlan0 state=(LISTEN JOIN(5199ED|31089)), ], clientNif=[wlan0 state=(LISTEN), ], tcpServer state=LISTEN, ipv4=**8.0.100
+02-23 12:47:04.813  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:04.822 18823 18823 I wpa_supplicant: wlan0: command[CURRENT_RSSI -74], reply:SUCCESS
+02-23 12:47:04.824  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:04.824  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:04.841  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:04.894  5360  5373 W sist.multimedia: Reducing the number of considered missed Gc histogram windows from 135 to 100
+02-23 12:47:05.186  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:05.186  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:05.188  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:05.188  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:05.230  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:05.230  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:05.380  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:05.583  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:05.615  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:05.829  2028  4296 I OplusHansManager : uid=10277, pkg=com.myntra.android F enter(), M stay=3
+02-23 12:47:05.834  2028  4296 I OplusHansManager : freeze uid: 10277 com.myntra.android pids: [24057] scene: LcdOn
+02-23 12:47:05.835  2028  4307 I OplusHansManager : p_BC uid=10277 pkg=com.myntra.android
+02-23 12:47:05.836  2028  4307 I OplusBinderProxy: proxyBinder uid: 10277 pkg: com.myntra.android proxy: true calling: OFreezer
+02-23 12:47:05.900  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:05.900  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:05.902  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:05.902  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:05.944  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:05.944  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:06.095  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:06.370  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:06.528  1545  1545 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+02-23 12:47:06.529  1545  1545 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+02-23 12:47:06.536  3826  3826 I SystemUi--Statusbar: BatteryControllerExt-->updateBatteryChangeIntent():broadcast=android.intent.action.BATTERY_CHANGED,level=82,scale=100
+02-23 12:47:06.536  3826  3826 I SystemUi--Statusbar: BatteryRepository-->level: 82 -- isSavingMode: false
+02-23 12:47:06.538  2028  2928 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.BATTERY_CHANGED , listeners = [com.android.server.display.OplusFeatureHDREnhanceBrightness$PhoneInfoReceiver@780cd78, com.android.server.display.OplusFeatureEdrEnhanceBrightness$PhoneInfoReceiver@3423c51]
+02-23 12:47:06.538  4441  4441 D SubsysBroadcastManager: onReceive action:android.intent.action.BATTERY_CHANGED
+02-23 12:47:06.540  4291  4291 D DeviceStatisticsService: onReceive: action= android.intent.action.BATTERY_CHANGED
+02-23 12:47:06.543  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge start
+02-23 12:47:06.543  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge end
+02-23 12:47:06.543  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: businessId : 401 threshold : 0.6 learnPeriod:30
+02-23 12:47:06.545  3013  3013 D CustomLogManagerService: onReceive android.intent.action.BATTERY_CHANGED
+02-23 12:47:06.545  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: PerformanceOfLongCharging{probabilityOfLocation=0.0, probabilityOfApps=0.0, probabilityOfTime=0.0, probabilityOfTotal=0.0, duration=0}
+02-23 12:47:06.546  7318  8185 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+02-23 12:47:06.618  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:06.638  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:06.638  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:06.639  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:06.640  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:06.681  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:06.681  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:06.832  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:06.832  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:06.836  9836  9836 D IHansComunication: HANS sendMessageToKernel: threadId = 490288954480, netLinkSetup = 1, type = FROZEN_TRANS, targetUid = 10277, pkgCmd = PKG_CMD_MAX
+02-23 12:47:06.844  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:06.869  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:06.904  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:06.905  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:06.906  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:06.906  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:06.909 26895 26931 W bluetooth: [hci_layer.cc:617] on_vs_event: Unhandled vendor specific event of type BQR_EVENT(0x58)
+02-23 12:47:06.948  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:06.948  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:07.099  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:07.374  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:07.374  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:07.376  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:07.376  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:07.417  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:07.418  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:07.456  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:07.456  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:07.456  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:07.466  4239  4239 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=-85 rsrp=-117 rsrq=-15 rssnr=-1 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 0 timingAdvance = 2147483647 },primary=CellSignalStrengthLte}
+02-23 12:47:07.467  4441  4441 D SubsysEventListenerManager-SubsysTelephonyCallback[0]: onSignalStrengthsChanged
+02-23 12:47:07.474  3826  4010 I SystemUi--Statusbar: MobileConnectionRepositoryImpl-->subId:2 isSoftSimCard:false slotId:0
+02-23 12:47:07.497  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:07.497  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:07.597  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:07.620  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:07.648  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:07.829  2028  3615 D Smart_Assistant_StateMachine: seamless switch link to do policy = 0
+02-23 12:47:07.829  2028  3615 D Smart_Assistant_StateMachine: finally no policy to do.
+02-23 12:47:07.830  2028  3615 D Smart_Assistant_StateMachine: next wifi switch wifi wait time: 60000(ms).
+02-23 12:47:07.996  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:07.996  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:07.998  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:07.998  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:08.039  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:08.039  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:08.078  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:08.079  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:08.079  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:08.120  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:08.120  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:08.270  7051 26665 E MIDASApplication: MIDASPullAtomManager: onPullAtom 150122
+02-23 12:47:08.271  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:08.277  2028  3296 D WifiNl80211Manager: Scan result ready event
+02-23 12:47:08.278  2028  3296 D WifiNative: Scan result ready event
+02-23 12:47:08.298  9129  9342 I WifiScanner: onFullResults
+02-23 12:47:08.299  9129  9237 I WifiScanner: onFullResults
+02-23 12:47:08.304  2028  3514 D PasspointManager: ANQP entry not found for: 30:bd:13:f2:e5:d6:<Airtel_OmRaj>
+02-23 12:47:08.304  4441  4441 D SubsysBroadcastManager: onReceive action:android.net.wifi.SCAN_RESULTS
+02-23 12:47:08.305  4441 26159 D SubsysEventListenerManager: onScanResultsAvailable
+02-23 12:47:08.309  2028  4803 W Settings: Setting notification_bubbles has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+02-23 12:47:08.309  2028  4803 W Settings: Setting apply_ramping_ringer has moved from android.provider.Settings.Global to android.provider.Settings.System, returning read-only value.
+02-23 12:47:08.312  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:08.313  2028  4803 W SettingsStatsUtil: Can not parse value to float: +network
+02-23 12:47:08.317  2028  4803 W SettingsStatsUtil: Can not parse value to float: +network
+02-23 12:47:08.322  1317  1338 I statsd  : An anomaly (103940000001) (39)0x2018001->1000[I] (39)0x20000->0[I]  has occurred! Informing subscribers.
+02-23 12:47:08.352  2028  3514 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-23 12:47:08.354  2028  3615 D WiFiHardWareMonitor ScanresultsCollector: rssiFailCheckAndNotify  diff = 1111294 now=1771831028354 latestSendTime=1771829917060 statisticsInterval=7200000
+02-23 12:47:08.355  4306  4599 D WifiScanResultEvent: None scanResults or savedConfigList.
+02-23 12:47:08.367  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:08.376  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:08.383  2028  3615 E NW_ReflectUtils: failed to get throughput : java.lang.NoSuchMethodError: No interface method getDeviceWiphyCapabilities()Landroid/net/wifi/nl80211/DeviceWiphyCapabilities; in class Lcom/android/server/wifi/ClientModeManager; or its super classes (declaration of 'com.android.server.wifi.ClientModeManager' appears in /apex/com.android.wifi/javalib/service-wifi.jar)
+02-23 12:47:08.386  2028  3615 D OplusWifiResidenceRecognition: onScanResultsAvailable
+02-23 12:47:08.471  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:08.476  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791390175,totalTxBytes:3611062952,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396945009
+02-23 12:47:08.522  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:08.546  3013 28397 D CustomLogManagerService: WorkHandler msg.what :5
+02-23 12:47:08.552  3013 28397 D CustomLogManagerService: curTemp:340 limit:390
+02-23 12:47:08.552  3013 28397 D CustomLogManagerService: checkUploadStatus: isSceenOn=true activeNetType=1 isCharging=true isUploading:false temperatureLimit:false
+02-23 12:47:08.552  3013 28397 D CustomLogManagerService: sys.log.customer=false
+02-23 12:47:08.552  3013 28397 D CustomLogManagerService: isHaveCustomLogCollecting :false
+02-23 12:47:08.623  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:08.824  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:08.824  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:08.825  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:08.825  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:08.853  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:08.868  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:08.868  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:08.870  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:08.871  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:08.899  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:08.910  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:08.910  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:08.910  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:08.952  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:08.952  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:09.102  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:09.211  7191 26114 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:47:09.214  7191 25702 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:47:09.508  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,346,4208,4208,-263,500,2200,79,82,1,4,-1,4983,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,340,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:47:09.508  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-47-09
+02-23 12:47:09.509  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:47:09.561  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:09.561  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:09.563  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:09.563  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:09.605  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:09.605  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:09.617  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:09.626  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:09.643  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:09.643  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:09.643  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:09.684  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:09.684  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:09.835  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:10.199  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:10.199  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:10.201  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:10.201  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:10.242  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:10.242  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:10.284  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:10.284  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:10.284  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:10.325  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:10.325  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:10.383  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:10.476  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:10.629  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:10.882  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:10.896  2028  3653 D OplusGameFirstManager: oldAverRssi=-76,rssi=-77,newAverRssi=-76
+02-23 12:47:10.904  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:10.904  4321  4321 I QImsService: OplusWifiApmStateMgr : onReceive,wifiSignal: -77
+02-23 12:47:10.905  4285  5726 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-23 12:47:10.910  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:10.911  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:10.911  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:10.912  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:10.914  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:10.915  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:10.916  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:10.917  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:10.921 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:10.923  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:10.923  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:10.924  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:10.920  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:10.925  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:10.925  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:10.925  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:10.925  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:10.925  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:10.926  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:10.926  3826  3826 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi two bars. isDefault:true alwaysShowIconIfEnabled:false
+02-23 12:47:10.927  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:10.927  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:10.929  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:10.929  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:10.932  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:10.956  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:11.033  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:11.033  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:11.035  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:11.035  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:11.076  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:11.077  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:11.118  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:11.118  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:11.118  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:11.159  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:11.159  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:11.310  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:11.423  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:11.631  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:11.698  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:11.754  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:11.754  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:11.756  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:11.756  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:11.797  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:11.797  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:11.841  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:11.842  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:11.842  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:11.883  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:11.883  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:12.034  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:12.089  7051  1246 D ShellSubscriberWorkerThread: the first 8 bytes empty, and RestData length > 8 
+02-23 12:47:12.382  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:12.382  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:12.386  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:12.386  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:12.387  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:12.423  1545  1545 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+02-23 12:47:12.424  1545  1545 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+02-23 12:47:12.428  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:12.428  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:12.433  3826  3826 I SystemUi--Statusbar: BatteryControllerExt-->updateBatteryChangeIntent():broadcast=android.intent.action.BATTERY_CHANGED,level=82,scale=100
+02-23 12:47:12.434  3826  3826 I SystemUi--Statusbar: BatteryRepository-->level: 82 -- isSavingMode: false
+02-23 12:47:12.440  2028  2928 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.BATTERY_CHANGED , listeners = [com.android.server.display.OplusFeatureHDREnhanceBrightness$PhoneInfoReceiver@780cd78, com.android.server.display.OplusFeatureEdrEnhanceBrightness$PhoneInfoReceiver@3423c51]
+02-23 12:47:12.441  4441  4441 D SubsysBroadcastManager: onReceive action:android.intent.action.BATTERY_CHANGED
+02-23 12:47:12.444  4291  4291 D DeviceStatisticsService: onReceive: action= android.intent.action.BATTERY_CHANGED
+02-23 12:47:12.445  4291  4291 D DeviceInfoHidlClient: isRadioOn()=true
+02-23 12:47:12.445  4291  4291 I DeviceInfoHidlClient: isPowerInfoNeverSent=false batteryLevel=82 batteryLevelIndex=3 chargingMode=2 totalCapacity=4007300 powerSaveMode=false
+02-23 12:47:12.447  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge start
+02-23 12:47:12.447  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge end
+02-23 12:47:12.447  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: businessId : 401 threshold : 0.6 learnPeriod:30
+02-23 12:47:12.448  3013  3013 D CustomLogManagerService: onReceive android.intent.action.BATTERY_CHANGED
+02-23 12:47:12.450  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: PerformanceOfLongCharging{probabilityOfLocation=0.0, probabilityOfApps=0.0, probabilityOfTime=0.0, probabilityOfTotal=0.0, duration=0}
+02-23 12:47:12.450  7318  8185 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+02-23 12:47:12.468  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:12.468  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:12.468  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:12.476  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:12.479  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791390255,totalTxBytes:3611063072,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396945209
+02-23 12:47:12.509  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:12.510  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:12.515  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:12.634  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:12.660  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:12.905  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:12.905  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:12.907  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:12.908  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:12.910 26895 26931 W bluetooth: [hci_layer.cc:617] on_vs_event: Unhandled vendor specific event of type BQR_EVENT(0x58)
+02-23 12:47:12.922  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:12.937 18823 18823 I wpa_supplicant: wlan0: command[CURRENT_RSSI -78], reply:SUCCESS
+02-23 12:47:12.939  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:12.940  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:12.949  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:12.949  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:13.100  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:13.225  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:13.225  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:13.227  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:13.227  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:13.268  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:13.269  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:13.270  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:13.304  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:13.304  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:13.304  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:13.345  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:13.346  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:13.496  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:13.638  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:13.949  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:13.949  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:13.951  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:13.951  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:13.993  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:13.993  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:14.037  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:14.037  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:14.037  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:14.078  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:14.079  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:14.229  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:14.392  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:14.395  8565  8720 W SQLiteConnectionPool: The connection pool for database '/data/user/0/com.microsoft.appmanager/databases/AriaStorage.db' has been unable to grant a connection to thread 795 (Aria-Stats-thread-1) with flags 0x2 for 3963.2031 seconds.
+02-23 12:47:14.395  8565  8720 W SQLiteConnectionPool: Connections: 0 active, 1 idle, 0 available.
+02-23 12:47:14.452  3013 28397 D CustomLogManagerService: WorkHandler msg.what :5
+02-23 12:47:14.459  3013 28397 D CustomLogManagerService: curTemp:340 limit:390
+02-23 12:47:14.459  3013 28397 D CustomLogManagerService: checkUploadStatus: isSceenOn=true activeNetType=1 isCharging=true isUploading:false temperatureLimit:false
+02-23 12:47:14.460  3013 28397 D CustomLogManagerService: sys.log.customer=false
+02-23 12:47:14.460  3013 28397 D CustomLogManagerService: isHaveCustomLogCollecting :false
+02-23 12:47:14.510  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,347,4211,4211,-312,500,2200,79,82,1,4,-1,4983,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,340,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:47:14.511  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-47-14
+02-23 12:47:14.512  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:47:14.585  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:14.585  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:14.588  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:14.588  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:14.630  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:14.630  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:14.641  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:14.673  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:14.673  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:14.673  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:14.692  9129 14605 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+02-23 12:47:14.692  9129 14605 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+02-23 12:47:14.715  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:14.715  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:14.865  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:14.952  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:14.983  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:14.983  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:14.986  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:14.986  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:14.986  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:14.989  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:14.990  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:14.990  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:14.990  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:14.992  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:14.992  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:14.995  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-81 level=2 statusLabel=null isDirty=false
+02-23 12:47:14.995  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:14.995  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:14.996  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-81 level=2 statusLabel=null isDirty=false
+02-23 12:47:14.996  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-81 level=2 statusLabel=null isDirty=false
+02-23 12:47:14.997  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:14.997  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:15.000 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:15.001  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:15.001  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:15.004  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:15.005  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:15.005  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:15.008  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:15.010  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:15.437  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:15.437  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:15.440  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:15.440  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:15.482  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:15.482  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:15.502  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:15.518  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:15.518  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:15.519  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:15.560  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:15.560  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:15.644  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:15.711  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:15.726  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:16.181  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:16.181  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:16.183  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:16.183  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:16.225  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:16.225  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:16.376  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:16.393  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:16.481  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:16.485  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791390307,totalTxBytes:3611063215,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396945404
+02-23 12:47:16.527  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:16.647  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:16.916  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:16.916  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:16.918  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:16.918  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:16.959  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:16.960  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:16.995  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:17.010  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:17.011  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:17.038  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:17.050  1545  1545 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+02-23 12:47:17.052  1545  1545 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+02-23 12:47:17.091  7051  1246 D ShellSubscriberWorkerThread: the first 8 bytes empty, and RestData length > 8 
+02-23 12:47:17.110  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:17.551  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:17.552  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:17.553  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:17.553  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:17.595  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:17.595  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:17.624  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:17.625  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:17.625  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:17.649  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:17.666  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:17.666  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:17.776  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:17.816  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:18.382  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:18.382  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:18.385  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:18.385  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:18.397  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:18.426  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:18.427  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:18.566  1545  1545 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+02-23 12:47:18.567  1545  1545 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+02-23 12:47:18.577  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:18.578  3826  3826 I SystemUi--Statusbar: BatteryControllerExt-->updateBatteryChangeIntent():broadcast=android.intent.action.BATTERY_CHANGED,level=82,scale=100
+02-23 12:47:18.579  3826  3826 I SystemUi--Statusbar: BatteryRepository-->level: 82 -- isSavingMode: false
+02-23 12:47:18.581  2028  2928 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.BATTERY_CHANGED , listeners = [com.android.server.display.OplusFeatureHDREnhanceBrightness$PhoneInfoReceiver@780cd78, com.android.server.display.OplusFeatureEdrEnhanceBrightness$PhoneInfoReceiver@3423c51]
+02-23 12:47:18.583  4441  4441 D SubsysBroadcastManager: onReceive action:android.intent.action.BATTERY_CHANGED
+02-23 12:47:18.585  4291  4291 D DeviceStatisticsService: onReceive: action= android.intent.action.BATTERY_CHANGED
+02-23 12:47:18.586  4291  4291 D DeviceInfoHidlClient: isRadioOn()=true
+02-23 12:47:18.586  4291  4291 I DeviceInfoHidlClient: isPowerInfoNeverSent=false batteryLevel=82 batteryLevelIndex=3 chargingMode=2 totalCapacity=4008500 powerSaveMode=false
+02-23 12:47:18.589  3013  3013 D CustomLogManagerService: onReceive android.intent.action.BATTERY_CHANGED
+02-23 12:47:18.589  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge start
+02-23 12:47:18.590  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge end
+02-23 12:47:18.590  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: businessId : 401 threshold : 0.6 learnPeriod:30
+02-23 12:47:18.591  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: PerformanceOfLongCharging{probabilityOfLocation=0.0, probabilityOfApps=0.0, probabilityOfTime=0.0, probabilityOfTotal=0.0, duration=0}
+02-23 12:47:18.592  7318  8185 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+02-23 12:47:18.652  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:18.788  4153 25296 D IpClient/wlan0: interfaceLinkStateChanged: ifindex 24 up
+02-23 12:47:18.906  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:18.906  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:18.909  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:18.909  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:18.912 26895 26931 W bluetooth: [hci_layer.cc:617] on_vs_event: Unhandled vendor specific event of type BQR_EVENT(0x58)
+02-23 12:47:18.950  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:18.950  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:19.023  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:19.038  2028  3653 D OplusGameFirstManager: oldAverRssi=-76,rssi=-73,newAverRssi=-75
+02-23 12:47:19.043  4321  4321 I QImsService: OplusWifiApmStateMgr : onReceive,wifiSignal: -73
+02-23 12:47:19.044  4285  5726 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-23 12:47:19.047  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:19.050  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:19.050  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:19.050  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:19.053  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:19.054  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:19.055  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:19.056  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:19.056  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:19.059  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:19.061  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:19.061  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:19.064  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:19.064  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:19.065 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:19.066  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:19.066  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:19.068  3826  3826 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi three bars. isDefault:true alwaysShowIconIfEnabled:false
+02-23 12:47:19.068  9129  9342 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:19.069  9129  9342 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:19.069  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-73 level=3 statusLabel=null isDirty=false
+02-23 12:47:19.069  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-73 level=3 statusLabel=null isDirty=false
+02-23 12:47:19.069  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-73 level=3 statusLabel=null isDirty=false
+02-23 12:47:19.069  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:19.070  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:19.077  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:19.079  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:19.086  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:19.086  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:19.086  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:19.096  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:19.127  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:19.127  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:19.186  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:19.186  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:19.186  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:19.211  7191 26114 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:47:19.213  7191 25702 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:47:19.228  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:19.229  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:19.379  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:19.512  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,347,4208,4208,-298,500,2200,79,82,1,4,-1,4983,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,340,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:47:19.513  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-47-19
+02-23 12:47:19.513  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:47:19.566  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:19.655  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:19.729  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:19.729  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:19.731  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:19.731  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:19.773  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:19.773  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:19.822  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:19.924  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:20.401  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:20.488  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:20.491  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791390542,totalTxBytes:3611063319,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396945743
+02-23 12:47:20.529  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:20.555  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:20.556  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:20.558  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:20.558  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:20.591  3013 28397 D CustomLogManagerService: WorkHandler msg.what :5
+02-23 12:47:20.596  3013 28397 D CustomLogManagerService: curTemp:340 limit:390
+02-23 12:47:20.596  3013 28397 D CustomLogManagerService: checkUploadStatus: isSceenOn=true activeNetType=1 isCharging=true isUploading:false temperatureLimit:false
+02-23 12:47:20.596  3013 28397 D CustomLogManagerService: sys.log.customer=false
+02-23 12:47:20.596  3013 28397 D CustomLogManagerService: isHaveCustomLogCollecting :false
+02-23 12:47:20.600  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:20.600  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:20.659  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:20.750  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:21.064  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:21.077 18823 18823 I wpa_supplicant: wlan0: command[CURRENT_RSSI -74], reply:SUCCESS
+02-23 12:47:21.078  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:21.079  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:21.102  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:21.188  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:21.188  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:21.191  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:21.192  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:21.233  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:21.233  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:21.277  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:21.277  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:21.277  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:21.318  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:21.318  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:21.469  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:21.663  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:21.844  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:21.928  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:21.929  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:21.931  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:21.931  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:21.973  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:21.974  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:22.016  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:22.016  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:22.016  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:22.058  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:22.058  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:22.208  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:22.405  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:22.665  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:22.665  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:22.666  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:22.668  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:22.668  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:22.710  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:22.710  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:22.750  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:22.750  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:22.750  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:22.791  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:22.792  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:22.942  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:23.092  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:23.112  2028  3653 D OplusGameFirstManager: oldAverRssi=-75,rssi=-78,newAverRssi=-75
+02-23 12:47:23.114  4321  4321 I QImsService: OplusWifiApmStateMgr : onReceive,wifiSignal: -78
+02-23 12:47:23.115  4285  5726 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-23 12:47:23.116  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:23.118  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:23.120  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:23.121  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:23.122  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:23.124  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:23.124  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:23.125  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:23.125  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:23.126  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:23.127  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:23.129  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:23.129  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-78 level=2 statusLabel=null isDirty=false
+02-23 12:47:23.130  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-78 level=2 statusLabel=null isDirty=false
+02-23 12:47:23.131  3826  3826 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi two bars. isDefault:true alwaysShowIconIfEnabled:false
+02-23 12:47:23.131  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:23.131  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:23.131 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:23.133  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:23.133  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:23.134  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-78 level=2 statusLabel=null isDirty=false
+02-23 12:47:23.135  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:23.135  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:23.137  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:23.138  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:23.144  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:23.155  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:23.397  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:23.398  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:23.399  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:23.400  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:23.441  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:23.441  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:23.484  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:23.484  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:23.484  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:23.525  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:23.526  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:23.632  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:23.667  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:23.676  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:23.892  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:24.135  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:24.136  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:24.137  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:24.137  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:24.179  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:24.179  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:24.330  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:24.408  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:24.452  1545  1545 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+02-23 12:47:24.453  1545  1545 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+02-23 12:47:24.463  3826  3826 I SystemUi--Statusbar: BatteryControllerExt-->updateBatteryChangeIntent():broadcast=android.intent.action.BATTERY_CHANGED,level=82,scale=100
+02-23 12:47:24.463  3826  3826 I SystemUi--Statusbar: BatteryRepository-->level: 82 -- isSavingMode: false
+02-23 12:47:24.465  2028  2928 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.BATTERY_CHANGED , listeners = [com.android.server.display.OplusFeatureHDREnhanceBrightness$PhoneInfoReceiver@780cd78, com.android.server.display.OplusFeatureEdrEnhanceBrightness$PhoneInfoReceiver@3423c51]
+02-23 12:47:24.465  4441  4441 D SubsysBroadcastManager: onReceive action:android.intent.action.BATTERY_CHANGED
+02-23 12:47:24.468  4291  4291 D DeviceStatisticsService: onReceive: action= android.intent.action.BATTERY_CHANGED
+02-23 12:47:24.473  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge start
+02-23 12:47:24.473  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge end
+02-23 12:47:24.473  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: businessId : 401 threshold : 0.6 learnPeriod:30
+02-23 12:47:24.474  3013  3013 D CustomLogManagerService: onReceive android.intent.action.BATTERY_CHANGED
+02-23 12:47:24.475  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: PerformanceOfLongCharging{probabilityOfLocation=0.0, probabilityOfApps=0.0, probabilityOfTime=0.0, probabilityOfTotal=0.0, duration=0}
+02-23 12:47:24.475  7318  8185 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+02-23 12:47:24.492  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:24.496  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791390542,totalTxBytes:3611063319,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396945743
+02-23 12:47:24.514  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,346,4212,4212,-306,500,2200,79,82,1,4,-1,4983,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,340,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:47:24.514  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-47-24
+02-23 12:47:24.515  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:47:24.534  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:24.670  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:24.694  9129 14605 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+02-23 12:47:24.694  9129 14605 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+02-23 12:47:24.858  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:24.858  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:24.860  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:24.861  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:24.889 26895 26931 W bluetooth: [hci_layer.cc:617] on_vs_event: Unhandled vendor specific event of type BQR_EVENT(0x58)
+02-23 12:47:24.926  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:24.927  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:24.943  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:24.943  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:24.943  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:24.984  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:24.985  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:25.128  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:25.135  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:25.142 18823 18823 I wpa_supplicant: wlan0: command[CURRENT_RSSI -78], reply:SUCCESS
+02-23 12:47:25.143  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:25.144  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:25.266  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:25.673  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:25.692  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:25.692  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:25.694  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:25.694  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:25.736  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:25.736  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:25.887  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:26.315  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:26.316  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:26.318  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:26.318  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:26.359  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:26.359  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:26.400  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:26.400  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:26.401  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:26.412  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:26.442  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:26.442  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:26.476  3013 28397 D CustomLogManagerService: WorkHandler msg.what :5
+02-23 12:47:26.483  3013 28397 D CustomLogManagerService: curTemp:340 limit:390
+02-23 12:47:26.484  3013 28397 D CustomLogManagerService: checkUploadStatus: isSceenOn=true activeNetType=1 isCharging=true isUploading:false temperatureLimit:false
+02-23 12:47:26.484  3013 28397 D CustomLogManagerService: sys.log.customer=false
+02-23 12:47:26.484  3013 28397 D CustomLogManagerService: isHaveCustomLogCollecting :false
+02-23 12:47:26.593  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:26.676  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:27.052  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:27.052  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:27.054  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:27.054  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:27.095  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:27.095  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:27.140  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:27.140  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:27.140  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:27.158  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:27.174  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:27.182  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:27.182  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:27.333  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:27.566  4441  4929 D DiagnoseService: handleMessage: 1001
+02-23 12:47:27.567  4441  4929 D RadioProxyJ: [PHONE0][29638]> getDiagPktVersionMismatchDb
+02-23 12:47:27.579  2616  2633 D QmiVsClient: getDiagPktVersionMismatchDb - enter
+02-23 12:47:27.584  2616  2660 D QmiVsClient: getDiagPktVersionMismatchDb callback - enter
+02-23 12:47:27.585  2616  2633 D VsProxy : handleMessage msg is 4001
+02-23 12:47:27.585  2616  2633 D RadioProxy: getDiagPktVersionMismatchDb : response cb for instance 0
+02-23 12:47:27.585  2616  2616 D VendorService: getDiagPktVersionMismatchDb recordNumber 5
+02-23 12:47:27.588  4441 20186 D SubsysRadioResponse: responseDiagPacketVersionMismatchDb() recordNumber = 5
+02-23 12:47:27.588  4441  4929 D DiagnoseService: handleMessage: 1002
+02-23 12:47:27.589  4441  4929 D DiagnoseService: [DIAG_PACKET_VERSION_MISMATCH]MPSS.HI.4.3.4-00492-MANNAR_GEN_PACK-1.22728.220
+02-23 12:47:27.589  4441  4929 D DiagnoseService: [DIAG_PACKET_VERSION_MISMATCH][DiagLog]pktId=47469,oldVersion=196611,newVersion=131076[DiagLog]pktId=47527,oldVersion=196608,newVersion=131076[DiagLog]pktId=5480,oldVersion=17,newVersion=13[DiagLog]pktId=45459,oldVersion=1,newVersion=1[DiagLog]pktId=47320,oldVersion=196610,newVersion=131074
+02-23 12:47:27.589  4441  4929 D DiagnoseService: ro.build.type=user
+02-23 12:47:27.589  4441 20186 D RadioProxyJ: [PHONE0][29638]< getDiagPktVersionMismatchDbResponse [RadioDiagPktVersionMismatch{ pktType = 1, pktId = 47469, oldVersion = 196611, newVersion = 131076 }, RadioDiagPktVersionMismatch{ pktType = 1, pktId = 47527, oldVersion = 196608, newVersion = 131076 }, RadioDiagPktVersionMismatch{ pktType = 1, pktId = 5480, oldVersion = 17, newVersion = 13 }, RadioDiagPktVersionMismatch{ pktType = 1, pktId = 45459, oldVersion = 1, newVersion = 1 }, RadioDiagPktVersionMismatch{ pktType = 1, pktId = 47320, oldVersion = 196610, newVersion = 131074 }] [convertToString]
+02-23 12:47:27.679  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:27.792  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:27.792  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:27.794  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:27.794  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:27.836  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:27.836  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:27.881  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:27.881  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:27.881  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:27.923  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:27.923  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:28.073  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:28.415  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:28.498  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:28.504  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791390542,totalTxBytes:3611063319,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396945743
+02-23 12:47:28.527  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:28.527  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:28.528  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:28.528  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:28.545  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:28.569  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:28.569  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:28.616  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:28.617  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:28.617  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:28.658  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:28.658  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:28.681  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:28.808  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:29.185  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:29.200  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:29.200  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:29.203  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:29.205  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:29.205  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:29.207  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:29.209  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:29.209  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:29.209  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:29.209  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:29.211  7191 26114 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:47:29.212  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:29.212  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:29.212  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:29.212  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:29.214  7191 25702 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:47:29.214  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:29.216  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:29.216  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:29.219  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:29.219  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:29.219  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:29.220  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:29.220  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:29.220  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-77 level=2 statusLabel=null isDirty=false
+02-23 12:47:29.221  4441  4462 W om.oplus.subsys: Reducing the number of considered missed Gc histogram windows from 128 to 100
+02-23 12:47:29.223 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:29.225  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:29.226  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:29.234  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:29.257  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:29.257  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:29.259  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:29.259  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:29.300  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:29.300  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:29.343  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:29.344  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:29.344  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:29.385  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:29.385  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:29.516  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,346,4212,4212,-338,500,2200,79,82,1,4,-1,4983,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,340,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:47:29.517  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-47-29
+02-23 12:47:29.518  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:47:29.536  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:29.684  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:29.724  9129 14605 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:29.936  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:29.980  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:29.981  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:29.982  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:29.983  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:30.024  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:30.024  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:30.176  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:30.420  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:30.434  4239  4239 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=-89 rsrp=-117 rsrq=-13 rssnr=1 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 0 timingAdvance = 2147483647 },primary=CellSignalStrengthLte}
+02-23 12:47:30.436  4441  4441 D SubsysEventListenerManager-SubsysTelephonyCallback[0]: onSignalStrengthsChanged
+02-23 12:47:30.442  3826  4010 I SystemUi--Statusbar: MobileConnectionRepositoryImpl-->subId:2 isSoftSimCard:false slotId:0
+02-23 12:47:30.599  1545  1545 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+02-23 12:47:30.600  1545  1545 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+02-23 12:47:30.610  3826  3826 I SystemUi--Statusbar: BatteryControllerExt-->updateBatteryChangeIntent():broadcast=android.intent.action.BATTERY_CHANGED,level=82,scale=100
+02-23 12:47:30.610  3826  3826 I SystemUi--Statusbar: BatteryRepository-->level: 82 -- isSavingMode: false
+02-23 12:47:30.611  2028  2928 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.BATTERY_CHANGED , listeners = [com.android.server.display.OplusFeatureHDREnhanceBrightness$PhoneInfoReceiver@780cd78, com.android.server.display.OplusFeatureEdrEnhanceBrightness$PhoneInfoReceiver@3423c51]
+02-23 12:47:30.612  4441  4441 D SubsysBroadcastManager: onReceive action:android.intent.action.BATTERY_CHANGED
+02-23 12:47:30.615  4291  4291 D DeviceStatisticsService: onReceive: action= android.intent.action.BATTERY_CHANGED
+02-23 12:47:30.617  4291  4291 D DeviceInfoHidlClient: isRadioOn()=true
+02-23 12:47:30.617  4291  4291 I DeviceInfoHidlClient: isPowerInfoNeverSent=false batteryLevel=82 batteryLevelIndex=3 chargingMode=2 totalCapacity=4009700 powerSaveMode=false
+02-23 12:47:30.619  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge start
+02-23 12:47:30.620  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge end
+02-23 12:47:30.620  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: businessId : 401 threshold : 0.6 learnPeriod:30
+02-23 12:47:30.620  3013  3013 D CustomLogManagerService: onReceive android.intent.action.BATTERY_CHANGED
+02-23 12:47:30.621  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: PerformanceOfLongCharging{probabilityOfLocation=0.0, probabilityOfApps=0.0, probabilityOfTime=0.0, probabilityOfTotal=0.0, duration=0}
+02-23 12:47:30.622  7318  8185 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+02-23 12:47:30.687  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:30.749 26895 26931 I bluetooth: [le_impl.h:1322]  OnPause armed state:ConnectabilityState::DISARMED
+02-23 12:47:30.750  1474  1474 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:30.752  1474  1474 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:30.752  1474  1474 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+02-23 12:47:30.753  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+02-23 12:47:30.753  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+02-23 12:47:30.754  1474  1474 D vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+02-23 12:47:30.755 26895 26931 D bluetooth: [le_address_manager.cc:326] ack_pause: Wait all clients paused, return
+02-23 12:47:30.766  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:30.766  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:30.774 26895 26931 I bluetooth: [le_address_manager.cc:661] OnCommandComplete: Received command complete with op_code LE_SET_RANDOM_ADDRESS(0x2005)
+02-23 12:47:30.774 26895 26931 I bluetooth: [le_address_manager.cc:682] OnCommandComplete: update random address : xx:xx:xx:xx:73:1a
+02-23 12:47:30.774 26895 26931 I bluetooth: [le_address_manager.cc:349] resume_registered_clients: Resuming registered clients
+02-23 12:47:30.845  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:30.886  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:30.887  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:30.889 26895 26931 W bluetooth: [hci_layer.cc:617] on_vs_event: Unhandled vendor specific event of type BQR_EVENT(0x58)
+02-23 12:47:30.954  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:31.213  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:31.230  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:31.256  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:31.663  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:31.664  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:31.689  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:31.706  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:31.765  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:31.765  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:31.776  1474 26963 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+02-23 12:47:31.807  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:31.807  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:31.958  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:31.986  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:32.095  7051  1246 D ShellSubscriberWorkerThread: the first 8 bytes empty, and RestData length > 8 
+02-23 12:47:32.210  3826  3826 D OplusPrivacyDotViewController: scheduleUpdate: 
+02-23 12:47:32.211  3826  4092 D OplusPrivacyDotViewController: processNextViewState: 
+02-23 12:47:32.211  3826  4092 D OplusPrivacyDotViewController: resolveState ViewState(systemPrivacyEventIsActive=true, shadeExpanded=false, needShow=true, rtl=false, rotation=0, height=12, x=42, y=56, cornerIndex=1, designatedCorner=android.widget.FrameLayout{82403ae V.E...... ......I. 0,0-12,12 #7f0a05b9 app:id/icons_container alpha=1.0 viewInfo = }, contentDescription=null, chipAnimationStart=false, preDraw=false) shouldShowDot true
+02-23 12:47:32.212  3826  4092 W SystemUi--Common: OplusSysUiSchedMgr-->schedForPrivacyIconShowing already showing, no need request
+02-23 12:47:32.212  3826  4092 D OplusPrivacyDotViewController: updatePosition:42:56
+02-23 12:47:32.212  3826  4092 D VRI[OplusPrivacyIconTopLeft]: setLayoutParams: x = 42, y = 56
+02-23 12:47:32.212  3826  4092 D OplusPrivacyDotViewController: updatePosition:42:56
+02-23 12:47:32.213  3826  4092 D VRI[OplusPrivacyIconTopRight]: setLayoutParams: x = 42, y = 56
+02-23 12:47:32.224  2028  5006 V WindowManager: Relayout Window{1a32c95 u0 OplusPrivacyIconTopLeft}: viewVisibility=8, oldvis=8, req=12x12, vsysui=LAYOUT_STABLE, x=42, y=56
+02-23 12:47:32.236  2028  5006 V WindowManager: Relayout Window{fc41411 u0 OplusPrivacyIconTopRight}: viewVisibility=0, oldvis=0, req=12x12, vsysui=LAYOUT_STABLE, x=42, y=56
+02-23 12:47:32.238  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:32.255  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:32.300  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:32.301  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:32.302  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:32.302  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:32.343  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:32.344  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:32.383  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:32.383  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:32.384  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:32.418  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:32.424  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:32.425  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:32.508  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:32.512  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791390829,totalTxBytes:3611063454,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396946165
+02-23 12:47:32.558  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:32.576  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:32.622  3013 28397 D CustomLogManagerService: WorkHandler msg.what :5
+02-23 12:47:32.630  3013 28397 D CustomLogManagerService: curTemp:340 limit:390
+02-23 12:47:32.630  3013 28397 D CustomLogManagerService: checkUploadStatus: isSceenOn=true activeNetType=1 isCharging=true isUploading:false temperatureLimit:false
+02-23 12:47:32.630  3013 28397 D CustomLogManagerService: sys.log.customer=false
+02-23 12:47:32.630  3013 28397 D CustomLogManagerService: isHaveCustomLogCollecting :false
+02-23 12:47:32.692  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:33.126  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:33.127  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:33.128  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:33.128  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:33.173  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:33.173  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:33.208  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:33.209  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:33.209  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:33.244  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:33.250  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:33.250  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:33.259  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:33.260  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:33.281  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:33.400  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:33.695  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:33.758  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:33.759  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:33.761  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:33.761  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:33.802  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:33.802  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:33.840  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:33.841  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:33.841  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:33.882  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:33.882  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:34.000  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:34.032  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:34.429  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:34.495  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:34.496  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:34.498  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:34.498  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:34.518  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,346,4213,4213,-322,500,2200,79,82,1,4,-1,4980,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,340,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:47:34.519  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-47-34
+02-23 12:47:34.520  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:47:34.539  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:34.539  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:34.582  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:34.582  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:34.582  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:34.623  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:34.623  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:34.696  9129 14605 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+02-23 12:47:34.697  9129 14605 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+02-23 12:47:34.698  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:34.774  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:34.804  7313 19197 I PTC.DISC.AndroidMultiLanServer: Watcher sysNif=[wlan0], userNif=[wlan0 state=(LISTEN JOIN(5199ED|31089)), ], clientNif=[wlan0 state=(LISTEN), ], tcpServer state=LISTEN, ipv4=**8.0.100
+02-23 12:47:35.068  2028  3435 V AlarmManager: sending alarm Alarm{e71c8b1 type 3 origWhen 671955000 whenElapsed 671955000 android} uid 1000 whenElapsed 671955000 windowLength 0 maxWhenElapsed 671955000 repeatInterval 0 action null component null tag StatsCompanionService.periodic flags 0x9 procName system_server
+02-23 12:47:35.075  1317  3641 I statsd  : Fate decided that an alarm will trigger subscribers.
+02-23 12:47:35.079  7051 27017 I OplusObrain: OplusObrainClientInvoke.nativeGetTelephonyInfo
+02-23 12:47:35.081  7051 27017 I OplusObrain: OplusObrainClientInvoke.nativeGetTrafficTypeInfoForNetworkType networkType 0
+02-23 12:47:35.081  2028  3296 D KernelStatsHelper: getKernelStats start!
+02-23 12:47:35.084  5228 12313 E midasd  : Read file /sys/class/power_supply/usb/current_now failed.(No data available)
+02-23 12:47:35.085  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{3004}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:47:35.085  2028  3594 D KernelStatsHelper: get magic :[-1, -1, -1, 77, 65, 71, 73, 67]
+02-23 12:47:35.085  2028  3594 D KernelStatsHelper: magic matched count:408 data_len:21216
+02-23 12:47:35.085  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:47:35.085  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:47:35.085  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:47:35.085  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:47:35.086  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:47:35.086  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{2988}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:47:35.086  2028  3594 D OplusNetlinkSocket: handleNetlinkRecvKernelMessage:nlmsghdr:StructNlMsgHdr{ nlmsg_len{492}, nlmsg_type{33()}, nlmsg_flags{0()}, nlmsg_seq{0}, nlmsg_pid{132910602} }
+02-23 12:47:35.086  2028  3594 D KernelStatsHelper: data over! check: true
+02-23 12:47:35.273  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:35.286  4239  4239 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=-85 rsrp=-117 rsrq=-15 rssnr=-2 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=2 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 0 timingAdvance = 2147483647 },primary=CellSignalStrengthLte}
+02-23 12:47:35.288  2028  3653 D OplusGameFirstManager: oldAverRssi=-75,rssi=-76,newAverRssi=-77
+02-23 12:47:35.290  4441  4441 D SubsysEventListenerManager-SubsysTelephonyCallback[0]: onSignalStrengthsChanged
+02-23 12:47:35.290  4321  4321 I QImsService: OplusWifiApmStateMgr : onReceive,wifiSignal: -76
+02-23 12:47:35.291  4285  5726 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-23 12:47:35.298  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:35.298  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:35.298  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:35.298  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:35.301  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:35.302  3826  4010 I SystemUi--Statusbar: MobileConnectionRepositoryImpl-->subId:2 isSoftSimCard:false slotId:0
+02-23 12:47:35.303  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:35.303  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:35.303  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:35.304  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:35.304  9129  9342 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:35.304  9129  9342 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:35.305  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:35.306  9129  9343 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:35.306  9129  9343 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:35.307  3826  3826 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi three bars. isDefault:true alwaysShowIconIfEnabled:false
+02-23 12:47:35.310  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:35.311 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:35.312  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:35.312  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:35.314  9129  9342 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:35.314  9129  9342 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:35.316  9129  9342 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:35.316  9129  9342 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:35.316  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:35.316  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:35.319  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:35.319  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:35.320  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:35.320  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:35.321  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:35.322  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:35.329  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:35.361  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:35.361  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:35.373  2028  3647 D OplusNetKit: in getLpByInterface name from LP: [rmnet_data2]
+02-23 12:47:35.373  2028  3647 D OplusNetKit: in getLpByInterface name from LP: [wlan0]
+02-23 12:47:35.410  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:35.410  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:35.410  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:35.451  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:35.452  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:35.480  2028  3647 D OplusNetRttKit: getIcmpEchoRtt addr:192.168.0.*** avgRtt: 31
+02-23 12:47:35.602  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:35.700  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:35.815  9129 16214 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:35.946  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:35.946  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:35.948  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:35.948  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:35.989  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:35.990  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:36.026  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:36.027  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:36.027  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:36.052  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:36.068  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:36.068  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:36.219  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:36.430  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:36.486  1545  1545 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+02-23 12:47:36.487  1545  1545 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+02-23 12:47:36.500  3826  3826 I SystemUi--Statusbar: BatteryControllerExt-->updateBatteryChangeIntent():broadcast=android.intent.action.BATTERY_CHANGED,level=82,scale=100
+02-23 12:47:36.500  4441  4441 D SubsysBroadcastManager: onReceive action:android.intent.action.BATTERY_CHANGED
+02-23 12:47:36.500  3826  3826 I SystemUi--Statusbar: BatteryRepository-->level: 82 -- isSavingMode: false
+02-23 12:47:36.501  2028  2928 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.BATTERY_CHANGED , listeners = [com.android.server.display.OplusFeatureHDREnhanceBrightness$PhoneInfoReceiver@780cd78, com.android.server.display.OplusFeatureEdrEnhanceBrightness$PhoneInfoReceiver@3423c51]
+02-23 12:47:36.502  4291  4291 D DeviceStatisticsService: onReceive: action= android.intent.action.BATTERY_CHANGED
+02-23 12:47:36.505  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge start
+02-23 12:47:36.505  7318  8179 I DeepThinkerSDK: [APP] ClientConnection: getDeepThinkerBridge end
+02-23 12:47:36.505  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: businessId : 401 threshold : 0.6 learnPeriod:30
+02-23 12:47:36.505  3013  3013 D CustomLogManagerService: onReceive android.intent.action.BATTERY_CHANGED
+02-23 12:47:36.507  7318  8185 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+02-23 12:47:36.508  7318  8179 I DeepThinkerSDK: [APP] UserDomainManager: PerformanceOfLongCharging{probabilityOfLocation=0.0, probabilityOfApps=0.0, probabilityOfTime=0.0, probabilityOfTotal=0.0, duration=0}
+02-23 12:47:36.512  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+02-23 12:47:36.514  3826  3940 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:22791395932,totalTxBytes:3611065957,loopbackTxBytes:2816519,loopbackRxBytes:2691599 ,totalBytes:26396953771
+02-23 12:47:36.553  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:36.688  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:36.689  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:36.690  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:36.690  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:36.702  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:36.732  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:36.732  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:36.777  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:36.777  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:36.777  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:36.819  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:36.819  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:36.887  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:36.887  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:36.887  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:36.890 26895 26931 W bluetooth: [hci_layer.cc:617] on_vs_event: Unhandled vendor specific event of type BQR_EVENT(0x58)
+02-23 12:47:36.928  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:36.928  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:37.079  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:37.292  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:37.306  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:37.316  2028  9252 D UsageStatsService: User[0] type=0 b=1771830899669 e=1771831057314 cb=1771764266287 ce=1771831055315 disk=0 all=1
+02-23 12:47:37.317 18823 18823 I wpa_supplicant: wlan0: command[CURRENT_RSSI -74], reply:SUCCESS
+02-23 12:47:37.320  2028  3615 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+02-23 12:47:37.320  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:37.321  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:37.323  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:37.323  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:37.325  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:37.326  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:37.327  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:37.327  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:37.327  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:37.328  9129  9342 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:37.328  9129  9342 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:37.332  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:37.332  9129  9342 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:37.332  9129  9342 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:37.333  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-74 level=3 statusLabel=null isDirty=false
+02-23 12:47:37.335  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-74 level=3 statusLabel=null isDirty=false
+02-23 12:47:37.335  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-74 level=3 statusLabel=null isDirty=false
+02-23 12:47:37.336 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:37.338  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:37.339  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:37.340  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:37.342  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:37.342  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:37.343  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:37.344  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:37.344  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:37.429  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:37.429  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:37.431  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:37.431  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:37.473  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:37.473  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:37.502  4153 25296 D IpClient/wlan0: interfaceLinkStateChanged: ifindex 24 up
+02-23 12:47:37.509  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:37.510  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:37.510  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:37.551  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:37.551  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:37.702  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:37.706  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:37.838  9129 16214 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+02-23 12:47:38.060  1502  1502 E ANDR-PERF-MPCTL: Active req limit reached, No optimizations performed
+02-23 12:47:38.161  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:38.161  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:38.163  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:38.163  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:38.204  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:38.204  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:38.245  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:38.245  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:38.246  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:38.271  7051 26665 E MIDASApplication: MIDASPullAtomManager: onPullAtom 150122
+02-23 12:47:38.286  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:38.286  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:38.309  2028  4118 W Settings: Setting notification_bubbles has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+02-23 12:47:38.310  2028  4118 W Settings: Setting apply_ramping_ringer has moved from android.provider.Settings.Global to android.provider.Settings.System, returning read-only value.
+02-23 12:47:38.316  2028  4118 W SettingsStatsUtil: Can not parse value to float: +network
+02-23 12:47:38.322  2028  4118 W SettingsStatsUtil: Can not parse value to float: +network
+02-23 12:47:38.436  1495 11693 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+02-23 12:47:38.437  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:38.508  3013 28397 D CustomLogManagerService: WorkHandler msg.what :5
+02-23 12:47:38.513  3013 28397 D CustomLogManagerService: curTemp:340 limit:390
+02-23 12:47:38.513  3013 28397 D CustomLogManagerService: checkUploadStatus: isSceenOn=true activeNetType=1 isCharging=true isUploading:false temperatureLimit:false
+02-23 12:47:38.514  3013 28397 D CustomLogManagerService: sys.log.customer=false
+02-23 12:47:38.514  3013 28397 D CustomLogManagerService: isHaveCustomLogCollecting :false
+02-23 12:47:38.709  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:39.005  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:39.005  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:39.007  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:39.007  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:39.048  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:39.048  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-23 12:47:39.199  1474 26943 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-23 12:47:39.212  7191 26114 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:47:39.214  7191 25702 D gaia-GaiaConnectChecker: start connect check++
+02-23 12:47:39.342  2028  3514 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+02-23 12:47:39.360  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:39.360  4441  4441 D VendorWifiService: onEvent event:9,action:1
+02-23 12:47:39.363  4441  4620 D SubsysEventListenerManager: onCapabilitiesChanged
+02-23 12:47:39.363  4441  4620 D DataStateTracker: getCurDataChannel, channel:1
+02-23 12:47:39.366  3826  4011 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:289
+02-23 12:47:39.367  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:39.367  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:39.367  2028  3615 D SystemNetworkObserver: wifi network 289 nc changed, primary=true
+02-23 12:47:39.367  2028  3615 D SystemNetworkObserver: default network nc changed 289
+02-23 12:47:39.367  2028  3653 D OplusSlaNetworkManager: isPrimaryWifi:true network:289
+02-23 12:47:39.368  3826  3940 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:289 mPrimaryNetworkId:289
+02-23 12:47:39.370  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:39.370  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:39.372  3826  4011 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+02-23 12:47:39.375  9050  9092 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[84532c06-c402]>Handler" thread_id=759 ]
+02-23 12:47:39.375 10211 10375 I CardConfig.RxNetworkMonitor: onNetworkStateChange, current:true, last:true
+02-23 12:47:39.377  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:39.378  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:39.378  3826  3940 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-76 level=3 statusLabel=null isDirty=false
+02-23 12:47:39.378  9050  9082 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=752 ]
+02-23 12:47:39.380  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:39.380  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:39.381  9050  9092 I BugleRcsEngine: Rcs is enabled from user settings: true [CONTEXT log_prefix="ProvisioningEngineDataRetriever" thread_id=759 ]
+02-23 12:47:39.382  9129  9237 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+02-23 12:47:39.382  9129  9237 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+02-23 12:47:39.485  4306  4599 I PluginManager: dalvikMax=11,dalvikFree=4dalvikAllocated=7
+02-23 12:47:39.521  1545  1663 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,348,346,4210,4210,-280,500,2200,79,82,1,4,-1,4980,82,1,0,1,1,0,0,4425,0,6,0,6,0,0,0,340,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+02-23 12:47:39.521  1545  1663 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-02-23-12-47-39
+02-23 12:47:39.522  1545  1663 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+02-23 12:47:39.711  1545  1698 D BatteryChargeControl: bcc get no support from charging protocol
+02-23 12:47:39.732  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-23 12:47:39.733  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-23 12:47:39.735  1474 26959 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-23 12:47:39.735  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-23 12:47:39.776  1474 26959 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-23 12:47:39.776  1474 26959 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF

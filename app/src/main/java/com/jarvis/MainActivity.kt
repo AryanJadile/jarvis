@@ -32,9 +32,13 @@ class MainActivity : AppCompatActivity() {
             permissions.entries.forEach {
                 val permissionName = it.key
                 val isGranted = it.value
-                Log.d("JarvisPermissions", "$permissionName granted: $isGranted")
+                Log.e("JarvisPermissions", "$permissionName granted: $isGranted")
             }
             updateStatus()
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
+                val serviceIntent = Intent(this, JarvisService::class.java)
+                ContextCompat.startForegroundService(this, serviceIntent)
+            }
         }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -61,10 +65,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // We launch the Jarvis service in the foreground right away.
-        // If it starts before dependencies are met, it just won't be able to listen/execute payload until they are granted.
-        val serviceIntent = Intent(this, JarvisService::class.java)
-        ContextCompat.startForegroundService(this, serviceIntent)
+        // We launch the Jarvis service in the foreground only if permission is granted,
+        // otherwise we wait until it's granted from the request permission launcher.
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
+            Log.e("JarvisMainActivity", "RECORD_AUDIO granted, attempting to start JarvisService")
+            val serviceIntent = Intent(this, JarvisService::class.java)
+            try {
+                ContextCompat.startForegroundService(this, serviceIntent)
+                Log.e("JarvisMainActivity", "Successfully called startForegroundService for JarvisService")
+            } catch (e: Exception) {
+                Log.e("JarvisMainActivity", "Failed to start JarvisService: ${e.message}")
+            }
+        } else {
+             Log.e("JarvisMainActivity", "RECORD_AUDIO not granted, deferring JarvisService start")
+        }
     }
 
     override fun onResume() {

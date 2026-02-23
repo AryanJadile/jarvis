@@ -1,0 +1,38 @@
+﻿---- TIME 23/02/2026 13:14:35 ----
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{2fa2e40 u0 com.jarvis/.JarvisService c:com.jarvis}
+    intent={cmp=com.jarvis/.JarvisService mCallingUid=10485}
+    packageName=com.jarvis
+    processName=com.jarvis
+    targetSdkVersion=36
+    baseDir=/data/app/~~_98byUz3j_y0S4qD5XjWHA==/com.jarvis-2jtslmwal9klGTpV6Unwcw==/base.apk
+    dataDir=/data/user/0/com.jarvis
+    app=ProcessRecord{e79425b 31094:com.jarvis/u0a485}
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=PROC_STATE_TOP
+    mAllowWiu_inBindService=DENIED
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=PROC_STATE_TOP
+    getFgsAllowWiu_new=PROC_STATE_TOP
+    getFgsAllowWiu_forStart=PROC_STATE_TOP
+    getFgsAllowWiu_forCapabilities=PROC_STATE_TOP
+    allowUiJobScheduling=true
+    recentCallingPackage=com.jarvis
+    recentCallingUid=10485
+    mAllowStart_noBinding=PROC_STATE_TOP
+    mAllowStart_inBindService=DENIED
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=PROC_STATE_TOP
+    getFgsAllowStart_new=PROC_STATE_TOP
+    getFgsAllowStart=PROC_STATE_TOP
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.jarvis; callingUid: 10485; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { cmp=com.jarvis/.JarvisService mCallingUid=10485 }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+    isForeground=true foregroundId=1 types=0x00000080 foregroundNoti=Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=NO_CLEAR|FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE)
+    createTime=-9m50s425ms startingBgTimeout=--
+    lastActivity=-9m50s424ms restartTime=-9m50s424ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+ startCommandResult=1
+    restartReschedulingCount=0, RestartSceneMask=0

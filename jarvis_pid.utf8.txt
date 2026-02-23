@@ -1,0 +1,34 @@
+﻿--------- beginning of main
+02-23 12:53:28.797 22025 22064 D VRI[MainActivity]: dispatchAppVisibility visible:true
+02-23 12:53:28.809 22025 22025 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+02-23 12:53:28.809 22025 22025 D VRI[MainActivity]: setWindowStopped stopped:false
+02-23 12:53:28.812 22025 22025 D ScrollOptim [SceneManager]: updateCurrentActivity: mCurrentActivityName=com.jarvis.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+--------- beginning of system
+02-23 12:53:28.812 22025 22025 D ActivityThread: ComponentInfo{com.jarvis/com.jarvis.MainActivity} checkFinished=false 2
+02-23 12:53:28.812 22025 22025 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+02-23 12:53:28.819 22025 22025 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, flags=0, newFlags=23592960, residentWS=false, title=com.jarvis/com.jarvis.MainActivity
+02-23 12:53:28.837 22025 22025 D VRI[MainActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1080, 2400), mLastSurfaceSize:Point(1080, 2400), mWidth:1080, mHeight:2400, requestedWidth:1080, requestedHeight:2400, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2400] display=[0,0][1080,2400] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+02-23 12:53:28.837 22025 22025 W VRI[MainActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1080, 2400), lastSurfaceSize:Point(1080, 2400), format:-1, blastBufferQueue:null
+02-23 12:53:28.837 22025 22025 D BufferQueueConsumer: [](id:560900000001,api:0,p:-1,c:22025) connect: controlledByApp=false
+02-23 12:53:28.838 22025 22025 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+02-23 12:53:28.840 22025 25077 D BufferQueueProducer: [VRI[MainActivity]#1(BLAST Consumer)1](id:560900000001,api:1,p:22025,c:22025) connect: api=1 producerControlledByApp=true
+02-23 12:53:28.841 22025 22025 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.jarvis/com.jarvis.MainActivity)/@0x32055b,currentBufferRatio=1.0,desiredRatio=1.0
+02-23 12:53:28.855 22025 25077 D BLASTBufferQueue: [VRI[MainActivity]#1](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=351613330028003(auto) mPendingTransactions.size=0 graphicBufferId=94596654694406 transform=0
+02-23 12:53:28.856 22025 25077 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+02-23 12:53:28.856 22025 22025 D VRI[MainActivity]: draw finished. seqId=0
+02-23 12:53:28.857 22025 22025 D ViewRootImplExtImpl: setMaxDequeuedBufferCount: 2
+02-23 12:53:28.862 22025 22025 D InsetsController: setRequestedVisibleTypes, mRequestedVisibleTypes: statusBars navigationBars captionBar systemGestures mandatorySystemGestures tappableElement displayCutout windowDecor systemOverlays, requestedVisibleTypes: statusBars navigationBars captionBar systemGestures mandatorySystemGestures tappableElement displayCutout windowDecor systemOverlays, visibleTypes: navigationBars, type: 2, call: android.view.InsetsController.controlAnimationUnchecked:1477 android.view.InsetsController.applyAnimation:2191 android.view.InsetsController.applyAnimation:2161 android.view.InsetsController.onControlsChanged:1163 android.view.ViewRootImpl.handleInsetsControlChanged:2557 android.view.ViewRootImpl.-$$Nest$mhandleInsetsControlChanged:0 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7549 android.view.ViewRootImpl$ViewRootHandler.handleMessage:7488 android.os.Handler.dispatchMessage:107 android.os.Looper.loopOnce:282 
+02-23 12:53:28.880 22025 22025 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+02-23 12:53:28.880 22025 22025 W VRI[MainActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+02-23 12:53:28.880 22025 22064 E FrameEvents: addRelease: Did not find frame.
+02-23 12:53:28.883 22025 26265 D OplusWindowManager: get WMS extension: android.os.BinderProxy@80187a5
+02-23 12:53:28.889 22025 25077 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=4 didProduceBuffer=true syncBuffer=false
+02-23 12:53:28.891 22025 22025 D VRI[MainActivity]: draw finished. seqId=0
+02-23 12:53:28.913 22025 26265 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.jarvis
+02-23 12:53:29.184 22025 22025 D InsetsController: setRequestedVisibleTypes, mRequestedVisibleTypes: statusBars navigationBars captionBar systemGestures mandatorySystemGestures tappableElement displayCutout windowDecor systemOverlays, requestedVisibleTypes: statusBars navigationBars captionBar systemGestures mandatorySystemGestures tappableElement displayCutout windowDecor systemOverlays, visibleTypes: navigationBars, type: 2, call: android.view.InsetsController.notifyFinished:1879 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:86 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$cDFF0h4Ncq-8EXdGszv69jrUu7c:0 android.view.InsetsAnimationThreadControlRunner$1$$ExternalSyntheticLambda1.run:0 android.os.Handler.handleCallback:973 android.os.Handler.dispatchMessage:100 android.os.Looper.loopOnce:282 android.os.Looper.loop:387 android.app.ActivityThread.main:9500 java.lang.reflect.Method.invoke:-2 
+02-23 12:53:30.851 22025 22025 D VRI[MainActivity]: onFocusEvent true
+02-23 12:53:30.966 22025 22025 D VRI[MainActivity]: onFocusEvent false
+02-23 12:53:31.060 22025 22055 I com.jarvis: Background concurrent copying GC freed 1018KB AllocSpace bytes, 1(20KB) LOS objects, 49% free, 4270KB/8541KB, paused 51us,21us total 100.227ms
+02-23 12:53:31.971 22025 25099 D OplusScrollToTopManager: com.jarvis/com.jarvis.MainActivity,This com.android.internal.policy.DecorView{685894f V.E...... R....... 0,0-1080,2400 aid=0 alpha=1.0 viewInfo = }[MainActivity] change focus to false
+02-23 12:53:36.006 22025 22025 D VRI[MainActivity]: onFocusEvent true
+02-23 12:53:37.012 22025 25099 D OplusScrollToTopManager: com.jarvis/com.jarvis.MainActivity,This com.android.internal.policy.DecorView{685894f V.E...... R....... 0,0-1080,2400 aid=0 alpha=1.0 viewInfo = }[MainActivity] change focus to true

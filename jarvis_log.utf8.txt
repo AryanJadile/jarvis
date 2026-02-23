@@ -1,0 +1,4 @@
+﻿--------- beginning of system
+02-23 12:52:13.713  2028  2808 W ActivityManager: Stopping service due to app idle: u0a279 -1m20s252ms org.telegram.messenger/.NotificationsService
+02-23 12:52:18.557  2028  2809 I ActivityManager: Start proc 25804:com.google.android.youtube/u0a142 for service {com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService}
+02-23 12:52:19.418  2028  5002 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10142. pid: 25804

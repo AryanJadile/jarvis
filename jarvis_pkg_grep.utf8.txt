@@ -1,0 +1,554 @@
+﻿02-23 12:34:57.740  2028  3078 I installer_clear_app_data_caller: [2028,1000,com.jarvis,39]
+02-23 12:34:57.749  2028  3078 I installer_clear_app_data_caller: [2028,1000,com.jarvis,39]
+02-23 12:34:58.074  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,5,NULL]
+02-23 12:34:58.521  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,5,NULL]
+02-23 12:35:20.642  2028  5008 I wm_create_activity: [0,4219963,718,com.jarvis/.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+02-23 12:35:20.713  2028  2809 I am_proc_start: [0,17387,10485,com.jarvis,next-top-activity,{com.jarvis/com.jarvis.MainActivity},NULL]
+02-23 12:35:20.899  2028  3642 I am_proc_bound: [0,17387,com.jarvis]
+02-23 12:35:20.923  2028  3642 I wm_restart_activity: [0,4219963,718,com.jarvis/.MainActivity]
+02-23 12:35:20.930  2028  3642 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 12:35:21.441 17387 17387 I wm_on_create_called: [4219963,com.jarvis.MainActivity,performCreate,148]
+02-23 12:35:21.452 17387 17387 I wm_on_start_called: [4219963,com.jarvis.MainActivity,handleStartActivity,2]
+02-23 12:35:21.461 17387 17387 I wm_on_resume_called: [4219963,com.jarvis.MainActivity,RESUME_ACTIVITY,5]
+02-23 12:35:21.519 17387 17387 I wm_on_top_resumed_gained_called: [4219963,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:35:21.573  2028  2687 I input_focus: [Focus request b75f901 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:35:21.792  2028  3937 I am_foreground_service_denied: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,0,0,0,0,UNKNOWN,0]
+02-23 12:35:21.793  2028  2679 I sysui_multi_action: [319,221,321,202,322,1214,325,350525,757,761,758,7,759,1,806,com.jarvis,871,com.jarvis.MainActivity,904,com.android.shell,905,0,945,343,1320,12,1321,1]
+02-23 12:35:21.794  2028  2679 I wm_activity_launch_time: [0,4219963,com.jarvis/.MainActivity,1214]
+02-23 12:35:21.800  2028  7202 I am_crash: [17387,0,com.jarvis,550026822,java.lang.SecurityException,Remote stack trace:
+02-23 12:35:21.809  2028  3459 I input_focus: [Focus entering b75f901 com.jarvis/com.jarvis.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+02-23 12:35:21.817  2028  7202 I wm_finish_activity: [0,4219963,718,com.jarvis/.MainActivity,force-crash]
+02-23 12:35:21.819  2028  7202 I wm_pause_activity: [0,4219963,com.jarvis/.MainActivity,userLeaving=false,finish]
+02-23 12:35:21.887  2028  3459 I input_focus: [Focus leaving b75f901 com.jarvis/com.jarvis.MainActivity (server),reason=NO_WINDOW]
+02-23 12:35:22.479  2028  2685 I wm_destroy_activity: [0,4219963,718,com.jarvis/.MainActivity,finish-imm:completePausedLocked]
+02-23 12:35:22.935  2028  3946 I am_proc_died: [0,17387,com.jarvis,50,4]
+02-23 12:35:22.936  2028  3946 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,49984]
+02-23 12:35:22.941  2028  3946 I wm_task_removed: [718,718,0,removeChild, last child = ActivityRecord{40643b u0 com.jarvis/.MainActivity t-1 f}} in Task{de6b0b1 #718 type=standard A=10485:com.jarvis}]
+02-23 12:35:23.347  2028  2757 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,39574]
+02-23 12:35:26.747  2028  2757 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,20000]
+02-23 12:35:43.645  2028  4098 I wm_create_activity: [0,235057484,719,com.jarvis/.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+02-23 12:35:43.687  2028  2809 I am_proc_start: [0,17749,10485,com.jarvis,next-top-activity,{com.jarvis/com.jarvis.MainActivity},NULL]
+02-23 12:35:43.863  2028  5008 I am_proc_bound: [0,17749,com.jarvis]
+02-23 12:35:43.878  2028  5008 I wm_restart_activity: [0,235057484,719,com.jarvis/.MainActivity]
+02-23 12:35:43.884  2028  5008 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 12:35:44.426 17749 17749 I wm_on_create_called: [235057484,com.jarvis.MainActivity,performCreate,134]
+02-23 12:35:44.436 17749 17749 I wm_on_start_called: [235057484,com.jarvis.MainActivity,handleStartActivity,3]
+02-23 12:35:44.446 17749 17749 I wm_on_resume_called: [235057484,com.jarvis.MainActivity,RESUME_ACTIVITY,4]
+02-23 12:35:44.486 17749 17749 I wm_on_top_resumed_gained_called: [235057484,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:35:44.494  2028  4892 I am_foreground_service_denied: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,0,0,0,0,UNKNOWN,0]
+02-23 12:35:44.499  2028  7228 I am_crash: [17749,0,com.jarvis,550026822,java.lang.SecurityException,Remote stack trace:
+02-23 12:35:44.502  2028  7228 I wm_finish_activity: [0,235057484,719,com.jarvis/.MainActivity,force-crash]
+02-23 12:35:44.504  2028  7228 I wm_pause_activity: [0,235057484,com.jarvis/.MainActivity,userLeaving=false,finish]
+02-23 12:35:44.616  2028  2685 I sysui_multi_action: [757,1144,758,7,806,com.jarvis,871,com.jarvis.MainActivity]
+02-23 12:35:44.924  2028  2687 I input_focus: [Focus request 70148f6 Application Error: com.jarvis,reason=UpdateInputWindows]
+02-23 12:35:45.029  2028  2685 I wm_destroy_activity: [0,235057484,719,com.jarvis/.MainActivity,finish-imm:completePausedLocked]
+02-23 12:35:45.077  2028  3459 I input_focus: [Focus entering 70148f6 Application Error: com.jarvis (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+02-23 12:35:46.760  2028  3459 I input_interaction: Interaction with: 70148f6 Application Error: com.jarvis (server), [Gesture Monitor] OplusExInputReceiver1 (server), [Gesture Monitor] onehanded-touch (server), [Gesture Monitor] OplusUAHInputChannel (server), PointerEventDispatcher0 (server), 
+02-23 12:35:46.952 17749 17749 I binder_sample: [android.app.IActivityManager,13,2453,com.jarvis,100]
+02-23 12:35:47.145  2028  3946 I am_proc_died: [0,17749,com.jarvis,0,10]
+02-23 12:35:47.169  2028  3946 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,1800000]
+02-23 12:35:47.206  2028  2687 I wm_task_removed: [719,719,0,removeChild, last child = ActivityRecord{e02b14c u0 com.jarvis/.MainActivity t-1 f}} in Task{bb686aa #719 type=standard A=10485:com.jarvis}]
+02-23 12:35:47.547  2028  2757 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,1799621]
+02-23 12:35:49.685  2028  2757 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,1797484]
+02-23 12:36:05.014  2028  4117 I wm_create_activity: [0,79479231,721,com.jarvis/.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+02-23 12:36:05.060  2028  2809 I am_proc_start: [0,18507,10485,com.jarvis,next-top-activity,{com.jarvis/com.jarvis.MainActivity},NULL]
+02-23 12:36:05.178  2028  3892 I am_proc_bound: [0,18507,com.jarvis]
+02-23 12:36:05.196  2028  3892 I wm_restart_activity: [0,79479231,721,com.jarvis/.MainActivity]
+02-23 12:36:05.203  2028  3892 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 12:36:05.680 18507 18507 I wm_on_create_called: [79479231,com.jarvis.MainActivity,performCreate,138]
+02-23 12:36:05.691 18507 18507 I wm_on_start_called: [79479231,com.jarvis.MainActivity,handleStartActivity,2]
+02-23 12:36:05.703 18507 18507 I wm_on_resume_called: [79479231,com.jarvis.MainActivity,RESUME_ACTIVITY,6]
+02-23 12:36:05.751 18507 18507 I wm_on_top_resumed_gained_called: [79479231,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:36:05.764  2028  7203 I am_foreground_service_denied: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,0,0,0,0,UNKNOWN,0]
+02-23 12:36:05.770  2028  7203 I am_crash: [18507,0,com.jarvis,550026822,java.lang.SecurityException,Remote stack trace:
+02-23 12:36:05.776  2028  7203 I wm_finish_activity: [0,79479231,721,com.jarvis/.MainActivity,force-crash]
+02-23 12:36:05.778  2028  7203 I wm_pause_activity: [0,79479231,com.jarvis/.MainActivity,userLeaving=false,finish]
+02-23 12:36:05.845  2028  2685 I sysui_multi_action: [757,1144,758,7,806,com.jarvis,871,com.jarvis.MainActivity]
+02-23 12:36:05.924  2028  3944 I am_proc_died: [0,18507,com.jarvis,0,2]
+02-23 12:36:05.943  2028  3944 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,3600000]
+02-23 12:36:06.616  2028  3642 I wm_task_removed: [721,721,0,removeChild, last child = ActivityRecord{4bcc1bf u0 com.jarvis/.MainActivity t-1 f}} in Task{ab273d5 #721 type=standard A=10485:com.jarvis}]
+02-23 12:39:43.541  2028  3078 I installer_clear_app_data_caller: [2028,1000,com.jarvis,39]
+02-23 12:39:43.548  2028  3078 I installer_clear_app_data_caller: [2028,1000,com.jarvis,39]
+02-23 12:39:43.875  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,5,NULL]
+02-23 12:39:43.948  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,5,NULL]
+02-23 12:40:11.364  2028  5002 I wm_create_activity: [0,112384755,722,com.jarvis/.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+02-23 12:40:11.429  2028  2809 I am_proc_start: [0,19509,10485,com.jarvis,next-top-activity,{com.jarvis/com.jarvis.MainActivity},NULL]
+02-23 12:40:11.549  2028  5002 I am_proc_bound: [0,19509,com.jarvis]
+02-23 12:40:11.565  2028  5002 I wm_restart_activity: [0,112384755,722,com.jarvis/.MainActivity]
+02-23 12:40:11.582  2028  5002 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 12:40:12.006 19509 19509 I wm_on_create_called: [112384755,com.jarvis.MainActivity,performCreate,103]
+02-23 12:40:12.016 19509 19509 I wm_on_start_called: [112384755,com.jarvis.MainActivity,handleStartActivity,3]
+02-23 12:40:12.024 19509 19509 I wm_on_resume_called: [112384755,com.jarvis.MainActivity,RESUME_ACTIVITY,4]
+02-23 12:40:12.061 19509 19509 I wm_on_top_resumed_gained_called: [112384755,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:40:12.106  2028  2687 I input_focus: [Focus request c709740 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:40:12.302  2028  2679 I sysui_multi_action: [319,126,321,108,322,950,325,350815,757,761,758,7,759,1,806,com.jarvis,871,com.jarvis.MainActivity,904,com.android.shell,905,0,945,208,1320,12,1321,1]
+02-23 12:40:12.304  2028  2679 I wm_activity_launch_time: [0,112384755,com.jarvis/.MainActivity,950]
+02-23 12:40:12.325  2028  3459 I input_focus: [Focus entering c709740 com.jarvis/com.jarvis.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+02-23 12:40:20.320  2028  3459 I input_interaction: Interaction with: c709740 com.jarvis/com.jarvis.MainActivity (server), [Gesture Monitor] OplusExInputReceiver1 (server), [Gesture Monitor] onehanded-touch (server), [Gesture Monitor] OplusUAHInputChannel (server), PointerEventDispatcher0 (server), 
+02-23 12:40:20.593  2028  2151 I wm_pause_activity: [0,112384755,com.jarvis/.MainActivity,userLeaving=true,resumeTopActivity]
+02-23 12:40:20.605 19509 19509 I wm_on_top_resumed_lost_called: [112384755,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:40:20.606 19509 19509 I wm_on_paused_called: [112384755,com.jarvis.MainActivity,performPause,1]
+02-23 12:40:20.637  2028  3459 I input_focus: [Focus leaving c709740 com.jarvis/com.jarvis.MainActivity (server),reason=Waiting for window because NO_WINDOW]
+02-23 12:40:21.130  2028  2679 I sysui_multi_action: [319,646,322,634,325,350824,757,761,758,8,759,2,806,com.google.android.permissioncontroller,871,com.android.permissioncontroller.permission.ui.GrantPermissionsActivity,904,com.jarvis,905,0,1320,12,1321,1]
+02-23 12:40:22.792  2028  7226 I sysui_multi_action: [757,1243,758,4,806,com.jarvis,1241,android.permission.RECORD_AUDIO]
+02-23 12:40:23.924  2028  4098 I sysui_multi_action: [757,1243,758,4,806,com.jarvis,1241,android.permission.READ_CONTACTS]
+02-23 12:40:24.769  2028  7202 I sysui_multi_action: [757,1243,758,4,806,com.jarvis,1241,android.permission.POST_NOTIFICATIONS]
+02-23 12:40:25.388  2028  5005 I sysui_multi_action: [757,1243,758,4,806,com.jarvis,1241,android.permission.CALL_PHONE]
+02-23 12:40:25.391 18790 18790 I snet_event_log: [individual_permissions_requested,10485,com.jarvis:com.jarvis:;android.permission.RECORD_AUDIO|false|768com.jarvis:;android.permission.CALL_PHONE|false|768com.jarvis:;android.permission.READ_CONTACTS|false|768com.jarvis:;android.permission.POST_NOTIFICATIONS|false|768]
+02-23 12:40:25.413  2028  5002 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,resumeTopActivity - onActivityStateChanged]
+02-23 12:40:25.419  2028  5002 I wm_resume_activity: [0,112384755,722,com.jarvis/.MainActivity]
+02-23 12:40:25.432  2028  2687 I input_focus: [Focus request c709740 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:40:25.450  2028  3459 I input_focus: [Focus entering c709740 com.jarvis/com.jarvis.MainActivity (server),reason=setFocusedWindow]
+02-23 12:40:25.526 19509 19509 I wm_on_activity_result_called: [112384755,com.jarvis.MainActivity,ACTIVITY_RESULT]
+02-23 12:40:25.529 19509 19509 I wm_on_resume_called: [112384755,com.jarvis.MainActivity,RESUME_ACTIVITY,2]
+02-23 12:40:25.530 19509 19509 I wm_on_top_resumed_gained_called: [112384755,com.jarvis.MainActivity,topWhenResuming]
+02-23 12:40:25.559  2028  7226 I am_foreground_service_start: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,0,0,0,1,UNKNOWN,128]
+02-23 12:40:27.216  2028  3459 I input_interaction: Interaction with: c709740 com.jarvis/com.jarvis.MainActivity (server), [Gesture Monitor] OplusExInputReceiver1 (server), [Gesture Monitor] onehanded-touch (server), [Gesture Monitor] OplusUAHInputChannel (server), PointerEventDispatcher0 (server), 
+02-23 12:40:31.237  2028  2757 I am_pss  : [19509,10485,com.jarvis,0,0,0,232988672,0,2,3]
+02-23 12:40:32.316  2028 19939 I am_anr  : [0,19509,com.jarvis,550026822,Input dispatching timed out (c709740 com.jarvis/com.jarvis.MainActivity (server) is not responding. Waited 5000ms for MotionEvent(deviceId=3, eventTime=350831692112000, source=TOUCHSCREEN, displayId=0, action=DOWN, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, classification=NONE, edgeFlags=0x00000000, xPrecision=4.0, yPrecision=4.0, xCursorPosition=nan, yCursorPosition=nan, pointers=[0: (760.8, 940.5)]), policyFlags=0x62000000).]
+02-23 12:40:32.856  2028  3459 I input_interaction: Interaction with: c709740 com.jarvis/com.jarvis.MainActivity (server), [Gesture Monitor] OplusExInputReceiver1 (server), [Gesture Monitor] onehanded-touch (server), [Gesture Monitor] OplusUAHInputChannel (server), PointerEventDispatcher0 (server), 
+02-23 12:40:33.275  2028  4098 I wm_pause_activity: [0,112384755,com.jarvis/.MainActivity,userLeaving=true,resumeTopActivity]
+02-23 12:40:33.278 19509 19509 I binder_sample: [android.app.IActivityTaskManager,1,372,com.jarvis,100]
+02-23 12:40:33.295 19509 19509 I wm_on_top_resumed_lost_called: [112384755,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:40:33.301 19509 19509 I wm_on_paused_called: [112384755,com.jarvis.MainActivity,performPause,1]
+02-23 12:40:33.305  2028  2152 I wm_add_to_stopping: [0,112384755,com.jarvis/.MainActivity,makeInvisible]
+02-23 12:40:33.333  2028  3459 I input_focus: [Focus leaving c709740 com.jarvis/com.jarvis.MainActivity (server),reason=NO_WINDOW]
+02-23 12:40:34.396  2028  2679 I sysui_multi_action: [319,467,321,455,322,1445,325,350837,757,761,758,7,759,2,806,com.android.settings,871,com.android.settings.Settings$AccessibilitySettingsActivity,904,com.jarvis,905,0,945,576,1320,4,1321,24]
+02-23 12:40:34.423  2028  2685 I wm_stop_activity: [0,112384755,com.jarvis/.MainActivity]
+02-23 12:40:34.444 19509 19509 I wm_on_stop_called: [112384755,com.jarvis.MainActivity,STOP_ACTIVITY_ITEM,6]
+02-23 12:40:35.581  2028  2028 I notification_enqueue: [10485,19509,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),0]
+02-23 12:40:35.582  2028  2028 I sysui_multi_action: [757,1501,758,1,793,10,794,0,795,10,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 12:40:35.843  2028  2680 I am_kill : [0,19509,com.jarvis,50,user request after error:Input dispatching timed out (c709740 com.jarvis/com.jarvis.MainActivity (server) is not responding. Waited 5000ms for MotionEvent(deviceId=3, eventTime=350831692112000, source=TOUCHSCREEN, displayId=0, action=DOWN, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, classification=NONE, edgeFlags=0x00000000, xPrecision=4.0, yPrecision=4.0, xCursorPosition=nan, yCursorPosition=nan, pointers=[0: (760.8, 940.5)]), policyFlags=0x62000000).,184676]
+02-23 12:40:35.926  2028  3946 I am_proc_died: [0,19509,com.jarvis,50,4]
+02-23 12:40:35.937  2028  3946 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,10000]
+02-23 12:40:35.950  2028  2028 I sysui_multi_action: [757,128,758,5,759,8,793,378,794,0,795,378,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,368,1688,1]
+02-23 12:40:35.950  2028  2028 I notification_canceled: [0|com.jarvis|1|null|10485,8,378,378,0,-1,-1,NULL]
+02-23 12:40:38.641  2028  2757 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,7295]
+02-23 12:40:45.962  2028  2809 I am_proc_start: [0,20459,10485,com.jarvis,service,{com.jarvis/com.jarvis.JarvisService},{ serviceType = restartService }]
+02-23 12:40:46.032  2028  4117 I am_proc_bound: [0,20459,com.jarvis]
+02-23 12:40:46.045  2028  2028 I notification_enqueue: [10485,20459,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=NO_CLEAR|FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),0]
+02-23 12:40:46.046  2028  2028 I sysui_multi_action: [757,1501,758,1,793,3,794,0,795,3,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0]
+02-23 12:40:46.292  2028  2028 I notification_enqueue: [10485,20459,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),1]
+02-23 12:41:03.721  2028  3937 I wm_restart_activity: [0,112384755,722,com.jarvis/.MainActivity]
+02-23 12:41:03.724  2028  3937 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 12:41:03.985 20459 20459 I wm_on_create_called: [112384755,com.jarvis.MainActivity,performCreate,150]
+02-23 12:41:03.991 20459 20459 I wm_on_start_called: [112384755,com.jarvis.MainActivity,handleStartActivity,1]
+02-23 12:41:04.000 20459 20459 I wm_on_resume_called: [112384755,com.jarvis.MainActivity,RESUME_ACTIVITY,4]
+02-23 12:41:04.054 20459 20459 I wm_on_top_resumed_gained_called: [112384755,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:41:04.112  2028  2687 I input_focus: [Focus request c993746 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:41:04.319  2028  3459 I input_focus: [Focus entering c993746 com.jarvis/com.jarvis.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+02-23 12:41:07.540  2028  3459 I input_interaction: Interaction with: c993746 com.jarvis/com.jarvis.MainActivity (server), [Gesture Monitor] OplusExInputReceiver1 (server), [Gesture Monitor] onehanded-touch (server), [Gesture Monitor] OplusUAHInputChannel (server), PointerEventDispatcher0 (server), 
+02-23 12:41:07.651  2028  7225 I wm_pause_activity: [0,112384755,com.jarvis/.MainActivity,userLeaving=true,resumeTopActivity]
+02-23 12:41:07.662 20459 20459 I wm_on_top_resumed_lost_called: [112384755,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:41:07.664 20459 20459 I wm_on_paused_called: [112384755,com.jarvis.MainActivity,performPause,0]
+02-23 12:41:07.669  2028  5002 I wm_add_to_stopping: [0,112384755,com.jarvis/.MainActivity,makeInvisible]
+02-23 12:41:07.702  2028  3459 I input_focus: [Focus leaving c993746 com.jarvis/com.jarvis.MainActivity (server),reason=NO_WINDOW]
+02-23 12:41:08.078  2028  2679 I sysui_multi_action: [319,415,322,401,325,350872,757,761,758,8,759,2,806,com.android.settings,871,com.android.settings.Settings$AccessibilitySettingsActivity,904,com.jarvis,905,0,1320,4,1321,24]
+02-23 12:41:08.444  2028  2685 I wm_stop_activity: [0,112384755,com.jarvis/.MainActivity]
+02-23 12:41:08.486 20459 20459 I wm_on_stop_called: [112384755,com.jarvis.MainActivity,STOP_ACTIVITY_ITEM,1]
+02-23 12:41:13.402 20010 21049 I sysui_multi_action: [757,830,758,4,833,2,854,com.jarvis/com.jarvis.JarvisAccessibilityService]
+02-23 12:41:14.117  2028  2757 I am_pss  : [20459,10485,com.jarvis,0,0,0,180883456,0,4,2]
+02-23 12:41:28.637  2028  5008 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,resumeTopActivity - onActivityStateChanged]
+02-23 12:41:28.642  2028  5008 I wm_resume_activity: [0,112384755,722,com.jarvis/.MainActivity]
+02-23 12:41:28.656 20459 20459 I wm_on_restart_called: [112384755,com.jarvis.MainActivity,performRestart,0]
+02-23 12:41:28.659 20459 20459 I wm_on_start_called: [112384755,com.jarvis.MainActivity,handleStartActivity,2]
+02-23 12:41:28.667 20459 20459 I wm_on_resume_called: [112384755,com.jarvis.MainActivity,RESUME_ACTIVITY,4]
+02-23 12:41:28.667 20459 20459 I wm_on_top_resumed_gained_called: [112384755,com.jarvis.MainActivity,topWhenResuming]
+02-23 12:41:28.701  2028  2687 I input_focus: [Focus request c993746 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:41:28.760  2028  3459 I input_focus: [Focus entering c993746 com.jarvis/com.jarvis.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+02-23 12:42:16.522  2028  3459 I input_interaction: Interaction with: c993746 com.jarvis/com.jarvis.MainActivity (server), [Gesture Monitor] OplusExInputReceiver1 (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), [Gesture Monitor] onehanded-touch (server), [Gesture Monitor] OplusUAHInputChannel (server), PointerEventDispatcher0 (server), 
+02-23 12:42:16.664  2028  3937 I wm_finish_activity: [0,112384755,722,com.jarvis/.MainActivity,app-request]
+02-23 12:42:16.670  2028  3937 I wm_pause_activity: [0,112384755,com.jarvis/.MainActivity,userLeaving=false,finish]
+02-23 12:42:16.673 20459 20459 I wm_on_top_resumed_lost_called: [112384755,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:42:16.674 20459 20459 I wm_on_paused_called: [112384755,com.jarvis.MainActivity,performPause,0]
+02-23 12:42:16.675  2028  5008 I wm_add_to_stopping: [0,112384755,com.jarvis/.MainActivity,completeFinishing]
+02-23 12:42:16.721  2028  3459 I input_focus: [Focus leaving c993746 com.jarvis/com.jarvis.MainActivity (server),reason=NO_WINDOW]
+02-23 12:42:17.650  2028  2685 I wm_destroy_activity: [0,112384755,722,com.jarvis/.MainActivity,finish-imm:idle]
+02-23 12:42:17.664 20459 20459 I wm_on_stop_called: [112384755,com.jarvis.MainActivity,LIFECYCLER_STOP_ACTIVITY,2]
+02-23 12:42:17.670 20459 20459 I wm_on_destroy_called: [112384755,com.jarvis.MainActivity,performDestroy,1]
+02-23 12:42:17.696  2028  4117 I wm_task_removed: [722,722,0,removeChild, last child = ActivityRecord{6b2daf3 u0 com.jarvis/.MainActivity t-1 f}} in Task{eb41229 #722 type=standard A=10485:com.jarvis}]
+02-23 12:42:23.418  2028  4591 I am_kill : [0,20459,com.jarvis,50,o-kill(40) K|C:[84, 86]|U:0|M:87,66 with swipe up]
+02-23 12:42:23.462  2028  3944 I am_proc_died: [0,20459,com.jarvis,50,4]
+02-23 12:42:23.464  2028  3944 I am_schedule_service_restart: [0,com.jarvis/.JarvisService,1000]
+02-23 12:42:23.477  2028  2028 I sysui_multi_action: [757,128,758,5,759,8,793,97433,794,0,795,97186,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,97186,1688,1]
+02-23 12:42:23.477  2028  2028 I notification_canceled: [0|com.jarvis|1|null|10485,8,97433,97186,0,-1,-1,NULL]
+02-23 12:42:24.679  2028  2809 I am_proc_start: [0,22025,10485,com.jarvis,service,{com.jarvis/com.jarvis.JarvisService},{ serviceType = restartService }]
+02-23 12:42:24.945  2028  4117 I am_proc_bound: [0,22025,com.jarvis]
+02-23 12:42:25.084  2028  2028 I notification_enqueue: [10485,22025,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=NO_CLEAR|FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),0]
+02-23 12:42:25.093  2028  2028 I sysui_multi_action: [757,1501,758,1,793,12,794,0,795,12,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0]
+02-23 12:42:25.765  2028  2028 I notification_enqueue: [10485,22025,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),1]
+02-23 12:42:41.721  2028  2757 I am_pss  : [22025,10485,com.jarvis,0,0,0,146743296,0,4,3]
+02-23 12:44:59.130  2028  2757 I am_pss  : [22025,10485,com.jarvis,0,0,0,141930496,0,4,3]
+02-23 12:48:53.477  2028  3296 I wm_create_activity: [0,98426847,724,com.jarvis/.MainActivity,NULL,NULL,NULL,268435456]
+02-23 12:48:53.500  2028  4803 I wm_restart_activity: [0,98426847,724,com.jarvis/.MainActivity]
+02-23 12:48:53.504  2028  4803 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 12:48:53.720 22025 22025 I wm_on_create_called: [98426847,com.jarvis.MainActivity,performCreate,146]
+02-23 12:48:53.724 22025 22025 I wm_on_start_called: [98426847,com.jarvis.MainActivity,handleStartActivity,1]
+02-23 12:48:53.734 22025 22025 I wm_on_resume_called: [98426847,com.jarvis.MainActivity,RESUME_ACTIVITY,3]
+02-23 12:48:53.784 22025 22025 I wm_on_top_resumed_gained_called: [98426847,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:48:53.823  2028  2687 I input_focus: [Focus request bff6242 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:48:53.941  2028  2679 I sysui_multi_action: [319,131,321,119,322,493,325,351337,757,761,758,8,759,1,806,com.jarvis,871,com.jarvis.MainActivity,904,com.android.shell,905,0,1320,12,1321,1]
+02-23 12:48:53.945  2028  2679 I wm_activity_launch_time: [0,98426847,com.jarvis/.MainActivity,493]
+02-23 12:48:53.970  2028  3459 I input_focus: [Focus entering bff6242 com.jarvis/com.jarvis.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+02-23 12:48:58.598  2028  2757 I am_pss  : [22025,10485,com.jarvis,0,0,0,221241344,0,2,10]
+02-23 12:49:58.916  2028  2902 I wm_pause_activity: [0,98426847,com.jarvis/.MainActivity,userLeaving=false,sleep]
+02-23 12:49:58.917 22025 22025 I wm_on_top_resumed_lost_called: [98426847,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:49:58.924 22025 22025 I wm_on_paused_called: [98426847,com.jarvis.MainActivity,performPause,2]
+02-23 12:49:58.960  2028  3937 I wm_add_to_stopping: [0,98426847,com.jarvis/.MainActivity,completePauseLocked]
+02-23 12:49:58.979  2028  2685 I wm_stop_activity: [0,98426847,com.jarvis/.MainActivity]
+02-23 12:49:59.008 22025 22025 I wm_on_stop_called: [98426847,com.jarvis.MainActivity,STOP_ACTIVITY_ITEM,0]
+02-23 12:49:59.334  2028  3459 I input_focus: [Focus leaving bff6242 com.jarvis/com.jarvis.MainActivity (server),reason=NO_WINDOW]
+02-23 12:53:03.074  2028  3937 I sysui_multi_action: [757,128,758,1,793,637993,794,0,795,637312,796,1,798,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,4,1500,637312,1688,1]
+02-23 12:53:03.074  2028  3937 I notification_visibility: [0|com.jarvis|1|null|10485,1,637993,637312,0,1]
+02-23 12:53:08.112  2028  2757 I am_pss  : [22025,10485,com.jarvis,0,0,0,177487872,0,4,6]
+02-23 12:53:13.056  2028  7206 I sysui_multi_action: [757,128,758,2,793,647975,794,9982,795,647294,796,1,798,2,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,5,1500,647294,1688,1]
+02-23 12:53:13.056  2028  7206 I notification_visibility: [0|com.jarvis|1|null|10485,0,647975,647294,0,2]
+02-23 12:53:27.592  2028  5005 I sysui_multi_action: [757,128,758,1,793,662511,794,0,795,661830,796,1,798,2,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,5,1500,661830,1688,1]
+02-23 12:53:27.592  2028  5005 I notification_visibility: [0|com.jarvis|1|null|10485,1,662511,661830,0,2]
+02-23 12:53:28.798  2028  3941 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,resumeTopActivity - onActivityStateChanged]
+02-23 12:53:28.801  2028  3941 I wm_resume_activity: [0,98426847,724,com.jarvis/.MainActivity]
+02-23 12:53:28.810 22025 22025 I wm_on_restart_called: [98426847,com.jarvis.MainActivity,performRestart,0]
+02-23 12:53:28.811 22025 22025 I wm_on_start_called: [98426847,com.jarvis.MainActivity,handleStartActivity,1]
+02-23 12:53:28.818 22025 22025 I wm_on_resume_called: [98426847,com.jarvis.MainActivity,RESUME_ACTIVITY,5]
+02-23 12:53:28.818 22025 22025 I wm_on_top_resumed_gained_called: [98426847,com.jarvis.MainActivity,topWhenResuming]
+02-23 12:53:28.873  2028  5004 I sysui_multi_action: [757,128,758,2,793,663791,794,1280,795,663110,796,1,798,2,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,5,1500,663110,1688,1]
+02-23 12:53:28.873  2028  5004 I notification_visibility: [0|com.jarvis|1|null|10485,0,663791,663110,0,2]
+02-23 12:53:28.914 22025 26268 I jank_cuj_events_begin_request: [80,1771831408913673000,672308846672604,351613390278576,0@0@com.jarvis]
+02-23 12:53:30.827  2028  2687 I input_focus: [Focus request bff6242 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:53:30.850  2028  3459 I input_focus: [Focus entering bff6242 com.jarvis/com.jarvis.MainActivity (server),reason=setFocusedWindow]
+02-23 12:53:30.879  2028  7205 I sysui_multi_action: [757,128,758,1,793,665797,794,0,795,665116,796,1,798,2,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,5,1500,665116,1688,1]
+02-23 12:53:30.879  2028  7205 I notification_visibility: [0|com.jarvis|1|null|10485,1,665797,665116,0,2]
+02-23 12:53:30.966  2028  3459 I input_focus: [Focus leaving bff6242 com.jarvis/com.jarvis.MainActivity (server),reason=setFocusedWindow]
+02-23 12:53:34.828  2028  2028 I sysui_multi_action: [757,128,758,5,759,2,793,669746,794,3949,795,669065,796,1,798,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,2,1500,669065,1688,1]
+02-23 12:53:34.828  2028  2028 I notification_canceled: [0|com.jarvis|1|null|10485,2,669746,669065,3949,1,2,NULL]
+02-23 12:53:35.991  2028  2687 I input_focus: [Focus request bff6242 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:53:36.005  2028  3459 I input_focus: [Focus entering bff6242 com.jarvis/com.jarvis.MainActivity (server),reason=setFocusedWindow]
+02-23 12:57:48.897  2028  5008 I am_kill : [0,22025,com.jarvis,0,stop com.jarvis due to from pid 27056,170528]
+02-23 12:57:48.908  2028  5008 I am_foreground_service_stop: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,1,1,1043348,1,STOP_SERVICE,128]
+02-23 12:57:48.921  2028  5008 I wm_finish_activity: [0,98426847,724,com.jarvis/.MainActivity,proc died without state saved]
+02-23 12:57:49.078  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,10020,NULL]
+02-23 12:57:49.825  2028  7206 I wm_task_removed: [724,724,0,removeChild, last child = ActivityRecord{5dddfdf u0 com.jarvis/.MainActivity t-1 f}} in Task{da70ef5 #724 type=standard A=10485:com.jarvis}]
+02-23 12:57:56.872  2028  7203 I wm_create_activity: [0,114605665,725,com.jarvis/.MainActivity,NULL,NULL,NULL,268435456]
+02-23 12:57:56.927  2028  2809 I am_proc_start: [0,27371,10485,com.jarvis,next-top-activity,{com.jarvis/com.jarvis.MainActivity},NULL]
+02-23 12:57:57.055  2028  5008 I am_proc_bound: [0,27371,com.jarvis]
+02-23 12:57:57.074  2028  5008 I wm_restart_activity: [0,114605665,725,com.jarvis/.MainActivity]
+02-23 12:57:57.078  2028  5008 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 12:57:57.561 27371 27371 I wm_on_create_called: [114605665,com.jarvis.MainActivity,performCreate,119]
+02-23 12:57:57.572 27371 27371 I wm_on_start_called: [114605665,com.jarvis.MainActivity,handleStartActivity,2]
+02-23 12:57:57.581 27371 27371 I wm_on_resume_called: [114605665,com.jarvis.MainActivity,RESUME_ACTIVITY,5]
+02-23 12:57:57.630 27371 27371 I wm_on_top_resumed_gained_called: [114605665,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:57:57.665  2028  2687 I input_focus: [Focus request 1971f93 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 12:57:57.773  2028  2679 I sysui_multi_action: [319,120,321,113,322,928,325,351881,757,761,758,7,759,1,806,com.jarvis,871,com.jarvis.MainActivity,904,com.android.shell,905,0,945,221,1320,12,1321,1]
+02-23 12:57:57.775  2028  2679 I wm_activity_launch_time: [0,114605665,com.jarvis/.MainActivity,928]
+02-23 12:57:57.784  2028  4803 I am_foreground_service_start: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,0,0,0,1,UNKNOWN,128]
+02-23 12:57:57.804  2028  3459 I input_focus: [Focus entering 1971f93 com.jarvis/com.jarvis.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+02-23 12:58:07.794  2028  2028 I notification_enqueue: [10485,27371,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),0]
+02-23 12:58:07.796  2028  2028 I sysui_multi_action: [757,1501,758,1,793,5,794,0,795,5,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0]
+02-23 12:58:35.741  2028  2902 I wm_pause_activity: [0,114605665,com.jarvis/.MainActivity,userLeaving=false,sleep]
+02-23 12:58:35.741 27371 27371 I wm_on_top_resumed_lost_called: [114605665,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 12:58:35.744 27371 27371 I wm_on_paused_called: [114605665,com.jarvis.MainActivity,performPause,1]
+02-23 12:58:35.745  2028  7206 I wm_add_to_stopping: [0,114605665,com.jarvis/.MainActivity,completePauseLocked]
+02-23 12:58:35.759  2028  2685 I wm_stop_activity: [0,114605665,com.jarvis/.MainActivity]
+02-23 12:58:35.773  2028  3459 I input_focus: [Focus leaving 1971f93 com.jarvis/com.jarvis.MainActivity (server),reason=NO_WINDOW]
+02-23 12:58:35.811 27371 27371 I wm_on_stop_called: [114605665,com.jarvis.MainActivity,STOP_ACTIVITY_ITEM,2]
+02-23 12:59:43.916  2028  7239 I sysui_multi_action: [757,128,758,1,793,96125,794,0,795,96125,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,96120,1688,1]
+02-23 12:59:43.916  2028  7239 I sysui_multi_action: [757,1501,758,1,793,96125,794,0,795,96125,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 12:59:43.916  2028  7239 I notification_visibility: [0|com.jarvis|1|null|10485,1,96125,96125,0,0]
+02-23 12:59:49.431  2028  2757 I am_pss  : [27371,10485,com.jarvis,0,0,0,172777472,0,4,3]
+02-23 12:59:53.870  2028  7206 I sysui_multi_action: [757,128,758,2,793,106079,794,9954,795,106079,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,9954,1688,1]
+02-23 12:59:53.870  2028  7206 I notification_visibility: [0|com.jarvis|1|null|10485,0,106079,106079,0,0]
+02-23 13:00:21.974  2028  7226 I sysui_multi_action: [757,128,758,1,793,134182,794,0,795,134182,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,38057,1688,1]
+02-23 13:00:21.974  2028  7226 I sysui_multi_action: [757,1501,758,1,793,134183,794,1,795,134183,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:00:21.974  2028  7226 I notification_visibility: [0|com.jarvis|1|null|10485,1,134182,134182,0,0]
+02-23 13:00:26.986  2028  2757 I am_pss  : [27371,10485,com.jarvis,0,0,0,164016128,0,4,13]
+02-23 13:00:31.892  2028  7231 I sysui_multi_action: [757,128,758,2,793,144101,794,9919,795,144101,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,9918,1688,1]
+02-23 13:00:31.893  2028  7231 I notification_visibility: [0|com.jarvis|1|null|10485,0,144101,144101,0,0]
+02-23 13:00:33.422  2028  4117 I sysui_multi_action: [757,128,758,1,793,145631,794,0,795,145631,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,11448,1688,1]
+02-23 13:00:33.422  2028  4117 I sysui_multi_action: [757,1501,758,1,793,145631,794,0,795,145631,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:00:33.422  2028  4117 I notification_visibility: [0|com.jarvis|1|null|10485,1,145631,145631,0,0]
+02-23 13:00:43.430  2028  7226 I sysui_multi_action: [757,128,758,2,793,155639,794,10008,795,155639,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,10008,1688,1]
+02-23 13:00:43.430  2028  7226 I notification_visibility: [0|com.jarvis|1|null|10485,0,155639,155639,0,0]
+02-23 13:02:40.809  2028  5007 I sysui_multi_action: [757,128,758,1,793,273018,794,0,795,273018,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,127387,1688,1]
+02-23 13:02:40.809  2028  5007 I sysui_multi_action: [757,1501,758,1,793,273018,794,0,795,273018,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:02:40.809  2028  5007 I notification_visibility: [0|com.jarvis|1|null|10485,1,273018,273018,0,0]
+02-23 13:02:45.887  2028  2757 I am_pss  : [27371,10485,com.jarvis,0,0,0,163401728,0,4,4]
+02-23 13:02:50.818  2028  7205 I sysui_multi_action: [757,128,758,2,793,283027,794,10009,795,283027,796,1,798,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,2,1500,10009,1688,1]
+02-23 13:02:50.818  2028  7205 I notification_visibility: [0|com.jarvis|1|null|10485,0,283027,283027,0,1]
+02-23 13:04:29.995  2028  2808 I am_kill : [0,27371,com.jarvis,200,stop com.jarvis due to installPackageLI,156652]
+02-23 13:04:29.999  2028  2808 I am_foreground_service_stop: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,35,1,1,392216,1,STOP_SERVICE,128]
+02-23 13:04:30.004  2028  2808 I wm_finish_activity: [0,114605665,725,com.jarvis/.MainActivity,proc died without state saved]
+02-23 13:04:30.042  2028  2808 I wm_task_removed: [725,725,0,removeChild, last child = ActivityRecord{6d4be61 u0 com.jarvis/.MainActivity t-1 f}} in Task{7068647 #725 type=standard A=10485:com.jarvis}]
+02-23 13:04:30.136  2028  2028 I sysui_multi_action: [757,128,758,5,759,8,793,382345,794,109327,795,382345,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,109327,1688,1]
+02-23 13:04:30.136  2028  2028 I notification_canceled: [0|com.jarvis|1|null|10485,8,382345,382345,109327,-1,-1,NULL]
+02-23 13:04:30.848  2028  3078 I installer_clear_app_data_caller: [2028,1000,com.jarvis,39]
+02-23 13:04:30.862  2028  3078 I installer_clear_app_data_caller: [2028,1000,com.jarvis,39]
+02-23 13:04:31.175  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,5,NULL]
+02-23 13:04:31.376  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,5,NULL]
+02-23 13:04:44.712  2028  7206 I wm_create_activity: [0,83626334,726,com.jarvis/.MainActivity,NULL,NULL,NULL,268435456]
+02-23 13:04:44.743  2028  2809 I am_proc_start: [0,31094,10485,com.jarvis,top-activity,{com.jarvis/com.jarvis.MainActivity},NULL]
+02-23 13:04:44.838  2028  7231 I am_proc_bound: [0,31094,com.jarvis]
+02-23 13:04:44.849  2028  7231 I wm_restart_activity: [0,83626334,726,com.jarvis/.MainActivity]
+02-23 13:04:44.852  2028  7231 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 13:04:44.855  2028  7231 I wm_pause_activity: [0,83626334,com.jarvis/.MainActivity,userLeaving=false,sleep]
+02-23 13:04:45.359  2028  2685 I wm_add_to_stopping: [0,83626334,com.jarvis/.MainActivity,completePauseLocked]
+02-23 13:04:45.446 31094 31094 I wm_on_create_called: [83626334,com.jarvis.MainActivity,performCreate,206]
+02-23 13:04:45.459 31094 31094 I wm_on_start_called: [83626334,com.jarvis.MainActivity,handleStartActivity,3]
+02-23 13:04:45.484 31094 31094 I wm_on_resume_called: [83626334,com.jarvis.MainActivity,RESUME_ACTIVITY,16]
+02-23 13:04:45.590 31094 31094 I wm_on_top_resumed_gained_called: [83626334,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 13:04:45.590 31094 31094 I wm_on_top_resumed_lost_called: [83626334,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 13:04:45.592 31094 31094 I wm_on_paused_called: [83626334,com.jarvis.MainActivity,performPause,0]
+02-23 13:04:45.592  2028  7231 I wm_failed_to_pause: [0,83626334,com.jarvis/.MainActivity,(none)]
+02-23 13:04:45.687  2028  2685 I wm_stop_activity: [0,83626334,com.jarvis/.MainActivity]
+02-23 13:04:45.916  2028  2679 I sysui_multi_action: [319,0,322,1288,325,352289,757,761,758,7,759,3,806,com.jarvis,871,com.jarvis.MainActivity,904,com.android.shell,905,0,945,220,1320,12,1321,1]
+02-23 13:04:45.921  2028  2679 I wm_activity_launch_time: [0,83626334,com.jarvis/.MainActivity,1288]
+02-23 13:04:45.937  2028  3941 I am_foreground_service_start: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,0,0,0,1,UNKNOWN,128]
+02-23 13:04:47.273 31094 31094 I wm_on_stop_called: [83626334,com.jarvis.MainActivity,STOP_ACTIVITY_ITEM,1]
+02-23 13:04:55.958  2028  2028 I notification_enqueue: [10485,31094,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),0]
+02-23 13:04:55.961  2028  2028 I sysui_multi_action: [757,1501,758,1,793,7,794,0,795,7,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0]
+02-23 13:04:56.199  2028  5001 I sysui_multi_action: [757,128,758,1,793,244,794,0,795,244,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,237,1688,1]
+02-23 13:04:56.199  2028  5001 I sysui_multi_action: [757,1501,758,1,793,245,794,1,795,245,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:04:56.199  2028  5001 I notification_visibility: [0|com.jarvis|1|null|10485,1,244,244,0,0]
+02-23 13:05:06.205  2028  7206 I sysui_multi_action: [757,128,758,2,793,10251,794,10007,795,10251,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,10006,1688,1]
+02-23 13:05:06.206  2028  7206 I notification_visibility: [0|com.jarvis|1|null|10485,0,10251,10251,0,0]
+02-23 13:05:11.267  2028  2757 I am_pss  : [31094,10485,com.jarvis,0,0,0,172658688,0,4,7]
+02-23 13:05:16.695  4239 10183 D CAT     : StkAppService: 0 Value of topclass name : com.jarvis.MainActivity, Value of baseclass name : com.jarvis.MainActivity
+02-23 13:08:29.931  2028  4119 I sysui_multi_action: [757,128,758,1,793,213976,794,0,795,213976,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,213731,1688,1]
+02-23 13:08:29.931  2028  4119 I sysui_multi_action: [757,1501,758,1,793,213977,794,1,795,213977,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:08:29.931  2028  4119 I notification_visibility: [0|com.jarvis|1|null|10485,1,213976,213976,0,0]
+02-23 13:08:31.776  2028  2757 I am_pss  : [31094,10485,com.jarvis,0,0,0,163168256,0,4,4]
+02-23 13:08:39.914  2028  5001 I sysui_multi_action: [757,128,758,2,793,223960,794,9984,795,223960,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,9983,1688,1]
+02-23 13:08:39.914  2028  5001 I notification_visibility: [0|com.jarvis|1|null|10485,0,223960,223960,0,0]
+02-23 13:09:07.664  2028  7237 I sysui_multi_action: [757,128,758,1,793,251710,794,0,795,251710,796,1,798,0,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,1,1500,37733,1688,1]
+02-23 13:09:07.664  2028  7237 I sysui_multi_action: [757,1501,758,1,793,251710,794,0,795,251710,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:09:07.664  2028  7237 I notification_visibility: [0|com.jarvis|1|null|10485,1,251710,251710,0,0]
+02-23 13:09:17.681  2028  4803 I sysui_multi_action: [757,128,758,2,793,261727,794,10017,795,261727,796,1,798,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,2,1500,10017,1688,1]
+02-23 13:09:17.681  2028  4803 I notification_visibility: [0|com.jarvis|1|null|10485,0,261727,261727,0,1]
+02-23 13:09:56.159  2028  3937 I sysui_multi_action: [757,128,758,1,793,300205,794,0,795,300205,796,1,798,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,2,1500,48495,1688,1]
+02-23 13:09:56.159  2028  3937 I sysui_multi_action: [757,1501,758,1,793,300205,794,0,795,300205,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:09:56.159  2028  3937 I notification_visibility: [0|com.jarvis|1|null|10485,1,300205,300205,0,1]
+02-23 13:10:01.240  2028  2757 I am_pss  : [31094,10485,com.jarvis,0,0,0,159965184,0,4,3]
+02-23 13:10:06.160  2028  4892 I sysui_multi_action: [757,128,758,2,793,310204,794,9999,795,310204,796,1,798,2,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,3,1500,9999,1688,1]
+02-23 13:10:06.160  2028  4892 I notification_visibility: [0|com.jarvis|1|null|10485,0,310204,310204,0,2]
+02-23 13:11:41.852  2028  2757 I am_pss  : [31094,10485,com.jarvis,0,0,0,159117312,0,4,5]
+02-23 13:16:57.194  2028  3642 I sysui_multi_action: [757,128,758,1,793,721240,794,0,795,721240,796,1,798,2,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,3,1500,421035,1688,1]
+02-23 13:16:57.194  2028  3642 I sysui_multi_action: [757,1501,758,1,793,721240,794,0,795,721240,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:16:57.194  2028  3642 I notification_visibility: [0|com.jarvis|1|null|10485,1,721240,721240,0,2]
+02-23 13:17:01.404  2028  2757 I am_pss  : [31094,10485,com.jarvis,0,0,0,126095360,0,4,5]
+02-23 13:17:07.056  2028  7225 I sysui_multi_action: [757,128,758,2,793,731098,794,9858,795,731098,796,1,798,3,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,4,1500,9858,1688,1]
+02-23 13:17:07.056  2028  7225 I notification_visibility: [0|com.jarvis|1|null|10485,0,731098,731098,0,3]
+02-23 13:18:20.196  2028  5007 I am_kill : [0,31094,com.jarvis,200,stop com.jarvis due to from pid 6859,120976]
+02-23 13:18:20.198  2028  5007 I am_foreground_service_stop: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,1,1,814260,1,STOP_SERVICE,128]
+02-23 13:18:20.203  2028  2028 I sysui_multi_action: [757,128,758,5,759,8,793,804248,794,83008,795,804248,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,83008,1688,1]
+02-23 13:18:20.203  2028  2028 I notification_canceled: [0|com.jarvis|1|null|10485,8,804248,804248,83008,-1,-1,NULL]
+02-23 13:18:20.205  2028  5007 I wm_finish_activity: [0,83626334,726,com.jarvis/.MainActivity,proc died without state saved]
+02-23 13:18:20.225  2028  5007 I wm_task_removed: [726,726,0,removeChild, last child = ActivityRecord{4fc095e u0 com.jarvis/.MainActivity t-1 f}} in Task{65a7a0c #726 type=standard A=10485:com.jarvis}]
+02-23 13:18:20.297  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,10020,NULL]
+02-23 13:18:49.295  2028  4117 I wm_create_activity: [0,234610540,727,com.jarvis/.MainActivity,NULL,NULL,NULL,268435456]
+02-23 13:18:49.336  2028  2809 I am_proc_start: [0,7563,10485,com.jarvis,top-activity,{com.jarvis/com.jarvis.MainActivity},NULL]
+02-23 13:18:49.462  2028  5007 I am_proc_bound: [0,7563,com.jarvis]
+02-23 13:18:49.481  2028  5007 I wm_restart_activity: [0,234610540,727,com.jarvis/.MainActivity]
+02-23 13:18:49.483  2028  5007 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 13:18:49.491  2028  5007 I wm_pause_activity: [0,234610540,com.jarvis/.MainActivity,userLeaving=false,sleep]
+02-23 13:18:49.995  2028  2685 I wm_add_to_stopping: [0,234610540,com.jarvis/.MainActivity,completePauseLocked]
+02-23 13:18:50.269  7563  7563 I wm_on_create_called: [234610540,com.jarvis.MainActivity,performCreate,229]
+02-23 13:18:50.288  7563  7563 I wm_on_start_called: [234610540,com.jarvis.MainActivity,handleStartActivity,4]
+02-23 13:18:50.309  7563  7563 I wm_on_resume_called: [234610540,com.jarvis.MainActivity,RESUME_ACTIVITY,13]
+02-23 13:18:50.460  7563  7563 I wm_on_top_resumed_gained_called: [234610540,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 13:18:50.460  7563  7563 I wm_on_top_resumed_lost_called: [234610540,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 13:18:50.467  7563  7563 I wm_on_paused_called: [234610540,com.jarvis.MainActivity,performPause,2]
+02-23 13:18:50.469  2028  7203 I wm_failed_to_pause: [0,234610540,com.jarvis/.MainActivity,(none)]
+02-23 13:18:50.591  2028  2685 I wm_stop_activity: [0,234610540,com.jarvis/.MainActivity]
+02-23 13:18:51.337  2028  2679 I sysui_multi_action: [319,0,322,2080,325,353133,757,761,758,7,759,3,806,com.jarvis,871,com.jarvis.MainActivity,904,com.android.shell,905,0,945,223,1320,12,1321,1]
+02-23 13:18:51.338  2028  2679 I wm_activity_launch_time: [0,234610540,com.jarvis/.MainActivity,2080]
+02-23 13:18:51.382  2028  4117 I am_foreground_service_start: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,0,0,0,1,UNKNOWN,128]
+02-23 13:18:53.184  7563  7563 I wm_on_stop_called: [234610540,com.jarvis.MainActivity,STOP_ACTIVITY_ITEM,0]
+02-23 13:19:01.400  2028  2028 I notification_enqueue: [10485,7563,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),0]
+02-23 13:19:01.401  2028  2028 I sysui_multi_action: [757,1501,758,1,793,3,794,0,795,3,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0]
+02-23 13:19:02.004  2028  3941 I sysui_multi_action: [757,128,758,1,793,606,794,0,795,606,796,1,798,3,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,4,1500,603,1688,1]
+02-23 13:19:02.004  2028  3941 I sysui_multi_action: [757,1501,758,1,793,606,794,0,795,606,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0,1688,1]
+02-23 13:19:02.004  2028  3941 I notification_visibility: [0|com.jarvis|1|null|10485,1,606,606,0,3]
+02-23 13:19:11.483  2028  5001 I sysui_multi_action: [757,128,758,2,793,10085,794,9479,795,10085,796,1,798,3,806,com.jarvis,857,jarvis_channel,858,2,947,0,1395,4,1500,9479,1688,1]
+02-23 13:19:11.483  2028  5001 I notification_visibility: [0|com.jarvis|1|null|10485,0,10085,10085,0,3]
+02-23 13:19:16.554  2028  2757 I am_pss  : [7563,10485,com.jarvis,0,0,0,176996352,0,4,3]
+02-23 13:20:22.760  2028  2808 I am_kill : [0,7563,com.jarvis,200,stop com.jarvis due to installPackageLI,161644]
+02-23 13:20:22.763  2028  2808 I am_foreground_service_stop: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,1,1,91381,1,STOP_SERVICE,128]
+02-23 13:20:22.768  2028  2808 I wm_finish_activity: [0,234610540,727,com.jarvis/.MainActivity,proc died without state saved]
+02-23 13:20:22.776  2028  2808 I wm_task_removed: [727,727,0,removeChild, last child = ActivityRecord{dfbdf6c u0 com.jarvis/.MainActivity t-1 f}} in Task{ee9b1ca #727 type=standard A=10485:com.jarvis}]
+02-23 13:20:22.836  2028  2028 I sysui_multi_action: [757,128,758,5,759,8,793,81438,794,80832,795,81438,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,80832,1688,1]
+02-23 13:20:22.836  2028  2028 I notification_canceled: [0|com.jarvis|1|null|10485,8,81438,81438,80832,-1,-1,NULL]
+02-23 13:20:23.445  2028  3078 I installer_clear_app_data_caller: [2028,1000,com.jarvis,39]
+02-23 13:20:23.455  2028  3078 I installer_clear_app_data_caller: [2028,1000,com.jarvis,39]
+02-23 13:20:23.914  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,5,NULL]
+02-23 13:20:24.210  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,5,NULL]
+02-23 13:21:05.955  2028  2028 I notification_cancel_all: [1000,2028,com.jarvis,0,0,0,10020,NULL]
+02-23 13:21:23.825 23494 23494 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:23.831 26493 26493 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:23.831 23494 23494 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:23.832 26493 26493 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:25.671  2028  3296 D OplusBatteryServiceFeature: setSmartCoolDown: coolDown = 3, normalCoolDown = 3, pkgName = com.jarvis
+02-23 13:21:26.618  2028  4457 D OplusAppSwitchListener: Detect com.jarvis switch to background
+02-23 13:21:26.620  2028  4457 D OplusFeatureReduceBrightness: onAppExit , info = com.jarvis
+02-23 13:21:26.620  2028  4457 D OplusEapManager: mTargetExitName :com.jarvis
+02-23 13:21:29.218  2028  7239 D OplusAppQuickStart_AppQuickStartController: notifyStartActivity intent:Intent { flg=0x10000000 cmp=com.jarvis/.MainActivity }, function disable
+02-23 13:21:29.239  2028  7239 D WindowManager: NFW_setClientVisible:ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity clientVisible:true
+02-23 13:21:29.243  2028  7239 D FlexibleTaskController: isSupportFlexibleWindow target = com.jarvis/.MainActivity callPkg = FlexibleTaskController support = true ,caller = 2028
+02-23 13:21:29.247  2028  7239 D FlexibleTaskController: isSupportFlexibleWindow target = com.jarvis/.MainActivity callPkg = FlexibleTaskController support = true ,caller = 2028
+02-23 13:21:29.247  2028  7239 D FlexibleWindowManagerService: no reused task found for ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t-1}
+02-23 13:21:29.305  2028  7239 I wm_create_activity: [0,25002409,728,com.jarvis/.MainActivity,NULL,NULL,NULL,268435456]
+02-23 13:21:29.305  2028  7239 D ActivityTaskManager: validateStartingWindowTheme:  Pkg=com.jarvis, Translucent=false, Floating=false, ShowWallpaper=false, Disable=false, LaunchSource=4
+02-23 13:21:29.305  2028  7239 D ActivityTaskManager: addStartingWindow for ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, mainWin=null, state=INITIALIZING, isKeyguardLocked=false, isKeyguardGoingAway=false
+02-23 13:21:29.313  2028  7239 D ActivityTaskManager: notifyTaskRemoved, task: Task{ee9b1ca #727 type=standard A=10485:com.jarvis} trace:com.android.server.wm.RecentTasks.removeForAddTask:1837 com.android.server.wm.RecentTasks.add:1350 com.android.server.wm.ActivityStarter.startActivityInner:2644 com.android.server.wm.ActivityStarter.startActivityUnchecked:1902 com.android.server.wm.ActivityStarter.executeRequest:1640 
+02-23 13:21:29.316  2028  7239 D ActivityTaskManager: notifyTaskAdded, task: Task{b038f65 #728 type=standard A=10485:com.jarvis} trace:com.android.server.wm.RecentTasks.add:1365 com.android.server.wm.ActivityStarter.startActivityInner:2644 com.android.server.wm.ActivityStarter.startActivityUnchecked:1902 com.android.server.wm.ActivityStarter.executeRequest:1640 com.android.server.wm.ActivityStarter.execute:905 
+02-23 13:21:29.317  2028  7239 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.jarvis/.MainActivity mCallingUid=2000} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+02-23 13:21:29.320  4746 21512 I iopgp   : Iopgp: TRANSACTION_IOPGP_PRELOAD Sequence_id = 98 pkg_name = com.jarvis uid = 10485 size = 1 isProfile = 1
+02-23 13:21:29.324  3826  3884 V WindowManagerShell: Transition requested (#9912): android.os.BinderProxy@40b689a TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=728 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.jarvis/.MainActivity mCallingUid=2000 } baseActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} topActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} origActivity=null realActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} numActivities=1 lastActiveTime=673989248 supportsSplitScreenMultiWindow=true supportsMultiWindow=true supportsPocketStudioMultiWindow=true isInFlexibleEmbedded = false uid = 10485 pid = 0 resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@3d6a5cb} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 107 - 0, 0) topActivityInfo=ActivityInfo{eeaa1a8 com.jarvis.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityInOplusCompatMode=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}} topActivityLetterboxInsets=Rect(0, 0 - 0, 0) mOplusExtraBundle = Bundle[mParcelledData.dataSize=348]}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 9912 }
+02-23 13:21:29.327  2028  3296 D ActivityTaskManager: pre-Filtered:com.jarvis # com.oneplus.deskclock # 
+02-23 13:21:29.349  2028  4892 I AppsFilter: interaction: PackageSetting{84c63c8 com.android.microdroid.empty_payload/10372} -> PackageSetting{81ce8c7 com.jarvis/10485} BLOCKED
+02-23 13:21:29.349  2028  4892 I AppsFilter: interaction: PackageSetting{3c75386 com.oplus.locationproxy/10148} -> PackageSetting{81ce8c7 com.jarvis/10485} BLOCKED
+02-23 13:21:29.349  2028  4892 I AppsFilter: interaction: PackageSetting{6f59447 com.example.women_safety_app/10359} -> PackageSetting{81ce8c7 com.jarvis/10485} BLOCKED
+02-23 13:21:29.349  2028  4892 I AppsFilter: interaction: PackageSetting{fa7f474 com.android.certinstaller/10186} -> PackageSetting{81ce8c7 com.jarvis/10485} BLOCKED
+02-23 13:21:29.349  2028  4892 I AppsFilter: interaction: PackageSetting{cb69d9d com.oplus.location/10194} -> PackageSetting{81ce8c7 com.jarvis/10485} BLOCKED
+02-23 13:21:29.352  2028  4307 D NativeFreezeManager: freezeForAppSwitchScene mAppLaunchFzDxEnable enter, mFgAppPkgname com.jarvis
+02-23 13:21:29.354  2028  4892 D ActivityTaskManager: setAppVisibility(Token{353043a ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}}, visible=true): mNextAppTransitionRequests=[], mNextAppTransitionFlags=,mAppTransitionState=APP_STATE_IDLE visible=false mVisibleRequested=false
+02-23 13:21:29.354  2028  4892 D ActivityTaskManager: setVisibility(Token{353043a ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}}, visible=true) defer commitVisibility for transition collecting
+02-23 13:21:29.372  2028  5177 D OPM     : notifyPreloadResult com.jarvis, type: 2, success: true, res: 0
+02-23 13:21:29.390  2028  3892 D ActivityTaskManager: attachStartingWindow: mStartingData=SplashScreenStartingData{46829bf waitForSyncTransactionCommit=false removeAfterTransaction= 0},mStartingWindow=Window{e754a63 u0 Splash Screen com.jarvis}
+02-23 13:21:29.390  2028  3892 I WindowManager: addWindow: New client android.os.BinderProxy@7ad461d : window=Window{e754a63 u0 Splash Screen com.jarvis}
+02-23 13:21:29.409  2028  4892 D CoreBackPreview: Window{e754a63 u0 Splash Screen com.jarvis}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@594efea, mPriority=0, mIsAnimationCallback=false}
+02-23 13:21:29.411  2028  3296 D WindowManagerServiceExtImpl: extractConfigInfoAndRealFlags rotation=0, screenDp=360, residentWS:0, win=Window{e754a63 u0 Splash Screen com.jarvis}
+02-23 13:21:29.411  2028  3296 V WindowManager: Relayout Window{e754a63 u0 Splash Screen com.jarvis}: viewVisibility=0, oldvis=0, req=1080x2400, vsysui=, x=0, y=0
+02-23 13:21:29.411  2028  3296 I WindowManager: Window{e754a63 u0 Splash Screen com.jarvis} state from NO_SURFACE to DRAW_PENDING; reason: resetDrawState
+02-23 13:21:29.415  2028  2809 I am_proc_start: [0,10607,10485,com.jarvis,next-top-activity,{com.jarvis/com.jarvis.MainActivity},NULL]
+02-23 13:21:29.415  2028  2809 I ActivityManager: Start proc 10607:com.jarvis/u0a485 for next-top-activity {com.jarvis/com.jarvis.MainActivity}
+02-23 13:21:29.444  2028  3296 D OplusTransitionController: onSyncFinishedDrawing, Window{e754a63 u0 Splash Screen com.jarvis}
+02-23 13:21:29.445  2028  3296 I WindowManager: finishDrawing skipLayout:false,syncSeqId=0,mPrepareSyncSeqId=0 Window{e754a63 u0 Splash Screen com.jarvis} com.android.server.wm.WindowManagerService.finishDrawingWindow:3140 com.android.server.wm.Session.finishDrawing:380 android.view.IWindowSession$Stub.onTransact:815 
+02-23 13:21:29.445  2028  3296 I WindowManager: Window{e754a63 u0 Splash Screen com.jarvis} state from DRAW_PENDING to COMMIT_DRAW_PENDING; reason: finishDrawingLocked
+02-23 13:21:29.445  2028  3296 D OplusTransitionAnimationManager: skipFinishDrawingIfNeed clientRotation=0, currentRotation=0, hasFixedRotationApp=false, requestedOrientation=-1, win=Window{e754a63 u0 Splash Screen com.jarvis}, activity=ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, currentConfig={0.86 ??mcc??mnc [en_GB,en_IN] ldltr sw360dp w360dp h800dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChanged= -1, mUxIconConfig= 3468921665126138177, mMaterialColor= 20000, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 226, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+02-23 13:21:29.453  2028  2687 I WindowManager: Window{e754a63 u0 Splash Screen com.jarvis} state from COMMIT_DRAW_PENDING to READY_TO_SHOW; reason: commitFinishDrawingLocked
+02-23 13:21:29.458  2028  2687 D ActivityTaskManager: commitVisibility: ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}: visible=true visibleRequested=true, isInTransition=true, runningAnimation=true 
+02-23 13:21:29.458  2028  2687 I WindowManager: Window{e754a63 u0 Splash Screen com.jarvis} state from READY_TO_SHOW to HAS_DRAWN; reason: performShowLocked
+02-23 13:21:29.458  2028  2687 I WindowStateExtImpl: onSurfaceShowChange show = true mPackageName = com.jarvis parentPkgName = com.jarvis
+02-23 13:21:29.459  2028  2687 D Transition: collectOrderChanges onTopTasksEnd: [Task{b038f65 #728 type=standard A=10485:com.jarvis}], reportedOnTop:null, mOnTopTasksStart: [Task{b038f65 #728 type=standard A=10485:com.jarvis}], TDA child: [Task{9ee008 #2 type=undefined}, Task{e1487f0 #723 type=standard A=10143:com.oneplus.deskclock}, Task{5b91acc #1 type=home}, Task{b038f65 #728 type=standard A=10485:com.jarvis}]
+02-23 13:21:29.459  2028  2687 D OplusFlexibleActivityTransitionManager: fixTransitType type result:1, targets: [Task{b038f65 #728 type=standard A=10485:com.jarvis}, Task{5b91acc #1 type=home}]
+02-23 13:21:29.463  2028  2687 D OplusTransitionController:  info: {id=9912 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{c7a2366 Task{b038f65 #728 type=standard A=10485:com.jarvis}}} m=OPEN f=NONE leash=Surface(name=Task=728)/@0xdae56a7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{RemoteToken{5458f17 Task{5b91acc #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x27c085e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}] extendInfo=[OplusTransitionExtendedInfo{mTmpFinishT=null, mInOplusCompatMode=false, mIsProcessRunning=false, mHasMismatchBoundsTarget=false, mRecentsController=null, mIsTranslucentActivityToHome=false, mAvoidInterceptKeyEventToHome=false, mIsFromHome=false, mParentLeash=null, mIsOplusAnimRes=false, mIsFromOverlay=false, mIsBalAllow=false, mTaskNotInRecent=false, mIsLaunchFromSpruce=false, mIsLaunchFromDrive=false, mAssistScreenShowing=false, mUserIdTransition=0, mInRemoteScene=false, mInPreReady=false, mPreStart=false, mToken=null, mShellApplyToken=null, mRequestTransitionTaskId=728, mAbortTransitionOnShell=0, mTransitionId=9912, mSkipRemoteTransitionfalse, mAnimStartingPosition=[0, 0, 0, 0], mIsOpeningStkDialogActivity=false}]}, 
+02-23 13:21:29.463  2028  2687 D OplusTransitionController:  targets : [Task{b038f65 #728 type=standard A=10485:com.jarvis}, Task{5b91acc #1 type=home}], 
+02-23 13:21:29.463  2028  2687 D OplusTransitionController:  participants: {ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, Task{b038f65 #728 type=standard A=10485:com.jarvis}, ActivityRecord{bf9478e u0 com.android.launcher/.Launcher t5}, WallpaperWindowToken{d603457 token=android.os.Binder@ce146e5 showWhenLocked=false}, WallpaperWindowToken{dcde4c2 token=android.os.Binder@facd675 showWhenLocked=true}}, 
+02-23 13:21:29.468  2028  2679 V WindowManager: Sent Transition (#9912) createdAt=02-23 13:21:29.244 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=728 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.jarvis/.MainActivity mCallingUid=2000 } baseActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} topActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} origActivity=null realActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} numActivities=1 lastActiveTime=673989248 supportsSplitScreenMultiWindow=true supportsMultiWindow=true supportsPocketStudioMultiWindow=true isInFlexibleEmbedded = false uid = 10485 pid = 0 resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{c7a2366 Task{b038f65 #728 type=standard A=10485:com.jarvis}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 107 - 0, 0) topActivityInfo=ActivityInfo{ca825f9 com.jarvis.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityInOplusCompatMode=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}} topActivityLetterboxInsets=Rect(0, 0 - 0, 0) mOplusExtraBundle = Bundle[{androidx.flexible.taskFrame=Rect(0, 0 - 0, 0), key_flexible_task_state=0, androidx.activity.LaunchScenario=0, androidx.activity.LaunchScale=1.0}]}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 9912 }
+02-23 13:21:29.469  2028  2679 V WindowManager:         {WCT{RemoteToken{c7a2366 Task{b038f65 #728 type=standard A=10485:com.jarvis}}} m=OPEN f=NONE leash=Surface(name=Task=728)/@0xdae56a7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+02-23 13:21:29.479  2028  7239 D OplusTransitionAnimationManager: skipFinishDrawingIfNeed clientRotation=0, currentRotation=0, hasFixedRotationApp=false, requestedOrientation=-1, win=Window{e754a63 u0 Splash Screen com.jarvis}, activity=ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, currentConfig={0.86 ??mcc??mnc [en_GB,en_IN] ldltr sw360dp w360dp h800dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChanged= -1, mUxIconConfig= 3468921665126138177, mMaterialColor= 20000, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 226, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+02-23 13:21:29.493  2028  3297 D ActivityTaskManager: pre-Filtered:com.jarvis # com.oneplus.deskclock # 
+02-23 13:21:29.498  2028  3297 D ActivityTaskManager: pre-Filtered:com.jarvis # com.oneplus.deskclock # 
+02-23 13:21:29.596  2028  3296 D ActivityTaskManager: pre-Filtered:com.jarvis # com.oneplus.deskclock # 
+02-23 13:21:29.776  2028  3892 D Transition: finishTransition ar ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, isVisibleRequested=true, state=INITIALIZING, visibleAtTransitionEndTokens={ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, WallpaperWindowToken{d603457 token=android.os.Binder@ce146e5 showWhenLocked=false}}, this=TransitionRecord{dcbf754 id=9912 track=0 type=OPEN flags=0x0 state=2}
+02-23 13:21:29.776  2028  3892 D Transition: finishTransition ar ActivityRecord{bf9478e u0 com.android.launcher/.Launcher t5}, isVisibleRequested=false, state=PAUSED, visibleAtTransitionEndTokens={ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, WallpaperWindowToken{d603457 token=android.os.Binder@ce146e5 showWhenLocked=false}}, this=TransitionRecord{dcbf754 id=9912 track=0 type=OPEN flags=0x0 state=2}
+02-23 13:21:29.803  2028  3296 I am_proc_bound: [0,10607,com.jarvis]
+02-23 13:21:29.838  2028  3296 D OplusFlexibleWindowMinimizedManagerHelper: onTaskInfoChanged taskInfo:TaskInfo{userId=0 taskId=728 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.jarvis/.MainActivity mCallingUid=2000 } baseActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} topActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} origActivity=null realActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} numActivities=1 lastActiveTime=673989248 supportsSplitScreenMultiWindow=true supportsMultiWindow=true supportsPocketStudioMultiWindow=true isInFlexibleEmbedded = false uid = 10485 pid = 10607 resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{c7a2366 Task{b038f65 #728 type=standard A=10485:com.jarvis}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{ca825f9 com.jarvis.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityInOplusCompatMode=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}} topActivityLetterboxInsets=Rect(0, 0 - 0, 0) mOplusExtraBundle = Bundle[{androidx.flexible.taskFrame=Rect(0, 0 - 0, 0), key_flexible_task_state=0, androidx.activity.LaunchScenario=0, androidx.activity.LaunchScale=1.0}]} task:Task{b038f65 #728 type=standard A=10485:com.jarvis}
+02-23 13:21:29.838  2028  3296 I wm_restart_activity: [0,25002409,728,com.jarvis/.MainActivity]
+02-23 13:21:29.838  2028  3296 D OplusCameraStartupOptimization: cameraPreopenIfNeed, r = ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}
+02-23 13:21:29.838  2028  3296 D OplusCameraStartupOptimization: needOptimizeForCamera bNeedOptimize:false clsName: com.jarvis/.MainActivity
+02-23 13:21:29.840  2028  3296 D ActivityTaskManager: onWindowFocusChanged Task{b038f65 #728 type=standard A=10485:com.jarvis} would transfer to compact
+02-23 13:21:29.841  2028  3296 D ActivityTaskManager: NFW_setLastResumedActivityUncheckLocked:true r:ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728} currentFocus:Window{80d4fd5 u0 NotificationShade}
+02-23 13:21:29.841  2028  3296 D FlexibleTaskController: onTaskFocusChanged prevTask:Task{e7e93cb #5 type=home I=com.android.launcher/.Launcher} ,currentTask:Task{b038f65 #728 type=standard A=10485:com.jarvis}, reason: realStartActivityLocked - onActivityStateChanged
+02-23 13:21:29.841  2028  3296 D OplusFlexibleDCSManager: onNextPkgChanged pkg = com.jarvis
+02-23 13:21:29.841  2028  3296 I wm_set_resumed_activity: [0,com.jarvis/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+02-23 13:21:29.841  2028  3296 I OplusAppSwitchManagerService: appswitch hasProcess ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}
+02-23 13:21:29.843  2028  3296 I OplusAppSwitchManagerService: appswitch hasProcess ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}
+02-23 13:21:29.846  2028  2822 E OplusThermalStats: Error getting package info: com.jarvis
+02-23 13:21:29.854  2028  4457 D OplusAppSwitchListener: Detect com.jarvis switch to foreground
+02-23 13:21:29.854  2028  4457 D OplusFeatureRiderMode: onAppEnter , info = com.jarvis
+02-23 13:21:29.857  2028  4892 D OplusBatteryServiceFeature: setSmartCoolDown: coolDown = 3, normalCoolDown = 3, pkgName = com.jarvis
+02-23 13:21:29.860  2028  4892 D OplusBatteryServiceFeature: setSmartCoolDown: coolDown = 3, normalCoolDown = 3, pkgName = com.jarvis
+02-23 13:21:29.865  2028  4457 D OplusEapManager: mTargetEnterName :com.jarvis
+02-23 13:21:29.865  2028  4457 D VRR [OPlusFrontAppManager]: OnAppSwitchObserver: onAppEnter , info.targetName = com.jarvis
+02-23 13:21:29.865  2028  2985 D VRR [OPlusRefreshRateService]: handleFrontAppChange pkgName: com.jarvis
+02-23 13:21:30.352  2028  4892 I ActivityManager: Background started FGS: Allowed [callingPackage: com.jarvis; callingUid: 10485; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { cmp=com.jarvis/.JarvisService mCallingUid=10485 }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+02-23 13:21:30.354 10607 10607 I wm_on_create_called: [25002409,com.jarvis.MainActivity,performCreate,168]
+02-23 13:21:30.367 10607 10607 I wm_on_start_called: [25002409,com.jarvis.MainActivity,handleStartActivity,2]
+02-23 13:21:30.371 10607 10607 D ActivityThread: ComponentInfo{com.jarvis/com.jarvis.MainActivity} checkFinished=false 2
+02-23 13:21:30.378 10607 10607 I wm_on_resume_called: [25002409,com.jarvis.MainActivity,RESUME_ACTIVITY,6]
+02-23 13:21:30.415  2028  7239 W UserAwareMgr: notifyAppRenderThreadCreated pkgName: com.jarvis, pid: 10607, renderTid: 10710, uid: 10485
+02-23 13:21:30.436  2028  4892 I WindowManager: addWindow: New client android.os.BinderProxy@71aba7d : window=Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity}
+02-23 13:21:30.456  2028  2687 D OplusFlexibleWindowMinimizedManagerHelper: onTaskInfoChanged taskInfo:TaskInfo{userId=0 taskId=728 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.jarvis/.MainActivity mCallingUid=2000 } baseActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} topActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} origActivity=null realActivity=ComponentInfo{com.jarvis/com.jarvis.MainActivity} numActivities=1 lastActiveTime=673989773 supportsSplitScreenMultiWindow=true supportsMultiWindow=true supportsPocketStudioMultiWindow=true isInFlexibleEmbedded = false uid = 10485 pid = 10607 resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{c7a2366 Task{b038f65 #728 type=standard A=10485:com.jarvis}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{ca825f9 com.jarvis.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityInOplusCompatMode=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}} topActivityLetterboxInsets=Rect(0, 0 - 0, 0) mOplusExtraBundle = Bundle[{androidx.flexible.taskFrame=Rect(0, 0 - 0, 0), key_flexible_task_state=0, androidx.activity.LaunchScenario=0, androidx.activity.LaunchScale=1.0}]} task:Task{b038f65 #728 type=standard A=10485:com.jarvis}
+02-23 13:21:30.461 10607 10607 I wm_on_top_resumed_gained_called: [25002409,com.jarvis.MainActivity,topStateChangedWhenResumed]
+02-23 13:21:30.481  2028  7231 D CoreBackPreview: Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@78a8e6c, mPriority=0, mIsAnimationCallback=false}
+02-23 13:21:30.491  2028  4803 D WindowManagerServiceExtImpl: extractConfigInfoAndRealFlags rotation=0, screenDp=360, residentWS:0, win=Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity}
+02-23 13:21:30.491  2028  4803 V WindowManager: Relayout Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity}: viewVisibility=0, oldvis=4, req=1080x2400, vsysui=, x=0, y=0
+02-23 13:21:30.491  2028  4803 I WindowManager: Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity} state from NO_SURFACE to DRAW_PENDING; reason: resetDrawState
+02-23 13:21:30.725  2028  3297 I WindowManager: Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity} state from DRAW_PENDING to COMMIT_DRAW_PENDING; reason: finishDrawingLocked
+02-23 13:21:30.727  2028  3892 D VRR [OPlusExternalRefreshRateManager]: isPkgTfcEnable: pkgName = com.jarvis, enable = false
+02-23 13:21:30.727  2028  3892 D VRR [OPlusExternalRefreshRateManager]: getTfcMinFramerate: pkgName = com.jarvis, min framerate = 0
+02-23 13:21:30.727  2028  3297 D OplusTransitionAnimationManager: skipFinishDrawingIfNeed clientRotation=0, currentRotation=0, hasFixedRotationApp=false, requestedOrientation=-1, win=Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity}, activity=ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, currentConfig={0.86 ??mcc??mnc [en_GB,en_IN] ldltr sw360dp w360dp h800dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChanged= -1, mUxIconConfig= 3468921665126138177, mMaterialColor= 20000, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 226, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+02-23 13:21:30.732  2028  2687 I WindowManager: Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity} state from COMMIT_DRAW_PENDING to READY_TO_SHOW; reason: commitFinishDrawingLocked
+02-23 13:21:30.733  2028  2687 D OplusAppQuickStart_AppQuickStartController: onFirstWindowDrawn ar=ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}
+02-23 13:21:30.733  2028  2687 D ActivityTaskManager: Finish StartingWindow: ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}first real window is shown
+02-23 13:21:30.734  2028  2687 D ActivityTaskManager: removeStartingWindowAnimation starting ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728} startingWindow=null ,startingView=com.android.server.wm.StartingSurfaceController$StartingSurface@f85b2cc,Callers=com.android.server.wm.ActivityRecord.removeStartingWindow:3563 com.android.server.wm.ActivityRecord.onFirstWindowDrawn:8581 com.android.server.wm.WindowState.performShowLocked:5071 com.android.server.wm.WindowStateAnimator.commitFinishDrawingLocked:342 com.android.server.wm.DisplayContent.lambda$new$8:1141 
+02-23 13:21:30.734  2028  2687 D OplusStartingWindowManager: interceptRemoveStartingWindow: packageName=com.jarvis,  componentName=com.jarvis/.MainActivity, isSnapshot=false, startingSurfaceRunnable=null, isDrawCompleted=false, hasSurfaceView=false, inTransition=false
+02-23 13:21:30.734  2028  2687 D OplusStartingWindowManager: interceptRemoveStartingWindow: hasSplashWindowFlag() return false for activity=ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}
+02-23 13:21:30.742  2028  2687 I Quality : LaunchTime2.0: com.jarvis/.MainActivity 1 1423 com.android.shell 223 603
+02-23 13:21:30.747  2028  2687 I WindowManager: Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity} state from READY_TO_SHOW to HAS_DRAWN; reason: performShowLocked
+02-23 13:21:30.754  2028  2679 I sysui_multi_action: [319,245,321,223,322,1520,325,353293,757,761,758,7,759,1,806,com.jarvis,871,com.jarvis.MainActivity,904,com.android.shell,905,0,945,603,1320,12,1321,1]
+02-23 13:21:30.756  2028  2679 I wm_activity_launch_time: [0,25002409,com.jarvis/.MainActivity,1520]
+02-23 13:21:30.776  2028  4892 I am_foreground_service_start: [0,com.jarvis/.JarvisService,1,PROC_STATE_TOP,36,36,0,0,0,1,UNKNOWN,128]
+02-23 13:21:31.113  2028  3296 D WindowManagerServiceExtImpl: extractConfigInfoAndRealFlags rotation=0, screenDp=360, residentWS:0, win=Window{e754a63 u0 Splash Screen com.jarvis}
+02-23 13:21:31.113  2028  3296 V WindowManager: Relayout Window{e754a63 u0 Splash Screen com.jarvis}: viewVisibility=8, oldvis=0, req=1080x2400, vsysui=
+02-23 13:21:31.119  2028  3296 D CoreBackPreview: Window{e754a63 u0 Splash Screen com.jarvis EXITING}: Setting back callback null
+02-23 13:21:31.124  2028  2688 D SurfaceAnimationRunner: onAnimationStart:Surface(name=Surface(name=e754a63 Splash Screen com.jarvis)/@0xde821db - animation-leash of window_animation)/@0x895478
+02-23 13:21:31.130   929   929 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:31.133   929   929 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:31.254  2028  3297 D ActivityTaskManager: pre-Filtered:com.jarvis # com.oneplus.deskclock # 
+02-23 13:21:31.274  2028  2688 D SurfaceAnimationRunner: onAnimationEnd:Surface(name=Surface(name=e754a63 Splash Screen com.jarvis)/@0xde821db - animation-leash of window_animation)/@0x895478
+02-23 13:21:31.274  2028  2687 I WindowStateExtImpl: onSurfaceShowChange show = false mPackageName = com.jarvis parentPkgName = com.jarvis
+02-23 13:21:31.275  2028  2687 I WindowManager: Window{e754a63 u0 Splash Screen com.jarvis EXITING} state from HAS_DRAWN to NO_SURFACE; reason: destroySurface
+02-23 13:21:31.942  2028  5004 D RefreshRate:     | COURSE[; Win preferred rateId=0, appReqFirst=false, data= RateData{} ;win name:com.jarvis/com.jarvis.MainActivity]
+02-23 13:21:31.942  2028  5004 D WindowManager: NFW_findFocusedWindowIfNeeded:Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity} mCurrentFocus:Window{80d4fd5 u0 NotificationShade}
+02-23 13:21:31.942  2028  5004 V WindowManager: Changing focus from Window{80d4fd5 u0 NotificationShade} to Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity},diplayid=0
+02-23 13:21:31.949  2028  2687 I input_focus: [Focus request 4e1ad72 com.jarvis/com.jarvis.MainActivity,reason=UpdateInputWindows]
+02-23 13:21:31.964  2028  3459 I input_focus: [Focus entering 4e1ad72 com.jarvis/com.jarvis.MainActivity (server),reason=setFocusedWindow]
+02-23 13:21:32.897  2028  4892 I AppsFilter: interaction: PackageSetting{81ce8c7 com.jarvis/10485} -> PackageSetting{2910683 com.google.android.as/10219} BLOCKED
+02-23 13:21:32.910  2028  3470 D InputMethodManagerService: isSecurity: attribute.packageName = com.jarvis mCurMethodId = com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME isSecurity = false ( enable = false needShow = false inBlackList = false isExist = true )
+02-23 13:21:32.927  2028  4892 D OplusTransitionAnimationManager: skipFinishDrawingIfNeed clientRotation=0, currentRotation=0, hasFixedRotationApp=false, requestedOrientation=-1, win=Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity}, activity=ActivityRecord{17d81a9 u0 com.jarvis/.MainActivity t728}, currentConfig={0.86 ??mcc??mnc [en_GB,en_IN] ldltr sw360dp w360dp h800dp 480dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChanged= -1, mUxIconConfig= 3468921665126138177, mMaterialColor= 20000, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 226, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+02-23 13:21:33.008  2028  7225 W PackageConfigPersister: App-specific configuration not found for packageName: com.jarvis and userId: 0
+02-23 13:21:33.321  2028  3078 I AppsFilter: interaction: PackageSetting{81ce8c7 com.jarvis/10485} -> PackageSetting{203f0f8 com.facebook.appmanager/10205} BLOCKED
+02-23 13:21:34.908  2028  2151 D WindowManager: NFW_findFocusedWindowIfNeeded:Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity} mCurrentFocus:Window{4e1ad72 u0 com.jarvis/com.jarvis.MainActivity}
+02-23 13:21:37.389  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:21:38.613  9088 11136 I artd    : GetBestInfo: /data/app/~~As60L6Cf1ynd4fHUQ1_CVA==/com.jarvis-aR4gVXoGtEKoIlUpXFecNw==/base.apk has no usable artifacts
+02-23 13:21:38.976  4306  4633 I LiveScene: check upload traffic, byte = 0 byte,uid =10485,targetUid=10485,times=2,targetPkg:com.jarvis
+02-23 13:21:38.976  4306  4633 I LiveScene: preCheckLiveState, uid = 10485package:com.jarvis,retrytimes:1
+02-23 13:21:40.814  2028  2028 I notification_enqueue: [10485,10607,com.jarvis,1,NULL,0,Notification(channel=jarvis_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE),0]
+02-23 13:21:40.816  2028  2028 I sysui_multi_action: [757,1501,758,1,793,5,794,0,795,5,796,1,806,com.jarvis,857,jarvis_channel,858,2,947,0,1500,0]
+02-23 13:21:41.984  4306  4633 I LiveScene: check upload traffic, byte = 0 byte,uid =10485,targetUid=10485,times=1,targetPkg:com.jarvis
+02-23 13:21:42.711 22368 22368 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:42.712 22368 22368 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:44.396  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:21:46.668  2028  3078 I AppsFilter: interaction: PackageSetting{81ce8c7 com.jarvis/10485} -> PackageSetting{f9466ed com.oplus.dmp/10334} BLOCKED
+02-23 13:21:47.210 18790 21454 I ServiceLiveData: Not exempting com.jarvis - not an active AccessibilityService for u0
+02-23 13:21:51.400  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:21:52.482 28543 28543 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:52.484 28543 28543 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:52.615 28236 28236 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:52.617 28236 28236 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:52.740 32156 32156 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:52.741 32156 32156 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:21:58.405  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:22:05.417  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:22:07.389 10607 10635 W com.jarvis: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~KgfUkGVyMQgKXrIWvKQYLw==/com.google.android.tts-hBLGyitrrljydNNhxLPBaw==/base.apk' with 1 weak references
+02-23 13:22:07.391 10607 10635 W com.jarvis: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~KgfUkGVyMQgKXrIWvKQYLw==/com.google.android.tts-hBLGyitrrljydNNhxLPBaw==/split_config.arm64_v8a.apk' with 1 weak references
+02-23 13:22:07.391 10607 10635 W com.jarvis: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~KgfUkGVyMQgKXrIWvKQYLw==/com.google.android.tts-hBLGyitrrljydNNhxLPBaw==/split_config.en.apk' with 1 weak references
+02-23 13:22:07.392 10607 10635 W com.jarvis: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~KgfUkGVyMQgKXrIWvKQYLw==/com.google.android.tts-hBLGyitrrljydNNhxLPBaw==/split_config.xxhdpi.apk' with 1 weak references
+02-23 13:22:12.424  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:22:19.432  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:22:20.960 32100 32100 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:22:20.961 32100 32100 D ActivityThread: Package [com.jarvis] reported as REPLACED, but missing application info. Assuming REMOVED.
+02-23 13:22:26.437  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:22:33.446  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:22:40.449  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:22:47.454  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:22:54.457  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:23:01.466  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:23:08.473  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:23:15.479  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:23:22.485  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:23:27.818  9088  9088 I artd    : GetBestInfo: /data/app/~~As60L6Cf1ynd4fHUQ1_CVA==/com.jarvis-aR4gVXoGtEKoIlUpXFecNw==/base.apk has no usable artifacts
+02-23 13:23:29.488  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:23:36.496  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis
+02-23 13:23:43.506  4306  4638 D CommonApp-289-10485: scene=COMMON pn=com.jarvis

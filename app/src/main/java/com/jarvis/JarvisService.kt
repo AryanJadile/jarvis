@@ -46,10 +46,26 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
     private var tts: TextToSpeech? = null
     private var systemInstructionText: String = ""
 
+    private fun createNotification(contentText: String = "Jarvis is running in the background"): Notification {
+        return NotificationCompat.Builder(this, CHANNEL_ID)
+            .setContentTitle("Jarvis")
+            .setContentText(contentText)
+            .setSmallIcon(R.mipmap.ic_launcher)
+            .setPriority(NotificationCompat.PRIORITY_LOW)
+            .build()
+    }
+
+    private fun updateNotification(text: String) {
+        val notification = createNotification(text)
+        val notificationManager = getSystemService(NotificationManager::class.java)
+        notificationManager.notify(NOTIFICATION_ID, notification)
+    }
+
     override fun onCreate() {
         super.onCreate()
+        Log.e(TAG, "JarvisService onCreate started")
         createNotificationChannel()
-        startForeground(NOTIFICATION_ID, createNotification())
+        startForeground(NOTIFICATION_ID, createNotification("Starting up..."))
         
         toneGenerator = ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100)
         tts = TextToSpeech(this, this)
@@ -57,8 +73,11 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
         mainHandler.post {
             initSpeechRecognizer()
         }
+        updateNotification("Initializing up Porcupine...")
         initPorcupine()
+        updateNotification("Initializing Gemini...")
         initGenerativeModel()
+        updateNotification("Ready: Listening for wake word")
     }
 
     override fun onInit(status: Int) {
@@ -67,7 +86,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
             if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                 Log.e(TAG, "TTS Language is not supported.")
             } else {
-                Log.d(TAG, "TextToSpeech initialized successfully.")
+                Log.e(TAG, "TextToSpeech initialized successfully.")
             }
         } else {
             Log.e(TAG, "TextToSpeech initialization failed.")
@@ -98,11 +117,11 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
             modelName = "gemini-1.5-flash",
             apiKey = geminiApiKey
         )
-        Log.d(TAG, "GenerativeModel initialized for JSON output.")
+        Log.e(TAG, "GenerativeModel initialized for JSON output.")
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-        Log.d(TAG, "JarvisService Started via onStartCommand")
+        Log.e(TAG, "JarvisService Started via onStartCommand")
         return START_STICKY
     }
 
@@ -110,7 +129,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
         if (SpeechRecognizer.isRecognitionAvailable(this)) {
             speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this)
             speechRecognizer?.setRecognitionListener(this)
-            Log.d(TAG, "SpeechRecognizer initialized")
+            Log.e(TAG, "SpeechRecognizer initialized")
         } else {
             Log.e(TAG, "Speech Recognition is not available on this device.")
         }
@@ -127,9 +146,9 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
         try {
             val keywordCallback = PorcupineManagerCallback { keywordIndex ->
                 if (keywordIndex == 0) {
-                    Log.d(TAG, "===============================================")
-                    Log.d(TAG, "WAKE WORD DETECTED: JARVIS")
-                    Log.d(TAG, "===============================================")
+                    Log.e(TAG, "===============================================")
+                    Log.e(TAG, "WAKE WORD DETECTED: JARVIS")
+                    Log.e(TAG, "===============================================")
                     handleWakeWordDetected()
                 }
             }
@@ -140,10 +159,11 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                 .build(applicationContext, keywordCallback)
 
             porcupineManager?.start()
-            Log.d(TAG, "Porcupine initialized and listening for 'Jarvis'")
+            Log.e(TAG, "Porcupine initialized and listening for 'Jarvis'")
 
         } catch (e: PorcupineException) {
             Log.e(TAG, "Failed to initialize Porcupine: ${e.message}")
+            updateNotification("Error: Porcupine init failed")
         }
     }
     
@@ -157,12 +177,13 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
             
             // 3. Start Speech Recognizer on main thread
             mainHandler.post {
+                updateNotification("Wake Word! Starting Speech Recognizer...")
                 val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
                     putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
                     putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, false)
                     putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1)
                 }
-                Log.d(TAG, "Starting SpeechRecognizer for command input...")
+                Log.e(TAG, "Starting SpeechRecognizer for command input...")
                 speechRecognizer?.startListening(intent)
             }
         } catch (e: Exception) {
@@ -175,7 +196,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
         mainHandler.post {
             try {
                 porcupineManager?.start()
-                Log.d(TAG, "Porcupine restarted, listening for wake word again.")
+                Log.e(TAG, "Porcupine restarted, listening for wake word again.")
             } catch (e: PorcupineException) {
                 Log.e(TAG, "Failed to restart Porcupine: ${e.message}")
             }
@@ -185,11 +206,13 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
     // --- SpeechRecognizer Callbacks ---
 
     override fun onReadyForSpeech(params: Bundle?) {
-        Log.d(TAG, "SpeechRecognizer: Ready for speech")
+        Log.e(TAG, "SpeechRecognizer: Ready for speech")
+        updateNotification("Listening for your command...")
     }
 
     override fun onBeginningOfSpeech() {
-        Log.d(TAG, "SpeechRecognizer: Beginning of speech")
+        Log.e(TAG, "SpeechRecognizer: Beginning of speech")
+        updateNotification("Hearing speech...")
     }
 
     override fun onRmsChanged(rmsdB: Float) {}
@@ -197,7 +220,8 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
     override fun onBufferReceived(buffer: ByteArray?) {}
 
     override fun onEndOfSpeech() {
-        Log.d(TAG, "SpeechRecognizer: End of speech")
+        Log.e(TAG, "SpeechRecognizer: End of speech")
+        updateNotification("Processing command...")
     }
 
     override fun onError(error: Int) {
@@ -214,6 +238,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
             else -> "Didn't understand, please try again."
         }
         Log.e(TAG, "SpeechRecognizer Error: $errorMessage ($error)")
+        updateNotification("SR Error: $errorMessage")
         restartPorcupine()
     }
 
@@ -221,30 +246,33 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
         val matches = results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)
         if (!matches.isNullOrEmpty()) {
             val command = matches[0]
-            Log.d(TAG, ">>> TRANSCRIBED COMMAND: \"$command\" <<<")
+            Log.e(TAG, ">>> TRANSCRIBED COMMAND: \"$command\" <<<")
+            updateNotification("Parsed: $command")
             
             if (generativeModel != null) {
                 CoroutineScope(Dispatchers.IO).launch {
                     try {
-                        Log.d(TAG, "Sending command to Gemini...")
+                        Log.e(TAG, "Sending command to Gemini...")
                         val fullPrompt = "$systemInstructionText\n\nUser command: $command"
                         val response = generativeModel?.generateContent(fullPrompt)
                         val responseText = response?.text ?: ""
-                        Log.d(TAG, "=== GEMINI JSON RESPONSE ===")
-                        Log.d(TAG, responseText)
-                        Log.d(TAG, "============================")
+                        Log.e(TAG, "=== GEMINI JSON RESPONSE ===")
+                        Log.e(TAG, responseText)
+                        Log.e(TAG, "============================")
                         
                         if (responseText.isNotEmpty()) {
                             // Extract spoken response and talk
                             val json = JSONObject(responseText)
                             val spokenResponse = json.optString("spokenResponse")
                             if (spokenResponse.isNotEmpty()) {
+                                updateNotification("Speaking: $spokenResponse")
                                 tts?.speak(spokenResponse, TextToSpeech.QUEUE_FLUSH, null, "JarvisUtteranceId")
                             }
                             executeIntent(json)
                         }
                     } catch (e: Exception) {
                         Log.e(TAG, "Gemini generation failed: ${e.message}")
+                        updateNotification("Gemini error: ${e.message}")
                     } finally {
                         restartPorcupine()
                     }
@@ -253,7 +281,8 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                 restartPorcupine()
             }
         } else {
-            Log.d(TAG, "SpeechRecognizer finished but returned no text.")
+            Log.e(TAG, "SpeechRecognizer finished but returned no text.")
+            updateNotification("No text transcribed")
             restartPorcupine()
         }
     }
@@ -293,15 +322,15 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
         try {
             porcupineManager?.stop()
             porcupineManager?.delete()
-            Log.d(TAG, "Porcupine stopped and deleted")
+            Log.e(TAG, "Porcupine stopped and deleted")
         } catch (e: PorcupineException) {
             Log.e(TAG, "Error stopping Porcupine: ${e.message}")
         }
         mainHandler.post {
             speechRecognizer?.destroy()
-            Log.d(TAG, "SpeechRecognizer destroyed")
+            Log.e(TAG, "SpeechRecognizer destroyed")
         }
-        Log.d(TAG, "JarvisService Destroyed")
+        Log.e(TAG, "JarvisService Destroyed")
     }
 
     override fun onBind(intent: Intent?): IBinder? {
@@ -326,7 +355,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                     }
                     try {
                         startActivity(alarmIntent)
-                        Log.d(TAG, "Alarm set for $timeHour:$timeMinute")
+                        Log.e(TAG, "Alarm set for $timeHour:$timeMinute")
                     } catch (e: Exception) {
                         Log.e(TAG, "Failed to set alarm: ${e.message}")
                     }
@@ -345,7 +374,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                         }
                         try {
                             startActivity(callIntent)
-                            Log.d(TAG, "Calling $targetName ($number)")
+                            Log.e(TAG, "Calling $targetName ($number)")
                         } catch (e: Exception) {
                             Log.e(TAG, "Failed to make call: ${e.message}")
                         }
@@ -364,7 +393,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                         val timestamp = java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss", java.util.Locale.getDefault()).format(java.util.Date())
                         val file = java.io.File(applicationContext.filesDir, "jarvis_notes.txt")
                         file.appendText("[$timestamp] $noteContent\n")
-                        Log.d(TAG, "Note saved to ${file.absolutePath}")
+                        Log.e(TAG, "Note saved to ${file.absolutePath}")
                     } catch (e: Exception) {
                         Log.e(TAG, "Failed to save note: ${e.message}")
                     }
@@ -389,7 +418,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                             // Notify our AccessibilityService to auto-send this specific message
                             JarvisAccessibilityService.isJarvisSending = true
                             startActivity(whatsappIntent)
-                            Log.d(TAG, "Launched WhatsApp for $targetName ($cleanNumber)")
+                            Log.e(TAG, "Launched WhatsApp for $targetName ($cleanNumber)")
                         } catch (e: Exception) {
                             Log.e(TAG, "WhatsApp not installed or failed to launch: ${e.message}")
                             JarvisAccessibilityService.isJarvisSending = false
@@ -403,7 +432,7 @@ class JarvisService : Service(), RecognitionListener, TextToSpeech.OnInitListene
                     Log.e(TAG, "Invalid WhatsApp parameters from Gemini: target=$targetName, msg=$messageText")
                 }
             }
-            "UNKNOWN" -> Log.d(TAG, "Gemini could not determine intent.")
+            "UNKNOWN" -> Log.e(TAG, "Gemini could not determine intent.")
         }
     }
 

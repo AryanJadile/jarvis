@@ -1,0 +1,17 @@
+﻿--------- beginning of system
+02-23 13:04:45.087 31094 31094 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+02-23 13:04:45.150 31094 31094 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+02-23 13:04:45.322 31094 31094 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+02-23 13:04:45.441 31094 31094 I Quality : InflateViewInfo:122550573,LinearLayout
+02-23 13:04:45.467 31094 31094 D ActivityThread: ComponentInfo{com.jarvis/com.jarvis.MainActivity} checkFinished=false 2
+02-23 13:04:45.468 31094 31094 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+02-23 13:04:45.490 31094 31094 D OplusInputMethodUtil: init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+02-23 13:04:45.491 31094 31094 D OplusInputMethodUtil: updateDebugToClass InputMethodManager.DEBUG = false
+02-23 13:04:45.491 31094 31094 D OplusInputMethodUtil: updateDebugToClass ImeFocusController.DEBUG = false
+02-23 13:04:45.491 31094 31094 D OplusInputMethodUtil: updateDebugToClass InsetsController.DEBUG = false
+02-23 13:04:45.491 31094 31094 D OplusInputMethodUtil: updateDebugToClass BaseInputConnection.DEBUG = false
+02-23 13:04:45.590 31094 31094 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+02-23 13:04:45.640 31094 31094 D VRI[MainActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1080, 2400), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1080, requestedHeight:2400, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2400] display=[0,0][1080,2400] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+02-23 13:04:45.640 31094 31094 W VRI[MainActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1080, 2400), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+02-23 13:04:47.601 31094 31094 D VRI[MainActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1080, 2400), mLastSurfaceSize:Point(1080, 2400), mWidth:1080, mHeight:2400, requestedWidth:1080, requestedHeight:2400, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2400] display=[0,0][1080,2400] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+02-23 13:04:56.340 31094 31094 D VRI[MainActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1080, 2400), mLastSurfaceSize:Point(1080, 2400), mWidth:1080, mHeight:2400, requestedWidth:1080, requestedHeight:2400, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2400] display=[0,0][1080,2400] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0

@@ -1,0 +1,2 @@
+﻿--------- beginning of system
+02-23 13:00:23.251  2028  7237 W ActivityManager: Permission Denial: getTopApplicationInfo from pid=28457, uid=10139 requires oplus.permission.OPLUS_COMPONENT_SAFE
